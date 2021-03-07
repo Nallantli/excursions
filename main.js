@@ -78,6 +78,35 @@ const DATA = {
 				"pr": `tʃeːts ˈpiːɫlaː ko ˈpaːpelən ˈtiːən juˈkɪtʃtɑjkaː ne aːˈtuetʃeːn nɑʍ ˈpɑssa ɔn toːmən teˈsɛjtərkaː toː aːˈtuetʃeːn ne ˈhʷɑrrɪʔ ˈpɑssa ɔn ˈtoːmən mo ɔn ˈaʊʔtoːn`
 			}
 		]
+	},
+	"baucis": {
+		"title": "Iztanemi in Nōē 3",
+		"content": [
+			{
+				"qn": "Imasā, ne ocak xiswecā ko sur maxtumi ne pos sipuemazūen, icūrīhten perral sū Paucīn iztanēn; palcā paqē.",
+				"en": `After a seven days' march through woodland, the traveller directed towards Baucis cannot see the city and yet he has arrived.`
+			},
+			{
+				"qn": `Tikapinā padomi texkal noctal tō tōnriten in tekāillal tōqo in manteral ne meh relāē iztanēn.`,
+				"en": `The slender stilts that rise from the ground at a great distance from one another and are lost above the clouds support the city.`
+			},
+			{
+				"qn": `Ukonpā qon ko tiznepadomi.`,
+				"en": `You climb them with ladders.`,
+			},
+			{
+				"qn": `Sinatā tomeryā ne tōnriten cetē: Tīncikā, tiē men mōē tetapal yahū ne ātuecēn ne meten, īs tūtā sū kotōn.`,
+				"en": `On the ground the inhabitants rarely show themselves: having already everything they need up there, they prefer not to come down.`
+			},
+			{
+				"qn": `Īs weskā on ya iztanēn in iwimal tōmen, ko anak ātin sōmu temedral pelāminkōn latā ne nay in, ne tepellemā maxtumi, ouhristatūn kizteral konormal ensā ne muōlē.`,
+				"en": ` Nothing of the city touches the earth except those long flamingo legs on which it rests and, when the days are sunny, a pierced, angular shadow that falls on the foliage.`
+			},
+			{
+				"qn": `Teweskā kez maqarē ne Paucicetē: tisewenā tōmen; teyostenā ya deta tinesulā passa setepēn; tisorā istatūn yahī ne ate teweskeckā in tetawlatā samī tiditiciē ko kalaste in tētemimi terezillā sū kotōn - ko muōlen sū muōlen - ko izen sū izen - ko iratēn sū iratēn - tūrrenēliē sa qolestīn ohisessi.`,
+				"en": `There are three hypotheses about the inhabitants of Baucis: that they hate the earth; that they respect it so much they avoid all contact; that they love it as it was before they existed and with spyglasses and telescopes aimed downwards they never tire of examining it, leaf by leaf, stone by stone, ant by ant, contemplating with fascination their own absence.`
+			}
+		]
 	}
 }
 
@@ -112,5 +141,5 @@ function genPassage(data) {
 }
 
 window.onload = function () {
-	document.getElementById("text").innerHTML = genPassage(DATA["genesis"]) + genPassage(DATA["babel"]);
+	document.getElementById("text").innerHTML = genPassage(DATA["baucis"]) + genPassage(DATA["genesis"]) + genPassage(DATA["babel"]);
 }
