@@ -83,7 +83,7 @@ const DATA = {
 		"title": "Iztanemi in Nōē 3",
 		"content": [
 			{
-				"qn": "Imasā, ne ocak xiswecā ko sur maxtumi ne pos sipuemazūen, icūrīhten perral sū Paucīn iztanēn; palcā paqē.",
+				"qn": "Imasā, ne ocak xiswecā ko sur maxtumi ne pos sipwemazūen, icūrīhten perral sū Paucīn iztanēn; palcā paqē.",
 				"en": `After a seven days' march through woodland, the traveller directed towards Baucis cannot see the city and yet he has arrived.`
 			},
 			{
