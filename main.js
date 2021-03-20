@@ -10,22 +10,22 @@ const DATA = {
 			{
 				"qn": `Ehkā on tōmen issa istatūn in nordekā; ehkā ouhrīn ne meh rih tūrrēn, in osaxkā Lusah on Auhtōn ne meh rih alumi.`,
 				"en": `The world was without form and vacuous; darkness was upon the surface of the deep, and the Spirit of God moved above the surface of the waters.`,
-				"pr": `ɛʔˈkaː ɔn ˈtoːmən ˈɪssa ˈɪstatuːn ɪn ˈnɔrdekaː ɛʔˈkaː oʊʔriːn ne mɛʔ rɪʔ ˈtuːrreːn ɪn oˈsɑʃkaː ˈlusɑʔ ɔn ˈaʊʔtoːn ne mɛʔ rɪʔ ˈalumi`
+				"pr": `ɛʔˈkaː ɔn ˈtoːmən ˈɪssa ˈɪstatuːn ɪn ˈnɔrtɬekaː ɛʔˈkaː oʊʔriːn ne mɛʔ rɪʔ ˈtuːrreːn ɪn oˈsɑʃkaː ˈlusɑʔ ɔn ˈaʊʔtoːn ne mɛʔ rɪʔ ˈalumi`
 			},
 			{
-				"qn": `Irapkā on Auhtōn « Ehnā weskā rōen, » in tanrekā rōen.`,
+				"qn": `Irapkā on Auhtōn « Ehnā siā rōen, » in tanrekā rōen.`,
 				"en": `God said "Let there be light," and there was made light.`,
 				"pr": `iˈrɑpkaː ɔn ˈaʊʔtoːn ɛʔˈnaː ˈhʷɛskaː ˈroːən ɪn ˈtɑnrekaː roːən`
 			},
 			{
-				"qn": `Imā on Auhtōn renā rōen, in ikāildā on Auhtōn tō ouhrīn rōen.`,
+				"qn": `Imā on Auhtōn renā rōen, in ikāilyā on Auhtōn tō ouhrīn rōen.`,
 				"en": `God saw that the light was good, and from the darkness God separated the light.`,
-				"pr": `iˈmaː ɔn ˈaʊʔtoːn reˈnaː ˈroːən ɪn iˈkaːɪldaː ɔn ˈaʊʔtoːn toː ˈoʊʔriːn roːən`
+				"pr": `iˈmaː ɔn ˈaʊʔtoːn reˈnaː ˈroːən ɪn iˈkaːɪljaː ɔn ˈaʊʔtoːn toː ˈoʊʔriːn roːən`
 			},
 			{
 				"qn": `Ipīlkā on Auhtōn rōen ko maxtūn, in ipīlkā ouhrīn ko ēqinen. Ehkā ān esxemēn in pouhmen maxtūn dimmal.`,
 				"en": `God called the light day, and called the darkness night. And so evening and morning was the first day.`,
-				"pr": `iˈpiːɫkaː ɔn ˈaʊʔtoːn ˈroːən ko ˈmɑʃtuːn ɪn iˈpiːɫkaː ˈoʊʔrɪn ko ˈeːkʷinən ɛʔˈkaː aːn ˈɛsʃemeːn ɪn ˈpoʊʔmən ˈmɑʃtuːn ˈdɪmmɑɫ`
+				"pr": `iˈpiːɫkaː ɔn ˈaʊʔtoːn ˈroːən ko ˈmɑʃtuːn ɪn iˈpiːɫkaː ˈoʊʔrɪn ko ˈeːkʷinən ɛʔˈkaː aːn ˈɛsʃemeːn ɪn ˈpoʊʔmən ˈmɑʃtuːn ˈtɬɪmmɑɫ`
 			}
 		]
 	},
@@ -33,9 +33,9 @@ const DATA = {
 		"title": "Kurōken ne Pāpelen (Tōntanīn 11)",
 		"content": [
 			{
-				"qn": "Ehkā inqē ya on tōmen din nawēn in din asra nawīn.",
+				"qn": "Ehkā inqē ya on tōmen din nosēn in din asra nosīn.",
 				"en": `And so the world had one language and one possibility for speech.`,
-				"pr": `ɛʔˈkaː ˈɪnkʷeː ja ɔn ˈtoːmən dɪn naˈweːn ɪn dɪn ˈɑsra naˈwiːn`
+				"pr": `ɛʔˈkaː ˈɪnkʷeː ja ɔn ˈtoːmən tɬɪn noˈseːn ɪn tɬɪn ˈɑsra noˈsiːn`
 			},
 			{
 				"qn": `In losaxkā, ticūrīhcekiē tō tozwān, yapulkā pēxmazūen ne mazū on Xināren; in tiqartekā ātuecēn.`,
@@ -60,7 +60,7 @@ const DATA = {
 			{
 				"qn": `Irapkā on Auhtōn « Titannuhasō tiē din medra sotē, tā samī on tixumal on īs teyasal.`,
 				"en": `God said "If they are able to make this being one breadth of people, there will not be anything which they desire that they cannot do.`,
-				"pr": `iˈrɑpkaː ɔn ˈaʊʔtoːn titannʊʔˈasoː tiˈeː dɪn mɛt̚ra soˈteː taː saˈmiː ɔn ˈtiʃumɑɫ ɔn iːs ˈtejasɑɫ`
+				"pr": `iˈrɑpkaː ɔn ˈaʊʔtoːn titannʊʔˈasoː tiˈeː tɬɪn mɛt̚ra soˈteː taː saˈmiː ɔn ˈtiʃumɑɫ ɔn iːs ˈtejasɑɫ`
 			},
 			{
 				"qn": `Ehnā zahsaxā ahcemiē in azyukictayā unaw ko xumi īs tahnawasā ya opos. »`,
@@ -99,11 +99,11 @@ const DATA = {
 				"en": `On the ground the inhabitants rarely show themselves: having already everything they need up there, they prefer not to come down.`
 			},
 			{
-				"qn": `Īs weskā on ya iztanēn in iwimal tōmen, ko anak ātin sōmu temedral pelāminkōn latā ne nay in, ne tepellemā maxtumi, ouhristatūn kizteral konormal ensā ne muōlē.`,
+				"qn": `Īs siā on ya iztanēn in iwimal tōmen, ko anak ātin sōmu temedral pelāminkōn latā ne nay in, ne tepellemā maxtumi, ouhristatūn kizteral konormal ensā ne muōlē.`,
 				"en": ` Nothing of the city touches the earth except those long flamingo legs on which it rests and, when the days are sunny, a pierced, angular shadow that falls on the foliage.`
 			},
 			{
-				"qn": `Teweskā kez maqarē ne Paucicetē: tisewenā tōmen; teyostenā ya deta tinesulā passa setepēn; tisorā istatūn yahī ne ate teweskeckā in tetawlatā samī tiditiciē ko kalaste in tētemimi terezillā sū kotōn - ko muōlen sū muōlen - ko izen sū izen - ko iratēn sū iratēn - tūrrenēliē sa qolestīn ohisessi.`,
+				"qn": `Tesiā kez maqarē ne Paucicetē: tisewenā tōmen; teyostenā ya deta tinesulā passa setepēn; tisorā istatūn yahī ne ate tesicekā in tetawlatā samī tiditiciē ko kalaste in tētemimi terezillā sū kotōn - ko muōlen sū muōlen - ko izen sū izen - ko iratēn sū iratēn - tūrrenēliē sa qolestīn ohisti.`,
 				"en": `There are three hypotheses about the inhabitants of Baucis: that they hate the earth; that they respect it so much they avoid all contact; that they love it as it was before they existed and with spyglasses and telescopes aimed downwards they never tire of examining it, leaf by leaf, stone by stone, ant by ant, contemplating with fascination their own absence.`
 			}
 		]
@@ -111,7 +111,7 @@ const DATA = {
 }
 
 function transliterate(s) {
-	return s.replace(/(w)([aeiouāēīōū])/g, 'hu$2').replace('q', 'qu');
+	return s.replace(/(w)([aeiouāēīōū])/g, 'hu$2').replace(/q/g, 'qu').replace(/(d)([aeiouāēīōū])/g, 'tl$2');
 }
 
 function genVerse(n, data, isFirst) {
