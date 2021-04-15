@@ -23,9 +23,9 @@ const DATA = {
 				"pr": `iˈmaː ɔn ˈaʊʔtoːn reˈnaː ˈroːən ɪn iˈkaːɪljaː ɔn ˈaʊʔtoːn toː ˈoʊʔriːn roːən`
 			},
 			{
-				"qn": `Ipīlkā on Auhtōn rōen ko maxtūn, in ipīlkā ouhrīn ko ēqinen. Ehkā ān esxemēn in pouhmen maxtūn dimmal.`,
+				"qn": `Ipīlkā on Auhtōn rōen ko maxtūn, in ipīlkā ouhrīn ko ēqinen. Ehkā ān esxemēn in pellen maxtūn dimma.`,
 				"en": `God called the light day, and called the darkness night. And so evening and morning was the first day.`,
-				"pr": `iˈpiːɫkaː ɔn ˈaʊʔtoːn ˈroːən ko ˈmɑʃtuːn ɪn iˈpiːɫkaː ˈoʊʔrɪn ko ˈeːkʷinən ɛʔˈkaː aːn ˈɛsʃemeːn ɪn ˈpoʊʔmən ˈmɑʃtuːn ˈtɬɪmmɑɫ`
+				"pr": `iˈpiːɫkaː ɔn ˈaʊʔtoːn ˈroːən ko ˈmɑʃtuːn ɪn iˈpiːɫkaː ˈoʊʔrɪn ko ˈeːkʷinən ɛʔˈkaː aːn ˈɛsʃemeːn ɪn ˈpɛllən ˈmɑʃtuːn ˈtɬɪmma`
 			}
 		]
 	},
@@ -33,14 +33,14 @@ const DATA = {
 		"title": "Kurōken ne Pāpelen (Tōntanīn 11)",
 		"content": [
 			{
-				"qn": "Ehkā inqē ya on tōmen din nosēn in din asra nosīn.",
+				"qn": "Ehkā inqē ya on tōmen din nosēn in din asre nosīn.",
 				"en": `And so the world had one language and one possibility for speech.`,
-				"pr": `ɛʔˈkaː ˈɪnkʷeː ja ɔn ˈtoːmən tɬɪn noˈseːn ɪn tɬɪn ˈɑsra noˈsiːn`
+				"pr": `ɛʔˈkaː ˈɪnkʷeː ja ɔn ˈtoːmən tɬɪn noˈseːn ɪn tɬɪn ˈɑsre noˈsiːn`
 			},
 			{
-				"qn": `In losaxkā, ticūrīhcekiē tō tozwān, yapulkā pēxmazūen ne mazū on Xināren; in tiqartekā ātuecēn.`,
+				"qn": `In losaxkā, ne ticūrāhcekā tō tozwān, yapulkā pēxmazūen ne mazū on Xināren; in tiqartekā ātuecēn.`,
 				"en": `And it happened, as they had been journeying from the east, that they found a plain in the land of Shinar; and in there they dwelt.`,
-				"pr": `ɪn loˈsɑʃkaː titʃuːriːʔˈtʃekieː toː ˈtɔtsʍaːn jaˈpʊɫkaː peːʃmaˈtsuːən ne maˈtsuː ɔn ʃiˈnaːrən ɪn tiˈkʷɑrtekaː aːˈtuetʃeːn`
+				"pr": `ɪn loˈsɑʃkaː titʃuːˈriːʔtʃekiː toː ˈtɔtsʍaːn jaˈpʊɫkaː peːʃmaˈtsuːən ne maˈtsuː ɔn ʃiˈnaːrən ɪn tiˈkʷɑrtekaː aːˈtuetʃeːn`
 			},
 			{
 				"qn": `In tirapkā yaqō ān « Ehnā zitanā esxizē in azwouhlā millē. » In yahū entē izen esxizen, entē pestōn lakren.`,
@@ -48,24 +48,24 @@ const DATA = {
 				"pr": `ɪn tiˈrɑpkaː jaˈkʷoː aːn ɛʔˈnaː ˈtsitanaː ˈɛsʃitseː ɪn ɑtsˈʍoʊʔlaː ˈmɪɫleː ɪn jɑʔˈuː ˈɛnteː ˈitsən ˈɛsʃitsən ˈɛnteː pɛsˈtoːn ˈlɑkrən`
 			},
 			{
-				"qn": `Tirapkā ne ātin lōn « Ehnā zitanā ko oren iztanēn ya nay kurōken odetasal sū on Tiyen ko xumi zixā ulawnā on tōmen solpīlē; īs losaxā, azsayterā ne warrih passa on tōmen. »`,
+				"qn": `Tirapkā ne ātin lōn « Ehnā zitanā ko oren iztanēn ya nay kurōken odetasa sū on Tiyen ko xumi zixā ulawnā on tōmen solpīlē; īs losaxā, azsayterā ne warrih passa on tōmen. »`,
 				"en": `At that time they said "Let us make for ourselves a city that has a tower able to reach unto Heaven so that we may make the world know our names; if this does not pass, we will be scattered across the face of all the earth."`,
-				"pr": `tiˈrɑpkaː ne ˈaːtɪn loːn ɛʔˈnaː ˈtsitanaː ko ˈorən ˈɪtstaneːn ja nɑj kuˈroːkən oˈðetasɑɫ suː ɔn ˈtijən ko ˈʃumi tsiˈʃaː uˈlɑʍnaː ɔn ˈtoːmən sɔlˈpiːleː iːs ˈlosaʃaː ɑtsˈsɑjteraː ne ˈhʷɑrrɪʔ ˈpɑssa ɔn ˈtoːmən`
+				"pr": `tiˈrɑpkaː ne ˈaːtɪn loːn ɛʔˈnaː ˈtsitanaː ko ˈorən ˈɪtstaneːn ja nɑj kuˈroːkən oˈðetasa suː ɔn ˈtijən ko ˈʃumi tsiˈʃaː uˈlɑʍnaː ɔn ˈtoːmən sɔlˈpiːleː iːs ˈlosaʃaː ɑtsˈsɑjteraː ne ˈhʷɑrrɪʔ ˈpɑssa ɔn ˈtoːmən`
 			},
 			{
-				"qn": `Pa ūhkā sūwa on Auhtōn ko xumi imā iztanēn in kurōken tutancekal ten sotē.`,
+				"qn": `Pa ruhkā sūwa on Auhtōn ko xumi imā iztanēn in kurōken tutanceka ten sotē.`,
 				"en": `But God came to them to see the city and tower that these people had been making.`,
-				"pr": `pa ˈuːʔkaː ˈsuːwa ɔn ˈaʊʔtoːn ko ˈʃumi iˈmaː ˈɪtstaneːn ɪn kuˈroːkən tuˈtɑntʃekɑɫ tɛn soˈteː`
+				"pr": `pa ˈuːʔkaː ˈsuːwa ɔn ˈaʊʔtoːn ko ˈʃumi iˈmaː ˈɪtstaneːn ɪn kuˈroːkən tuˈtɑntʃeka tɛn soˈteː`
 			},
 			{
-				"qn": `Irapkā on Auhtōn « Titannuhasō tiē din medra sotē, tā samī on tixumal on īs teyasal.`,
+				"qn": `Irapkā on Auhtōn « Titannuhasō ne tā din medra sotē, tā samī on tixuma on īs teyasa.`,
 				"en": `God said "If they are able to make this being one breadth of people, there will not be anything which they desire that they cannot do.`,
-				"pr": `iˈrɑpkaː ɔn ˈaʊʔtoːn titannʊʔˈasoː tiˈeː tɬɪn mɛt̚ra soˈteː taː saˈmiː ɔn ˈtiʃumɑɫ ɔn iːs ˈtejasɑɫ`
+				"pr": `iˈrɑpkaː ɔn ˈaʊʔtoːn titannʊʔˈasoː ne taː tɬɪn mɛt̚ra soˈteː taː saˈmiː ɔn ˈtiʃuma ɔn iːs ˈtejasa`
 			},
 			{
-				"qn": `Ehnā zahsaxā ahcemiē in azyukictayā unaw ko xumi īs tahnawasā ya opos. »`,
+				"qn": `Ehnā zahsaxā sū cemēn in azyukictayā unaw ko xumi īs tahnawasā ya opos. »`,
 				"en": `Let us come near and break apart their language so that they are unable to speak with each other."`,
-				"pr": `ɛʔˈnaː tsɑʔˈsaʃaː ɑʔˈtʃemieː ɪn ɑtsjuˈkɪtʃtajaː ˈunɑʍ ko ˈxumi iːs tɑʔˈnawasaː ja ˈopɔs`
+				"pr": `ɛʔˈnaː tsɑʔˈsaʃaː ɑʔˈtʃemiː ɪn ɑtsjuˈkɪtʃtajaː ˈunɑʍ ko ˈxumi iːs tɑʔˈnawasaː ja ˈopɔs`
 			},
 			{
 				"qn": `Useytekā on Auhtōn inqē tō ātuecēn ne passa on tōmen in estekā tani iztanēn.`,
@@ -83,11 +83,11 @@ const DATA = {
 		"title": "Iztanemi in Nōē 3",
 		"content": [
 			{
-				"qn": "Imasā, ne ocak xiswecā ko sur maxtumi ne pos sipwemazūen, icūrīhten perral sū Paucīn iztanēn; palcā paqē.",
+				"qn": "Imasā, ne ocak xuhpecā ko sur maxtumi ne pos sipwemazūen, icūrāhten perra sū Paucīn iztanēn; palcā paqē.",
 				"en": `After a seven days' march through woodland, the traveller directed towards Baucis cannot see the city and yet he has arrived.`
 			},
 			{
-				"qn": `Tikapinā padomi texkal noctal tō tōnriten in tekāillal tōqo in manteral ne meh relāē iztanēn.`,
+				"qn": `Tikapinā padomi texka nocta tō tōnriten in tekāilla tōqo in mantera ne meh relāē iztanēn.`,
 				"en": `The slender stilts that rise from the ground at a great distance from one another and are lost above the clouds support the city.`
 			},
 			{
@@ -95,15 +95,15 @@ const DATA = {
 				"en": `You climb them with ladders.`,
 			},
 			{
-				"qn": `Sinatā tomeryā ne tōnriten cetē: Tīncikā, tiē men mōē tetapal yahū ne ātuecēn ne meten, īs tūtā sū kotōn.`,
+				"qn": `Sinatā tomeryā ne tōnriten cetē: Tīncikā, ko cēz tā men mōē tetapa yahū ne ātuecēn ne meten, īs tūtā sū kotōn.`,
 				"en": `On the ground the inhabitants rarely show themselves: having already everything they need up there, they prefer not to come down.`
 			},
 			{
-				"qn": `Īs siā on ya iztanēn in iwimal tōmen, ko anak ātin sōmu temedral pelāminkōn latā ne nay in, ne tepellemā maxtumi, ouhristatūn kizteral konormal ensā ne muōlē.`,
+				"qn": `Īs siā on ya iztanēn in iwima tōmen, ko anak ātin sōmu temedra pelāminkōn latā ne nay in, ne tepellemā maxtumi, ouhristatūn kiztera konorma ensā ne muōlē.`,
 				"en": ` Nothing of the city touches the earth except those long flamingo legs on which it rests and, when the days are sunny, a pierced, angular shadow that falls on the foliage.`
 			},
 			{
-				"qn": `Tesiā kez maqarē ne Paucicetē: tisewenā tōmen; teyostenā ya deta tinesulā passa setepēn; tisorā istatūn yahī ne ate tesicekā in tetawlatā samī tiditiciē ko kalaste in tētemimi terezillā sū kotōn - ko muōlen sū muōlen - ko izen sū izen - ko iratēn sū iratēn - tūrrenēliē sa qolestīn ohisti.`,
+				"qn": `Tesiā kez maqarē ne Paucicetē: tisewenā tōmen; teyostenā ya deta tinesulā passa setepēn; tisorā istatūn yahī ne ate tesicekā in tetawlatā samī tiditicī ko kalasta in tētemimi terezillā sū kotōn - ko muōlen sū muōlen - ko izen sū izen - ko iratēn sū iratēn - tūrrenēlī sa qolestīn ohisti.`,
 				"en": `There are three hypotheses about the inhabitants of Baucis: that they hate the earth; that they respect it so much they avoid all contact; that they love it as it was before they existed and with spyglasses and telescopes aimed downwards they never tire of examining it, leaf by leaf, stone by stone, ant by ant, contemplating with fascination their own absence.`
 			}
 		]
