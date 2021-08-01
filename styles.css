@@ -1,132 +1,57 @@
-@font-face {
-	font-family: "On Serwal";
-	src        : url("OnSerwal.ttf") format("ttf");
-}
-
-@font-face {
-	font-family: "ConMono";
-	src        : url("ConMono.ttf") format("ttf");
-}
-
 body {
-	font-family   : 'On Serwal', 'IBM Plex Serif', serif;
+	font-family   : 'IBM Plex Serif', serif;
 	margin        : 0;
 	padding       : 0;
 	padding-bottom: 10rem;
+	background-color: #121212;
+	color: #fff;
 }
 
 h1 {
-	font-size  : 2rem;
-	font-weight: normal;
-	color      : crimson;
+	font-size  : 32px;
+	font-weight: bold;
+	color      : #4af;
 	text-align : center;
 }
 
 p {
-	font-size: 1.2rem;
+	font-size: 12px;
 }
 
 .para {
 	max-width : 600px;
 	margin    : auto;
-	text-align: justify;
-	padding   : 1rem;
-}
-
-.fmc {
-	color: crimson;
-}
-
-.fc {
-	color        : crimson;
-	float        : left;
-	font-size    : 5.6rem;
-	line-height  : 4.7rem;
-	padding-top  : 4px;
-	padding-right: 8px;
-	padding-left : 3px;
+	padding   : 5px;
 }
 
 .num {
-	padding      : 0;
-	padding-left : 0.25rem;
-	padding-right: 0.75rem;
-	font-size    : 0.75rem;
-	color        : crimson;
-	font-weight  : bold;
-	top          : -0.25rem;
-	position     : relative;
+	padding: 5px;
+	text-align: left;
+	vertical-align: top;
+	font-size: 12px;
 }
 
-.hoverable {
-	position    : relative;
-	display     : inline;
-	font-size   : 1.2rem;
-	line-height : 1.6rem;
-	border      : 0.6rem solid #00000000;
-	border-left : 0;
-	border-right: 0;
+.line {
+	padding-bottom: 15px;
 }
 
-.hoverable:hover .trnsl {
-	visibility: visible;
+.atl {
+	font-size: 18px;
+	padding-bottom: 4px;
 }
 
-.pro {
-	font-family     : monospace;
-	font-size       : 0.8rem;
-	margin          : 0;
-	padding         : 0.5rem;
-	background-color: white;
-	color           : black;
+.trn {
+	font-style: italic;
+	color: #bbb;
+	font-size: 16px;
+	padding-bottom: 4px;
+}
+
+.line:hover >.ipa {
+	display: block;
 }
 
 .ipa {
-	font-family     : monospace;
-	font-size       : 0.8rem;
-	background-color: white;
-	margin          : 0;
-	padding         : 0.5rem;
-	padding-top     : 0;
-	display         : block;
-}
-
-.en {
-	margin          : 0;
-	font-family     : monospace;
-	font-size       : 0.8rem;
-	padding         : 0.5rem;
-	background-color: crimson;
-	color           : white;
-	font-style      : italic;
-}
-
-.men {
-	font-family: 'IBM Plex Mono', monospace;
-	color      : crimson;
-	font-style : italic;
-}
-
-.hoverable:hover {
-	color        : crimson;
-	border-bottom: 1pt solid crimson;
-}
-
-.trnsl {
-	width         : 600px;
-	position      : absolute;
-	display       : block;
-	visibility    : hidden;
-	top           : 100%;
-	z-index       : 10;
-	pointer-events: none;
-	border        : 1pt solid crimson;
-}
-
-#regards {
-	font-family     : 'ConMono';
-	background-color: black;
-	color           : white;
-	margin          : 0;
-	padding         : 1rem;
+	font-family: 'Iosevka', monospace;
+	display: none;
 }
