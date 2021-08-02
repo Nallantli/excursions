@@ -261,8 +261,8 @@ const DATA = [
 				"en": `Weariness possessed her. Her eyes closed and her body fell hard against the wooden nave.`
 			},
 			{
-				"text": `Mah²kā huizī rān antuē imuhzus maxtumi, pā boquekā nēlen² rān, in itueraskā entē rō nuza nelen unnī rōcyē ne lamar tōm²en.`,
-				"ipa": `mɑʔˈkaː ʍiˈt͜siː raːn ˈɑntu̯eː ˈimʊʔt͜sʊs ˈmɑʃtumi paː ˈbokʷekaː ˈneːlən raːn ɪn itu̯eˈrɑskaː ɛnteː roː ˈnut͜sa ˈnelən ˈʊnniː ˈroːt͜ʃjeː ne ˈlamɑr̥ ˈtoːmən`,
+				"text": `Mah²kā huizī rān antuē imuhzus maxtumi, pā boquekā nēlen² rān, in itueraskā entē rō nuza nelen beih rōcyē ne lamar tōm²en.`,
+				"ipa": `mɑʔˈkaː ʍiˈt͜siː raːn ˈɑntu̯eː ˈimʊʔt͜sʊs ˈmɑʃtumi paː ˈbokʷekaː ˈneːlən raːn ɪn itu̯eˈrɑskaː ɛnteː roː ˈnut͜sa ˈnelən beɪ̯ ˈroːt͜ʃjeː ne ˈlamɑr̥ ˈtoːmən`,
 				"en": `In her sleep she still tried to count the days, but her consciousness was weak, and for the great light of the sun she could only dream of specks in the ceiling of the world.`
 			},
 			{
