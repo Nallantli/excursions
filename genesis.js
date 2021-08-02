@@ -231,8 +231,8 @@ const DATA = [
 		"en": `On the Creation of Stars`,
 		"lines": [
 			{
-				"text": `Icūrāh²kā rān ko cismān-cis maxtumi ne cēn, tūrrenēlī on ko-oapulnā īt²oh².`,
-				"ipa": `iˈt͜ʃuːraːʔkaː raːn ko t͜ʃɪsˈm̥aːn=t͜ʃɪs ˈmɑʃtumi ne t͜ʃeːn tuːɽ͜reˈneːliː ɔn ko=oaˈpʊɥnaː ˈiːtɔ`,
+				"text": `Icūrāh²kā rān ko mān-cis maxtumi ne cēn, tūrrenēlī on ko-oapulnā īt²oh².`,
+				"ipa": `iˈt͜ʃuːraːʔkaː raːn ko ˈm̥aːn=t͜ʃɪs ˈmɑʃtumi ne t͜ʃeːn tuːɽ͜reˈneːliː ɔn ko=oaˈpʊɥnaː ˈiːtɔ`,
 				"en": `For fifteen days' time she wandered the area, wondering how they would find each other.`
 			},
 			{
