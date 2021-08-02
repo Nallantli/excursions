@@ -15,9 +15,9 @@ const DATA = [
 				"en": `Not yet was the sky and the wind did not yet blow life into the waves. Furthermore, the sun did not exist to scatter light across the infinite ocean.`
 			},
 			{
-				"text": `Olasaxessekā ko ser rahuōn alumī in xallekā sa istīn ko ser lakren.`,
-				"ipa": `olasaˈʃɛssekaː ko sɛr̥ raˈʋoːn ˈalumiː ɪn ˈʃɑɥlekaː sa ˈɪstiːn ko sɛr ˈlɑkr̥ən`,
-				"en": `Like glass, the waters did not move, and in the absense of light they were black like tar.`
+				"text": `Raihzekā alumī rahuōn in īs osaxessekā in xallekā sa isti rōen ko ser lakren.`,
+				"ipa": `ˈraɪ̯ʔt͜sekaː raˈʋoːn ɪn iːs osaˈʃɛssekaː ˈalumiː ɪn ˈʃɑɥlekaː sa ˈɪsti ˈroːən ko sɛr ˈlɑkr̥ən`,
+				"en": `Like glass, the waters did not move, and with light's absense they were black like tar.`
 			},
 			{
 				"text": `Īs sahkā issa rōen tlikān in ehkā on kemī on samī.`,
@@ -25,8 +25,8 @@ const DATA = [
 				"en": `Time did not exist without light and the always was never.`
 			},
 			{
-				"text": `Kōh²rekā mo aihre alumūn timm²a dism²īn sula; cōuh²kā sildūr in osaxnuhkā cōut²ī tlikān.`,
-				"ipa": `ˈkoːʔrekaː mo aɪ̯ʔre ˈalumuːn ˈtɪmma ˈdɪsm̥iːn ˈsula | ˈt͜ʃoːʊʔkaː ˈsɪ͏ɥðuːr ɪn oˈsɑʃn̥ʊʔkaː ˈt͜ʃoːutiː t͜ɬikaːn`,
+				"text": `Kōh²rekā mo aihre alumūn timm²a dism²īn sula; cōuh²kā sildūr in osaxowkā cōut²ī tlikān.`,
+				"ipa": `ˈkoːʔrekaː mo aɪ̯ʔre ˈalumuːn ˈtɪmma ˈdɪsm̥iːn ˈsula | ˈt͜ʃoːʊʔkaː ˈsɪ͏ɥðuːr ɪn osɑˈʃɔʍkaː ˈt͜ʃoːutiː t͜ɬikaːn`,
 				"en": `The infinite nothing was brought to an end by the weight of a single drop of water; the ocean rippled and rippling did time begin to move.`
 			},
 			{
@@ -47,8 +47,8 @@ const DATA = [
 		"image": `nassōn.png`,
 		"lines": [
 			{
-				"text": `Ruh²kā tozhuatō kauhtī istatu ēlen.`,
-				"ipa": `rʊʔˈkaː tot͜sʍatoː ˈkaʊ̯ʔtiː ˈɪstatu ˈeːlən`,
+				"text": `Ruh²kā tozhuatō nassōn kauhtī istatu ēlen.`,
+				"ipa": `rʊʔˈkaː tot͜sʍatoː ˈnɑssoːn ˈkaʊ̯ʔtiː ˈɪstatu ˈeːlən`,
 				"en": `From the east came a boat bearing the figure of a woman.`
 			},
 			{
