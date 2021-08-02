@@ -2,6 +2,7 @@ const DATA = [
 	{
 		"title": "Tōn²tanīn",
 		"en": "Genesis",
+		"image": `nuhēn.png`,
 		"lines": [
 			{
 				"text": `Sahkā ne nuhēn sildūr ē issa rat²en; ān pan²kā ne rih² tōm²en beih sarri alūn.`,
@@ -43,6 +44,7 @@ const DATA = [
 	{
 		"title": `Tinezonomi`,
 		"en": `The First Voices`,
+		"image": `nassōn.png`,
 		"lines": [
 			{
 				"text": `Ruh²kā tozhuatō kauhtī istatu ēlen.`,
@@ -104,66 +106,67 @@ const DATA = [
 	{
 		"title": `Istatumi in Pīlemi`,
 		"en": `Shapes and Names`,
+		"image": `ēlen_in_huatān.png`,
 		"lines": [
 			{
-				"text": `"Maskauhrā set²ah²," - osisudkā alen. Reptapārkā huatān on nassōn in, huaī ranasrai yuptelat²a ēlen, sassuhzekā.`,
+				"text": `« Maskauhrā set²ah², » - osisudkā alen. Reptapārkā huatān on nassōn in, huaī ranasrai yuptelat²a ēlen, sassuhzekā.`,
 				"ipa": `ˈmɑskaʊ̯ʔraː ˈsetɑ osiˈsʊt̚kaː ˈjetɑ | rəptaˈpaːɽ̊kaː ʍaˈtaːn ɔn ˈnɑssoːn ɪn ʍaˈiː raˈnɑsr̥ai jʊpˈtelata eːlən sassʊʔˈt͜sekaː`,
 				"en": `"I am born of the sea," he continued. The serpent circled the boat and remarked upon the woman's curious disposition.`
 			},
 			{
-				"text": `"Lanomerā in tīquem²ā ne cēn ya set²ah² ne nay bisesni m²eceku, in sommerā akami annum²a mo m²emouhte."`,
+				"text": `« Lanomerā in tīquem²ā ne cēn ya set²ah² ne nay bisesni m²eceku, in sommerā akami annum²a mo m²emouhte. »`,
 				"ipa": `laˈnomeraː ɪn ˈtiːkʷemaː ne t͜ʃeːn ja ˈsetɑ ne nɑj biˈsɛsn̥i ˈmɛt͜ʃeku ɪn ˈsɔmmeraː ˈakami ˈɑnnuma mo meˈmoʊ̯ʔte`,
 				"en": `"Where I have scales your flesh is unbroken and fair, and upon your head do you bare golden threads."`
 			},
 			{
-				"text": `Rozleykā ēlen mo iterēn. "Iterā m²et²ah² ya akami annum²a seripul, ya cekūn senolaz."`,
+				"text": `Rozleykā ēlen mo iterēn. « Iterā m²et²ah² ya akami annum²a seripul, ya cekūn senolaz.`,
 				"ipa": `ˈrɔt͜sləjkaː ˈeːlən mo ˈitereːn ˈiteraː ˈmetɑ ja ˈakami ˈɑnnuma ˈseripʊɥ ja t͜ʃeˈkuːn ˈsenolɑt͜s`,
-				"en": `The woman was amused at the description. "By golden threads you describe my hair, and for flesh my skin."`
+				"en": `The woman was amused at the description. "By golden threads you describe my hair, and for flesh my skin.`
 			},
 			{
-				"text": `"Maskauhruī m²et²ah², ān tīkauhrā set²ah²."`,
+				"text": `Maskauhruī m²et²ah², ān tīkauhrā set²ah².`,
 				"ipa": `mɑsˈkaʊ̯ʔruiː ˈmetɑ aːn ˈtiːkaʊ̯ʔraː ˈsetɑ`,
-				"en": `"If you are born of this sea then I am born of the sky."`
+				"en": `If you are born of this sea then I am born of the sky.`
 			},
 			{
-				"text": `"Kuy nay on m²eihtasa, on nuzhuatān?"`,
+				"text": `Kuy nay on m²eihtasa, on nuzhuatān? »`,
 				"ipa": `kʊj nɑj ɔn ˈmeɪ̯ʔtasa ɔn ˈnʊt͜sʍataːn`,
-				"en": `"What may I call you, great serpent?"`
+				"en": `What may I call you, great serpent?"`
 			},
 			{
-				"text": `"Ehkā ya set²ah² samī ne on aten tapēn xa set²ah² olahuā."`,
+				"text": `« Ehkā ya set²ah² samī ne on aten tapēn xa set²ah² olahuā. »`,
 				"ipa": `əʔˈkaː ja ˈsetɑ saˈmiː ne ɔn ˈatən taˈpeːn ʃa ˈsetɑ ˈolaʋaː`,
 				"en": `"I have never had the need to introduce myself."`
 			},
 			{
-				"text": `Kōhuā rān: "Mellekā ya meih m²et²ah² samī pīlēn. Tā assī mures asnī opīlā āst²oh²."`,
+				"text": `Kōhuā rān: « Mellekā ya meih m²et²ah² samī pīlēn. Tā assī mures asnī opīlā āst²oh². »`,
 				"ipa": `ˈkoːʋaː raːn ˈmɛɥlekaː ja meɪ̯ metɑ saˈmiː ˈpiːleːn | taː ˈɑssiː ˈmurəs ˈɑsn̥iː oˈpiːlaː ˈaːstɔ`,
 				"en": `She began: "I never was given a name either. Perhaps our meeting is purposed for us to name the other."`
 			},
 			{
-				"text": `"Xipocuī ān," rapā huatān, "melkā ya set²ah² suloī pīlēn ē Nuzhuatān."`,
+				"text": `« Xipocuī ān, » rapā huatān, « melkā ya set²ah² suloī pīlēn ē Nuzhuatān. »`,
 				"ipa": `ʃiˈpot͜ʃu̯iː aːn raˈpaː ʍaˈtaːn ˈmɛɥkaː ja ˈsetɑ ˈsuloiː ˈpiːleːn eː ˈnʊt͜sʍataːn`,
 				"en": `"If that be the case," said the serpent, "then you have already given me the name Nuzhuatān [Great Serpent]."`
 			},
 			{
-				"text": `"Īs pīlēn," rapā ēlen. "Īs ātuēn m²et²ah² pā m²eh²t²en²."`,
+				"text": `« Īs pīlēn, » rapā ēlen. « Īs ātuēn m²et²ah² pā m²eh²t²en².`,
 				"ipa": `iːs ˈpiːleːn raˈpaː ˈeːlən | iːs ˈaːtu̯eːn ˈmetɑ paː məʔˈtɛn`,
-				"en": `"It is not a name," the woman spoke. "That is not who you are but rather what you are."`
+				"en": `"It is not a name," the woman spoke. "That is not who you are but rather what you are.`
 			},
 			{
-				"text": `"Xipocasā tā set²ah² Nassoēlen, ko cēz ēlen in ne ten nassōn set²ah², pā imelā dis rouhlauhme huaī sisutu."`,
+				"text": `Xipocasā tā set²ah² Nassoēlen, ko cēz ēlen in ne ten nassōn set²ah², pā imelā dis rouhlauhme huaī sisutu. »`,
 				"ipa": `ʃiˈpot͜ʃasaː taː ˈsetɑ nɑssoˈeːlən ko t͜ʃeːt͜s ˈeːlən ɪn ne tɛn ˈnɑssoːn ˈsetɑ paː ˈimelaː dɪs ˈroʊ̯ʔlaʊ̯ʔme ʍaˈiː ˈsisutu`,
-				"en": `"You may describe me as a woman on a boat, for I am a woman and am in this boat, but that gives no insight to my identity."`
+				"en": `You may describe me as a woman on a boat, for I am a woman and am in this boat, but that gives no insight to my identity."`
 			},
 			{
-				"text": `Reptapārkā huatān nassōn demī ko tin lōn in palkā ne lān cem²a sū rān cōlī: "mac, nā īs omantā āst²oh² sa duri riksīn. Apulnā ne cinnēn t²ā ya āst²oh² pīlemi alira."`,
+				"text": `Reptapārkā huatān nassōn demī ko tin lōn in palkā ne lān cem²a sū rān cōlī: « mac, nā īs omantā āst²oh² sa duri riksīn. Apulnā ne cinnēn t²ā ya āst²oh² pīlemi alira.`,
 				"ipa": `rəptaˈpaːɽ̊kaː ʍaˈtaːn ˈnɑssoːn deˈmiː ko tɪn loːn ɪn ˈpɑɥkaː ne laːn ˈt͜ʃema suː raːn t͜ʃoːliː mɑt͜ʃ naː iːs oˈmɑntaː ˈaːstɔ sa ˈduri ˈrɪksiːn | aˈpʊɥnaː ne ˈt͜ɪnneːn taː ja ˈaːstɔ ˈpiːlemi ˈalira`,
-				"en": `The serpent circled the boat once more and rounded upon the side nearest to her: "then let us not lose ourselves in the haste of novelty. Next we meet should we find ourselves with proper names."`
+				"en": `The serpent circled the boat once more and rounded upon the side nearest to her: "then let us not lose ourselves in the haste of novelty. Next we meet should we find ourselves with proper names.`
 			},
 			{
-				"text": `"Serhueyuī lasoxni sū oet²oh² sicē ne ten lōn," sisudkā alen, "nā calmelā ya oet²oh² tī rinsomi aspīlē."`,
+				"text": `Serhueyuī lasoxni sū oet²oh² sicē ne ten lōn, » sisudkā alen, « nā calmelā ya oet²oh² tī rinsomi aspīlē. »`,
 				"ipa": `ˈsɛɹʋejuiː laˈsɔʃn̥i suː ˈoetɔ siˈt͜ʃeː ne tən loːn siˈsʊt̚kaː ˈalən naː ˈt͜ʃɑɥmelaː ja ˈoetɔ tiː ˈrɪnsomi ɑsˈpiːleː`,
-				"en": `"If the tides ebb us towards one-another once more by then," he continued, "let us exchange our names as friends."`
+				"en": `If the tides ebb us towards one-another once more by then," he continued, "let us exchange our names as friends."`
 			}
 		]
 	},
