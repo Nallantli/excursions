@@ -14,8 +14,24 @@
 </head>
 
 <body>
-	<div id="text">
+	<div id="menu">
+		<button class="menu-button" onclick="openATL()">ATL</button>
+		<button class="menu-button" onclick="openTRL()">LAT</button>
 	</div>
+	<div id="text-atl">
+	</div>
+	<div id="text-trl" style="display: none;">
+	</div>
+	<script>
+		function openATL() {
+			document.getElementById("text-trl").style.display = "none";
+			document.getElementById("text-atl").style.display = "block";
+		}
+		function openTRL() {
+			document.getElementById("text-trl").style.display = "block";
+			document.getElementById("text-atl").style.display = "none";
+		}
+	</script>
 </body>
 
 </html>

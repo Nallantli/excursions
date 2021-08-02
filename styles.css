@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "On Serwal";
+	src        : url("OnSerwal.ttf") format("ttf");
+}
+
 body {
 	font-family     : 'IBM Plex Serif', serif;
 	margin          : 0;
@@ -5,6 +10,7 @@ body {
 	padding-bottom  : 10rem;
 	background-color: #eee;
 	color           : #000;
+	line-height     : 1.5em;
 }
 
 h1 {
@@ -33,11 +39,12 @@ p {
 
 .line {
 	padding-bottom: 15px;
+	font-size     : 18px;
+	padding-bottom: 4px;
 }
 
 .atl {
-	font-size     : 18px;
-	padding-bottom: 4px;
+	font-family: 'On Serwal';
 }
 
 .trn {
@@ -53,13 +60,34 @@ p {
 
 .image {
 	display: block;
-	width: 70%;
-	margin: auto;
+	width  : 70%;
+	margin : auto;
 	padding: 20px;
 }
 
 .ipa {
 	font-family: 'Iosevka', monospace;
 	display    : none;
+	font-size  : 16px;
 	color      : #14f;
+}
+
+#menu {
+	position: fixed;
+}
+
+.menu-button {
+	font-family     : monospace;
+	display         : block;
+	border          : 1px solid black;
+	border-radius   : 0;
+	padding         : 5px;
+	margin          : 5px;
+	background-color: white;
+	transition      : all 0.1s ease-in-out;
+}
+
+.menu-button:hover {
+	background-color: #14f;
+	color           : white;
 }
