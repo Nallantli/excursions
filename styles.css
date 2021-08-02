@@ -1,6 +1,6 @@
 @font-face {
-	font-family: "On Serwal";
-	src        : url("OnSerwal.ttf") format("ttf");
+	font-family: "OnSerwal";
+	src        : url(on_serwal.ttf);
 }
 
 body {
@@ -44,7 +44,7 @@ p {
 }
 
 .atl {
-	font-family: 'On Serwal';
+	font-family: 'OnSerwal';
 }
 
 .trn {
