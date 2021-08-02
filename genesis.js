@@ -17,7 +17,7 @@ const DATA = [
 			{
 				"text": `Raihzekā alumī rahuōn in īs osaxessekā in xallekā sa isti rōen ko ser lakren.`,
 				"ipa": `ˈraɪ̯ʔt͜sekaː raˈʋoːn ɪn iːs osaˈʃɛssekaː ˈalumiː ɪn ˈʃɑɥlekaː sa ˈɪsti ˈroːən ko sɛr ˈlɑkr̥ən`,
-				"en": `Like glass, the waters did not move, and with light's absense they were black like tar.`
+				"en": `Like glass, the waters did not move, and with light's absence they were black like tar.`
 			},
 			{
 				"text": `Īs sahkā issa rōen tlikān in ehkā on kemī on samī.`,
