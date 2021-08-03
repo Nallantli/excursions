@@ -124,14 +124,19 @@ const DATA = [
 				"en": `The woman was amused at the description. "By golden threads you describe my hair, and for flesh my skin.`
 			},
 			{
-				"text": `Maskauhruī m²et²ah², ān tīkauhrā set²ah².`,
+				"text": `Maskauhruī m²et²ah², ān tīkauhrā set²ah². »`,
 				"ipa": `mɑsˈkaʊ̯ʔruiː ˈmetɑ aːn ˈtiːkaʊ̯ʔraː ˈsetɑ`,
 				"en": `If you are born of this sea then I am born of the sky.`
 			},
 			{
-				"text": `Kuy nay on m²eihtasa, on nuzhuatān? »`,
-				"ipa": `kʊj nɑj ɔn ˈmeɪ̯ʔtasa ɔn ˈnʊt͜sʍataːn`,
-				"en": `What may I call you, great serpent?"`
+				"text": `En²quā ne met²en rān apulī osīhsutohuā relāē.`,
+				"ipa": `ˈɛŋkʷaː ne ˈmetən raːn ˈapuliː osiːʔˈsutoʋaː reˈlaːeː`,
+				"en": `She looked upwards finding that the clouds were beginning to reform.`
+			},
+			{
+				"text": `« Latā demī astes neca necī .Kuy nay on m²eihtasa, on nuzhuatān? »`,
+				"ipa": `laˈtaː deˈmiː ˈɑstəs ˈnet͜ʃa neˈt͜ʃiː | kʊj nɑj ɔn ˈmeɪ̯ʔtasa ɔn ˈnʊt͜sʍataːn`,
+				"en": `"Our short peace draws shorter. What may I call you, great serpent?"`
 			},
 			{
 				"text": `« Ehkā ya set²ah² samī ne on aten tapēn xa set²ah² olahuā. »`,
@@ -159,9 +164,14 @@ const DATA = [
 				"en": `You may describe me as a woman on a boat, for I am a woman and am in this boat, but that gives no insight to my identity."`
 			},
 			{
-				"text": `Reptapārkā huatān nassōn demī ko tin lōn in palkā ne lān cem²a sū rān cōlī: « mac, nā īs omantā āst²oh² sa duri riksīn. Apulnā ne cinnēn t²ā ya āst²oh² pīlemi alira.`,
-				"ipa": `rəptaˈpaːɽ̊kaː ʍaˈtaːn ˈnɑssoːn deˈmiː ko tɪn loːn ɪn ˈpɑɥkaː ne laːn ˈt͜ʃema suː raːn t͜ʃoːliː mɑt͜ʃ naː iːs oˈmɑntaː ˈaːstɔ sa ˈduri ˈrɪksiːn | aˈpʊɥnaː ne ˈt͜ɪnneːn taː ja ˈaːstɔ ˈpiːlemi ˈalira`,
-				"en": `The serpent circled the boat once more and rounded upon the side nearest to her: "then let us not lose ourselves in the haste of novelty. Next we meet should we find ourselves with proper names.`
+				"text": `Reptapārkā huatān nassōn demī ko tin lōn ne orikseyohuā suhtem²ēn.`,
+				"ipa": `rəptaˈpaːɽ̊kaː ʍaˈtaːn ˈnɑssoːn deˈmiː ko tɪn loːn ne orɪkˈsejoʋaː sʊʔˈtemeːn`,
+				"en": `The serpent circled the boat once more as the deluge began to renew itself.`
+			},
+			{
+				"text": `Kum²utecem²ā sisni sū tleti īs sudasā set²ah² ne ticēn ne rit²en.`,
+				"ipa": `kumuˈtet͜ʃemaː ˈsɪsn̥i suː ˈt͜ɬeti iːs ˈsuðasaː ˈsetɑ ne tiˈt͜ʃeːn ne ˈritən`,
+				"en": `"The waves will soon be too violent for me to remain here at the surface.`
 			},
 			{
 				"text": `Serhueyuī lasoxni sū oet²oh² sicē ne ten lōn, » sisudkā alen, « nā calmelā ya oet²oh² tī rinsomi aspīlē. »`,
@@ -185,9 +195,9 @@ const DATA = [
 				"en": `When she had collected herself, she responded to the proposal: "I do not trust the tides like you do; I fear that if we seperate like this there will not be another moment of meeting."`
 			},
 			{
-				"text": `Kēkkā huatān. « Rapā ya m²et²ah²: tā īs serhuā bolem²ī alūn.`,
-				"ipa": `ˈkeːkkaː ʍaˈtaːn | raˈpaː ja ˈmetɑ taː iːs ˈsɛɹ̥ʋaː ˈbolemiː aˈluːn`,
-				"en": `The serpent laughed. "I tell you: water does not flow erroneously.`
+				"text": `Kēkkā yalsī mucoy suhtēn huatān. « Rapā ya m²et²ah²: tā īs serhuā bolem²ī alūn.`,
+				"ipa": `ˈkeːkkaː ˈjɑɥsiː ˈmut͜ʃɔj sʊʔˈteːn ʍaˈtaːn | raˈpaː ja ˈmetɑ taː iːs ˈsɛɹ̥ʋaː ˈbolemiː aˈluːn`,
+				"en": `The serpent laughed against the droplets of rain. "I tell you: water does not flow erroneously.`
 			},
 			{
 				"text": `Sāpih²cā in mantercā izecyen, ne eihlā sū tūrrēn, nōi toh²nē ne sar sisni mismira in sarra`,
@@ -220,9 +230,9 @@ const DATA = [
 				"en": `With a swift and careful leap, the serpent dove into the depths.`
 			},
 			{
-				"text": `Quoryerkā necī sud santi alen mo alumi.`,
-				"ipa": `ˈkʷɔɹjəɽ̊kaː neˈt͜ʃiː sʊt̚ ˈsɑnti ˈalən mo ˈalumi`,
-				"en": `The remainder of his presence was soon obscured by the waters.`
+				"text": `Quoryerkā necī sud santi alen mo alumi: mer suhtēn in mās.`,
+				"ipa": `ˈkʷɔɹjəɽ̊kaː neˈt͜ʃiː sʊt̚ ˈsɑnti ˈalən mo ˈalumi mɛr̥ sʊʔˈteːn ɪn maːs`,
+				"en": `The remainder of his presence was soon obscured by the waters: both rain and sea.`
 			}
 		]
 	},
@@ -241,14 +251,14 @@ const DATA = [
 				"en": `She was born of the sky, and therefore did not understand the nature of the sea.`
 			},
 			{
-				"text": `Tekrī-tekrelatekā demī ne aldā maxtumi, in risalowkā ne lo maxtūn māneza yemī rān huilohā relāē ouhra ne tiyen īs len²nā huatān.`,
-				"ipa": `ˈtɛkriː təkreˈlatekaː deˈmiː ne ˈɑɥðaː ˈmɑʃtumi ɪn risaˈlɔʍkaː ne lo ˈmɑʃtuːn ˈmaːnet͜sa jeˈmiː raːn ˈʍilɔʔaː reˈlaːeː ˈoʊʔra ne ˈtijən iːs ˈlɛnnaː ʍaˈtaːn`,
-				"en": `The waves grew fiercer and fiercer as the days went by, and by the tenth day she saw dark clouds looming in the sky and began to fear that the serpent would not return.`
+				"text": `Tekrī-tekrelatekā demī ne aldā maxtumi, in risalowkā ne lo maxtūn māneza īs len²nā huatān.`,
+				"ipa": `ˈtɛkriː təkreˈlatekaː deˈmiː ne ˈɑɥðaː ˈmɑʃtumi ɪn risaˈlɔʍkaː ne lo ˈmɑʃtuːn ˈmaːnet͜sa iːs ˈlɛnnaː ʍaˈtaːn`,
+				"en": `The waves grew fiercer and fiercer as the days went by, and by the tenth day she began to fear that the serpent would not return.`
 			},
 			{
-				"text": `Suhtowkā ne ten euhsem²ēn in azterkā ānnallē dauhras rān - pā omotahzekā enkāhlirī ko men posīn tōhcekā tauntēs tō oet²ah², in izelkā ko cis maxtumi mer tiyen in mās ko ren suhoci onasso.`,
-				"ipa": `sʊʔˈtɔʍkaː ne tɛn ˈeʊ̯ʔsemeːn ɪn ˈɑt͜stəɽ̊kaː ˈaːnnɑɥleː ˈdaʊ̯ʔrɑs raːn paː omotɑʔˈt͜sekaː ənˈkaːʔliriː ko mɛn poˈsiːn ˈtoːʔt͜ʃekaː ˈtaʊ̯nteːs toː ˈoetɑ ɪn iˈt͜sɛɥkaː ko t͜ʃɪs ˈmɑʃtumi mɛr̥ ˈtijən ɪn maːs ko rɛn sʊʔˈot͜ʃi oˈnɑsso`,
-				"en": `Rain began that evening and her position was threatened further - but vigilantly she rowed every distance the storm took from her, and for five days she battled the sky and sea for control of her vessel.`
+				"text": `Picuhzowkā ne ten euhsem²ēn in azterkā ānnallē dauhras rān - pā omotahzekā enkāhlirī ko men posīn tōhcekā tauntēs tō oet²ah², in izelkā ko cis maxtumi mer tiyen in mās ko ren suhoci onasso.`,
+				"ipa": `pit͜ʃʊʔˈt͜sɔʍkaː ne tɛn ˈeʊ̯ʔsemeːn ɪn ˈɑt͜stəɽ̊kaː ˈaːnnɑɥleː ˈdaʊ̯ʔrɑs raːn paː omotɑʔˈt͜sekaː ənˈkaːʔliriː ko mɛn poˈsiːn ˈtoːʔt͜ʃekaː ˈtaʊ̯nteːs toː ˈoetɑ ɪn iˈt͜sɛɥkaː ko t͜ʃɪs ˈmɑʃtumi mɛr̥ ˈtijən ɪn maːs ko rɛn sʊʔˈot͜ʃi oˈnɑsso`,
+				"en": `Thunder began that evening and her position was threatened further - but vigilantly she rowed every distance the storm took from her, and for five days she battled the sky and sea for control of her vessel.`
 			},
 			{
 				"text": `Muzkā, ne ruh²cā maxtūn cismān-ciseza, tauntēs antuē in mantekā ne anturi ēquinen osuī suda in yeihlekā sū mās omotā, yeiht²ī men pīlemi nēlcekā ne tlete ōhzo.`,
