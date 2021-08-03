@@ -78,7 +78,7 @@ const DATA = [
 			},
 			{
 				"text": `Ah²nēlkā, pam²ihī ne huimu ōhsas, ēlen ko sin lomi: « tā ten maxtūn tō ersaxcekā mān-cis on. »`,
-				"ipa": `ɑʔˈneːlkaː ˈpamɪʔiː ne ˈʍimu ˈoːʔsɑs ˈeːlən ko sɪn ˈlomi taː tɛn ˈmɑʃtuːn toː ərˈsɑʃt͜ʃekaː maːn=cɪs ɔn`,
+				"ipa": `ɑʔˈneːlkaː ˈpamɪʔiː ne ˈʍimu ˈoːʔsɑs ˈeːlən ko sɪn ˈlomi taː tɛn ˈmɑʃtuːn toː ərˈsɑʃt͜ʃekaː maːn̥=cɪs ɔn`,
 				"en": `The woman thought for a moment, resting her head upon the palm of her hand: "Today is the fifteenth day since I set off."`,
 			},
 			{
