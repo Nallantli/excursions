@@ -3,6 +3,12 @@
 	src        : url(on_serwal.ttf);
 }
 
+@font-face {
+	font-family: "Serwal Godika";
+	src        : url(SerwalGodika.ttf);
+}
+
+
 body {
 	font-family     : 'IBM Plex Serif', serif;
 	margin          : 0;
@@ -47,11 +53,23 @@ p {
 	font-family: 'On Serwal';
 }
 
+.god {
+	font-family: 'Serwal Godika';
+	font-size: 34px;
+	line-height: 42px;
+	font-weight: normal !important;
+}
+
 .trn {
 	font-style    : italic;
 	color         : #444;
 	font-size     : 16px;
 	padding-bottom: 4px;
+}
+
+.init-c
+{
+	border-bottom: #14f 3px solid;
 }
 
 .line:hover>.ipa {

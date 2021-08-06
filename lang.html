@@ -17,8 +17,11 @@
 	<div id="menu">
 		<button class="menu-button" onclick="openATL()">ATL</button>
 		<button class="menu-button" onclick="openTRL()">LAT</button>
+		<button class="menu-button" onclick="openGOD()">GOD</button>
 	</div>
 	<div id="text-atl">
+	</div>
+	<div id="text-god" style="display: none;">
 	</div>
 	<div id="text-trl" style="display: none;">
 	</div>
@@ -26,10 +29,17 @@
 		function openATL() {
 			document.getElementById("text-trl").style.display = "none";
 			document.getElementById("text-atl").style.display = "block";
+			document.getElementById("text-god").style.display = "none";
 		}
 		function openTRL() {
 			document.getElementById("text-trl").style.display = "block";
 			document.getElementById("text-atl").style.display = "none";
+			document.getElementById("text-god").style.display = "none";
+		}
+		function openGOD() {
+			document.getElementById("text-trl").style.display = "none";
+			document.getElementById("text-atl").style.display = "none";
+			document.getElementById("text-god").style.display = "block";
 		}
 	</script>
 </body>

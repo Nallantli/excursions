@@ -6,7 +6,7 @@ const DATA = [
 		"lines": [
 			{
 				"text": `Sahkā ne nuhēn sildūr ē issa rat²en; ān pan²kā ne rih² tōm²en beih sarri alūn.`,
-				"ipa": `sɑʔˈkaː ne nʊʔˈeːn̥ ˈsɪlðuːr̥ eː ˈɪssa ˈratən; aːn̥ ˈpɑn̥kaː ne rɪ ˈtoːmən̥ beɪ̯ ˈsɑɽ͜ri aˈluːn̥`,
+				"ipa": `sɑʔˈkaː ne nʊʔˈeːn̥ ˈsɪlðuːr̥ eː ˈɪssa ˈratən̥ | aːn̥ ˈpɑn̥kaː ne rɪ ˈtoːmən̥ beɪ̯ ˈsɑɽ͜ri aˈluːn̥`,
 				"en": `At the beginning there was an infinite ocean; thus on the surface of the world lay only the blue of water.`
 			},
 			{
