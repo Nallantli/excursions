@@ -239,6 +239,7 @@ const DATA = [
 	{
 		"title": `Huaī Tani Tīlasta`,
 		"en": `On the Creation of Stars`,
+		"image": `huizī.png`,
 		"lines": [
 			{
 				"text": `Inkā sa passa na rān ōhnetā sū lukeli mās.`,
