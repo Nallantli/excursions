@@ -237,48 +237,53 @@ const DATA = [
 		]
 	},
 	{
-		"title": `Huaī Tani Tīlasoh`,
+		"title": `Huaī Tani Tīlasta`,
 		"en": `On the Creation of Stars`,
 		"lines": [
 			{
-				"text": `Icūrāh²kā rān ko mān-cis maxtumi ne cēn, tūrrenēlī on ko-oapulnā īt²oh².`,
-				"ipa": `iˈt͜ʃuːraːʔkaː raːn̥ ko ˈmaːn=t͜ʃɪs ˈmɑʃtumi ne t͜ʃeːn̥ tuːɽ͜reˈneːliː ɔn̥ ko=oaˈpʊlnaː ˈiːtɔ`,
-				"en": `For fifteen days' time she wandered the area, wondering how they would find each other.`
+				"text": `Inkā sa passa na rān ōhnetā sū lukeli mās.`,
+				"ipa": `ˈɪn̥kaː sa ˈpɑssa na raːn̥ ˈoːʔnetaː suː ˈlukeli maːs`,
+				"en": `She longed with all her heart to thrust herself into the safety of the sea.`
 			},
 			{
-				"text": `Tīkauhrā, īs paltekā inquē rān on opra mās.`,
-				"ipa": `ˈtiːkaʊ̯ʔraː iːs ˈpɑltekaː ˈɪn̥kʷeː raːn̥ ɔn̥ ˈɔpra maːs`,
-				"en": `She was born of the sky, and therefore did not understand the nature of the sea.`
+				"text": `Pā nomerkā tōm²en ya rān osantī ān: sahkā ne sār tōm²en obosasa sū tūrre ō samī.`,
+				"ipa": `paː noˈmɛr̥kaː ˈtoːmən̥ ʝa raːn̥ oˈsɑn̥tiː aːn̥ sɑʔˈkaː ne saːr̥ ˈtoːmən̥ oˈbosasa suː ˈtuːɽ͜re oː saˈmiː`,
+				"en": `But the world was nevertheless divided before her: below was a world into which she could never venture.`
 			},
 			{
-				"text": `Tekrī-tekrelatekā demī ne aldā maxtumi, in risalowkā ne lo maxtūn māneza īs len²nā huatān.`,
-				"ipa": `ˈtɛkriː təkreˈlatekaː deˈmiː ne ˈɑlðaː ˈmɑʃtumi ɪn̥ risaˈlɔʍkaː ne lo ˈmɑʃtuːn̥ ˈmaːnet͜sa iːs ˈlɛnnaː ʍaˈtaːn̥`,
-				"en": `The waves grew fiercer and fiercer as the days went by, and by the tenth day she began to fear that the serpent would not return.`
+				"text": `Ehkā tiyen, ne mer ouhrā in narā, nuzmelt²en ihuecceka akami ē ranas rān; sudkā inquē ne rit²en monī huatān ē issa pīlēn.`,
+				"ipa": `əʔˈkaː ˈtiʝən̥ ne mɛr̥ ˈoʊ̯ʔraː ɪn̥ naˈraː ˈnʊt͜sməltən̥ iˈwɛt͜ʃt͜ʃeka ˈakami eː ˈranɑs raːn̥ | ˈsʊt̚kaː ˈɪn̥kʷeː ne ˈritən̥ moˈniː ʍaˈtaːn̥ eː ˈɪssa ˈpiːleːn̥`,
+				"en": `The sky, both dark and clear, was the great giver that spun the threads of her body; and so she remained on the surface, awaiting the nameless serpent.`
 			},
 			{
-				"text": `Picuhzowkā ne ten euhsem²ēn in azterkā ānnallē dauhras rān - pā omotahzekā enkāhlirī ko men posīn tōhcekā tauntēs tō oet²ah², in izelkā ko cis maxtumi mer tiyen in mās ko ren suhoci onasso.`,
-				"ipa": `pit͜ʃʊʔˈt͜sɔʍkaː ne tɛn̥ ˈeʊ̯ʔsemeːn̥ ɪn̥ ˈɑt͜stər̥kaː ˈaːnnɑlleː ˈdaʊ̯ʔrɑs raːn̥ paː omotɑʔˈt͜sekaː ənˈkaːʔliriː ko mɛn̥ poˈsiːn̥ ˈtoːʔt͜ʃekaː ˈtaʊ̯n̥teːs toː ˈoetɑ ɪn̥ iˈt͜sɛlkaː ko t͜ʃɪs ˈmɑʃtumi mɛr̥ ˈtiʝən̥ ɪn̥ maːs ko rɛn̥ sʊʔˈot͜ʃi oˈnɑsso`,
-				"en": `Thunder began that evening and her position was threatened further - but vigilantly she rowed every distance the storm took from her, and for five days she battled the sky and sea for control of her vessel.`
+				"text": `Openkā rān alūn ensa tō tiyen, in lequekā millē pal pakōr muzreka sū marrā betaus rān.`,
+				"ipa": `oˈpɛn̥kaː raːn̥ aˈluːn̥ ˈɛn̥sa toː ˈtiʝən̥ ɪn̥ ˈlekʷekaː ˈmɪlleː pɑl paˈkoːr̥ ˈmʊt͜sreka suː ˈmɑɽ͜raː beˈtaʊ̯s raːn̥`,
+				"en": `The water that fell from the sky comforted her, and washed away the taste of salt blown onto the edges of her lips.`
 			},
 			{
-				"text": `Muzkā, ne ruh²cā maxtūn cismān-ciseza, tauntēs antuē in mantekā ne anturi ēquinen osuī suda in yeihlekā sū mās omotā, yeiht²ī men pīlemi nēlcekā ne tlete ōhzo.`,
-				"ipa": `ˈmʊt͜skaː ne rʊʔˈt͜ʃaː ˈmɑʃtuːn̥ ˈtʃɪsmaːn=ˈt͜ʃiset͜sa ˈtaʊ̯n̥teːs ɪn̥ ˈmɑn̥tekaː ne ˈɑn̥turi ˈeːkʷinən̥ ˈosu̯iː ˈsuða ɪn̥ ˈʝeɪ̯ʔlekaː suː maːs ˈomotaː ˈʝeɪ̯ʔtiː mɛn̥ ˈpiːlemi ˈneːlt͜ʃekaː ne ˈt͜ɬete ˈoːʔt͜so`,
-				"en": `When the fifteenth day had come, the storm still blew and by nightfall she lost her remaining hope and threw her oars to the sea, calling out every name she had thought of in her isolation.`
+				"text": `Sisudkā tītō ko tōlin lomi osaxā sinborsū rān, pā ikuhtehzekā on tauntēs sisni tekra in picūn risalema.`,
+				"ipa": `siˈsʊd̚kaː ˈtiːtoː ko ˈtoːlin̥ ˈlomi ˈosaʃaː ˈsɪmbɔr̥suː raːn̥ paː ikʊʔtəʔˈt͜sekaː ɔn̥ ˈtaʊ̯n̥teːs ˈsɪsni ˈtɛkra ɪn̥ piˈt͜ʃuːn̥ riˈsalema`,
+				"en": `For a time, she would continue to move westward, but the storm nourished fierce waves and ominous thunder.`
 			},
 			{
-				"text": `Suhockā tahuīn rān. Illekā nous rān in ensekā razī alsī kahuēs meyyam²a ranās rān.`,
-				"ipa": `sʊʔˈɔt͜ʃkaː taˈʋiːn̥ raːn̥ | ˈɪllekaː noʊ̯s raːn̥ ɪn̥ ˈɛn̥sekaː raˈt͜siː ˈɑlsiː kaˈʋeːs ˈmɛjjama raˈnaːs raːn̥`,
-				"en": `Weariness possessed her. Her eyes closed and her body fell hard against the wooden nave.`
+				"text": `Calsaxkā pīlemi asrem²a masbolī ōcca rān, in euhsehzekā nassōn laīt²a rān ko xumi nozkā tahui icūrāh² tohpa rān`,
+				"ipa": `ˈt͜ʃɑlsɑʃkaː ˈpiːlemi ˈɑsrema ˈmɑsboliː ˈoːt͜ʃt͜ʃa raːn̥ ɪn̥ eʊ̯ʔsəʔˈt͜sekaː ˈnɑssoːn̥ laˈiːta raːn̥ ko ˈʃumi ˈnɔt͜skaː ˈtawi iˈt͜ʃuːraː tɔʔˈpa raːn̥`,
+				"en": `Possible names crossed her mind as she drifted, and the swaying boat seduced her into acknowledging the fatigue of her long journey.`
 			},
 			{
-				"text": `Mah²kā huizī rān antuē imuhzus maxtumi, pā boquekā nēlen² rān, in itueraskā entē rō nuza nelen beih rōcyē ne lamar tōm²en.`,
-				"ipa": `mɑʔˈkaː ʍiˈt͜siː raːn̥ ˈɑn̥tu̯eː ˈimʊʔt͜sʊs ˈmɑʃtumi paː ˈbokʷekaː ˈneːlən̥ raːn̥ ɪn̥ itu̯eˈrɑskaː ɛn̥teː roː ˈnut͜sa ˈnelən̥ beɪ̯ ˈroːt͜ʃjeː ne ˈlamɑr̥ ˈtoːmən̥`,
-				"en": `In her sleep she still tried to count the days, but her consciousness was weak, and for the great light of the sun she could only dream of specks in the ceiling of the world.`
+				"text": `Illekā nous rān in ensekā alsī kahuēs meyyam²a ranās rān.`,
+				"ipa": `ˈɪllekaː noʊ̯s raːn̥ ɪn̥ ˈɛn̥sekaː ˈɑlsiː kaˈʋeːs ˈmɛjjama raˈnaːs raːn̥`,
+				"en": `Her eyes closed and her body fell against the wooden nave.`
 			},
 			{
-				"text": `Aihrekā sū tleti ilikā meih on tiyen ehpori rān, in oen²reykā tuerē rān ne namur ōcca rān - kanteyrelatekā ne tiyen mumi ē rōen.`,
-				"ipa": `ˈaɪ̯ʔrekaː suː ˈt͜ɬeti ˈilikaː meɪ̯ ɔn̥ ˈtiʝən̥ əʔˈpori raːn̥ ɪn̥ oˈɛnrəjkaː ˈtu̯ereː raːn̥ ne ˈnamʊr̥ ˈoːt͜ʃt͜ʃa raːn̥ ˌkɑn̥təjreˈlatekaː ne ˈtiʝən̥ ˈmumi eː ˈroːən̥`,
-				"en": `Her sorrow was heavy enough to be felt by the sky itself, and her dreams projected themselves from beyond her mind - and the sky became riddled with points of light.`
+				"text": `Mah²kā huizī rān imuhzus maxtumi, pā boquekā nēlen² rān, in itueraskā entē rō nuza nelen beih rōcyē ne lamar tōm²en.`,
+				"ipa": `mɑʔˈkaː ʍiˈt͜siː raːn̥ ˈimʊʔt͜sʊs ˈmɑʃtumi paː ˈbokʷekaː ˈneːlən̥ raːn̥ ɪn̥ itu̯eˈrɑskaː ɛn̥teː roː ˈnut͜sa ˈnelən̥ beɪ̯ ˈroːt͜ʃjeː ne ˈlamɑr̥ ˈtoːmən̥`,
+				"en": `In her sleep she tried to count the days, but her consciousness was weak, and for the great light of the sun she could only dream of specks in the ceiling of the world.`
+			},
+			{
+				"text": `Kauhrekā rān tī emo tineza tiyen, in oen²reykā tuerē rān ne namur ōcca rān - kanteyrelatekā ne tiyen mumi ē rōen.`,
+				"ipa": `ˈkaʊʔrekaː raːn tiː ˈemo ˈtinet͜sa ˈtiʝən̥ ɪn̥ oˈɛnrəjkaː ˈtu̯ereː raːn̥ ne ˈnamʊr̥ ˈoːt͜ʃt͜ʃa raːn̥ ˌkɑn̥təjreˈlatekaː ne ˈtiʝən̥ ˈmumi eː ˈroːən̥`,
+				"en": `She had been born as the first daughter of the sky, and her dreams projected themselves from beyond her mind - and the sky became riddled with points of light.`
 			},
 			{
 				"text": `Pan²yerkā oskalī tuerē rān ya tōm²en, in - ne men lo anturkā nelen in icālihaskā rōm²i on - ron²latā mumi lihna ē rōen yen²kā rān ne ohōcca sū tleti isoliquaskā ko cuzēn passa mās.`,
@@ -286,8 +291,8 @@ const DATA = [
 				"en": `Her dreams were laid bare to the world, and whenever the sun descended and its brightness would not overtake them - the small specks of light that she saw in her mind would become bright enough that the whole sea would reflect them back.`
 			},
 			{
-				"text": `Oneh²kā ko muhze sudā huizī in ah²monī rān ānnallē ōcca rān rōen sū tiyē.`,
-				"ipa": `ˈonəʔkaː ko mʊʔˈt͜se suˈðaː ʍiˈt͜siː ɪn̥ ɑʔˈmoniː raːn̥ ˈaːnnɑlleː ˈoːt͜ʃt͜ʃa raːn̥ ˈroːən̥ suː tiˈʝeː`,
+				"text": `Oneh²kā ko muhze men maxtumi ne-suda huizī in ah²monī rān ānnallē ōcca rān rōen sū tiyē.`,
+				"ipa": `ˈonəʔkaː ko mʊʔˈt͜se mɛn̥ ˈmɑʃtumi ˈne=suðaː ʍiˈt͜siː ɪn̥ ɑʔˈmoniː raːn̥ ˈaːnnɑlleː ˈoːt͜ʃt͜ʃa raːn̥ ˈroːən̥ suː tiˈʝeː`,
 				"en": `For every day that she remained asleep and waiting her mind thrust more light into the heavens.`
 			}
 		]
