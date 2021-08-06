@@ -1,7 +1,7 @@
 const DATA = [
 	{
-		"title": "Tōn²tanīn",
-		"en": "Genesis",
+		"title": "Maxtā Tlikān ne Tōmen Norda",
+		"en": "Time Turns upon an Empty World",
 		"image": `nuhēn.png`,
 		"lines": [
 			{
