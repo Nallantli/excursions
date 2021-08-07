@@ -278,7 +278,7 @@ const DATA = [
 			},
 			{
 				"text": `Mah²kā huizī rān imuhzus maxtumi, pā boquekā nēlen² rān, in itueraskā entē rō nuza nelen beih rōcyē ne lamar tōm²en.`,
-				"ipa": `mɑʔˈkaː ʍiˈt͜siː raːn̥ ˈimʊʔt͜sʊs ˈmɑʃtumi paː ˈbokʷekaː ˈneːlən̥ raːn̥ ɪn̥ itu̯eˈrɑskaː ɛn̥teː roː ˈnut͜sa ˈnelən̥ beɪ̯ ˈroːt͜ʃjeː ne ˈlamɑr̥ ˈtoːmən̥`,
+				"ipa": `mɑʔˈkaː ʍiˈt͜siː raːn̥ ˈimʊʔt͜sʊs ˈmɑʃtumi paː ˈbokʷekaː ˈneːlən̥ raːn̥ ɪn̥ itu̯eˈrɑskaː ˈɛn̥teː roː ˈnut͜sa ˈnelən̥ beɪ̯ ˈroːt͜ʃjeː ne ˈlamɑr̥ ˈtoːmən̥`,
 				"en": `In her sleep she tried to count the days, but her consciousness was weak, and for the great light of the sun she could only dream of specks in the ceiling of the world.`
 			},
 			{
@@ -288,7 +288,7 @@ const DATA = [
 			},
 			{
 				"text": `Pan²yerkā oskalī tuerē rān ya tōm²en, in - ne men lo anturkā nelen in icālihaskā rōm²i on - ron²latā mumi lihna ē rōen yen²kā rān ne ohōcca sū tleti isoliquaskā ko cuzēn passa mās.`,
-				"ipa": `ˈpɑnjərkaː ˈɔskaliː ˈtu̯ereː raːn̥ ʝa ˈtoːmən̥ ɪn̥ ne mɛn̥ lo ˈɑn̥tʊrkaː ˈnelən̥ ɪn̥ ˌit͜ʃaːlɪʔˈɑskaː ˈroːmi ɔn̥ ˈrɔnlataː ˈmumi lɪʔˈna eː roːən̥ ˈʝɛn̥kaː raːn̥ ne ɔʔˈoːt͜ʃt͜ʃa suː ˈt͜ɬeti isoliˈkʷɑskaː ko t͜ʃuˈt͜seːn̥ ˈpɑssa maːs`,
+				"ipa": `ˈpɑnjərkaː ˈɔskaliː ˈtu̯ereː raːn̥ ʝa ˈtoːmən̥ ɪn̥ ne mɛn̥ lo ˈɑn̥tʊrkaː ˈnelən̥ ɪn̥ ˌit͜ʃaːlɪʔˈɑskaː ˈroːmi ɔn̥ ˈrɔnlataː ˈmumi lɪʔˈna eː roːən̥ ˈʝɛn̥kaː raːn̥ ne ɔʔˈoːt͜ʃt͜ʃa suː ˈt͜ɬeti ˌisoliˈkʷɑskaː ko t͜ʃuˈt͜seːn̥ ˈpɑssa maːs`,
 				"en": `Her dreams were laid bare to the world, and whenever the sun descended and its brightness would not overtake them - the small specks of light that she saw in her mind would become bright enough that the whole sea would reflect them back.`
 			},
 			{
