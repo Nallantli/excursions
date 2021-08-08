@@ -169,7 +169,7 @@ const DATA = [
 				"en": `The serpent circled the boat once more as the deluge began to renew itself.`
 			},
 			{
-				"text": `Kum²utecem²ā sisni sū tleti īs sudasā set²ah² ne ticēn ne rit²en.`,
+				"text": `« Kum²utecem²ā sisni sū tleti īs sudasā set²ah² ne ticēn ne rit²en.`,
 				"ipa": `kumuˈtet͜ʃemaː ˈsɪsni suː ˈt͜ɬeti iːs ˈsuðasaː ˈsetɑ ne tiˈt͜ʃeːn̥ ne ˈritən̥`,
 				"en": `"The waves will soon be too violent for me to remain here at the surface.`
 			},
