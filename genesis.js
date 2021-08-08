@@ -175,7 +175,7 @@ const DATA = [
 			},
 			{
 				"text": `Serhueyuī lasoxni sū oet²oh² sicē, » sisudkā alen, « nā calmelā ya oet²oh² tī rinsomi aspīlē. »`,
-				"ipa": `ˈsɛɹweʝuiː laˈsɔʃni suː ˈoetɔ siˈt͜ʃeː siˈsʊt̚kaː ˈalən̥ naː ˈt͜ʃɑlmelaː ʝa ˈoetɔ tiː ˈrɪn̥somi ɑsˈpiːleː`,
+				"ipa": `səɹˈweʝuiː laˈsɔʃni suː ˈoetɔ siˈt͜ʃeː siˈsʊt̚kaː ˈalən̥ naː ˈt͜ʃɑlmelaː ʝa ˈoetɔ tiː ˈrɪn̥somi ɑsˈpiːleː`,
 				"en": `If the tides ebb us towards one-another again," he continued, "let us exchange our names as friends."`
 			}
 		]
