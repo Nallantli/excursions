@@ -210,8 +210,8 @@ const DATA = [
 				"en": `and those that watch from above the surface of the ocean will fear that the sand below will cover the little stone and it will be laid to rest.`
 			},
 			{
-				"text": `Xā paquē rih² quora ten alumi īs at²em²asā īt²oh²; Yen²cā set²ah² saxē on tūrrēn, icūrāt²ē masbollauhme, in izecyē, meihquē pobū lihna cōlī kelān.`,
-				"ipa": `ʃaː paˈkʷeː rɪ ˈkʷora tɛn̥ ˈalumi iːs aˈtemasaː ˈiːtɔ | ˈʝɛn̥t͜ʃaː ˈsetɑ saˈʃeː ɔn̥ ˈtuːɽ͜reːn̥ iˈt͜ʃuːraːteː mɑsbɔlˈlaʊ̯ʔme ɪn̥ iˈt͜sɛt͜ʃjeː ˈmeɪ̯ʔkʷeː poˈbuː lɪʔˈna ˈt͜ʃoːliː keˈlaːn̥`,
+				"text": `Xā paquē rih² quora ten alumi īs at²em²asā īt²oh²; Yen²cā set²ah² saxē on tūrrēn, icūrāt²ē masbollauhme, in izecya, meihquē pobū lihna cōlī kelān.`,
+				"ipa": `ʃaː paˈkʷeː rɪ ˈkʷora tɛn̥ ˈalumi iːs aˈtemasaː ˈiːtɔ | ˈʝɛn̥t͜ʃaː ˈsetɑ saˈʃeː ɔn̥ ˈtuːɽ͜reːn̥ iˈt͜ʃuːraːteː mɑsbɔlˈlaʊ̯ʔme ɪn̥ iˈt͜sɛt͜ʃja ˈmeɪ̯ʔkʷeː poˈbuː lɪʔˈna ˈt͜ʃoːliː keˈlaːn̥`,
 				"en": `But the murky surface of these waters blinds them; I have seen the movements of the deep, the journeys of seashells, pebbles, and even the smallest grains of sand.`
 			},
 			{
@@ -277,8 +277,8 @@ const DATA = [
 				"en": `Her eyes closed and her body fell against the wooden nave.`
 			},
 			{
-				"text": `Mah²kā huizī rān imuhzus maxtumi, pā boquekā nēlen² rān, in itueraskā entē rō nuza nelen beih rōcyē ne lamar tōm²en.`,
-				"ipa": `mɑʔˈkaː ʍiˈt͜siː raːn̥ ˈimʊʔt͜sʊs ˈmɑʃtumi paː ˈbokʷekaː ˈneːlən̥ raːn̥ ɪn̥ itu̯eˈrɑskaː ˈɛn̥teː roː ˈnut͜sa ˈnelən̥ beɪ̯ ˈroːt͜ʃjeː ne ˈlamɑr̥ ˈtoːmən̥`,
+				"text": `Mah²kā huizī rān imuhzus maxtumi, pā boquekā nēlen² rān, in itueraskā entē rō nuza nelen beih rōcya ne lamar tōm²en.`,
+				"ipa": `mɑʔˈkaː ʍiˈt͜siː raːn̥ ˈimʊʔt͜sʊs ˈmɑʃtumi paː ˈbokʷekaː ˈneːlən̥ raːn̥ ɪn̥ itu̯eˈrɑskaː ˈɛn̥teː roː ˈnut͜sa ˈnelən̥ beɪ̯ ˈroːt͜ʃja ne ˈlamɑr̥ ˈtoːmən̥`,
 				"en": `In her sleep she tried to count the days, but her consciousness was weak, and for the great light of the sun she could only dream of specks in the ceiling of the world.`
 			},
 			{
