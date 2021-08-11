@@ -1,0 +1,112 @@
+body {
+	font-family     : 'IBM Plex Serif', serif;
+	margin          : 0;
+	padding         : 0;
+	background-color: #eee;
+	color           : #000;
+	line-height     : 1.5em;
+}
+
+/* hide scrollbar but allow scrolling */
+.line-ex {
+	-ms-overflow-style: none;
+	/* for Internet Explorer, Edge */
+	scrollbar-width   : none;
+	/* for Firefox */
+	overflow-y        : scroll;
+}
+
+.line-ex::-webkit-scrollbar {
+	display: none;
+	/* for Chrome, Safari, and Opera */
+}
+
+.line {
+	position     : relative;
+	font-size    : 18px;
+	margin-bottom: 20px;
+	overflow     : visible;
+}
+
+.unit-block {
+	display: inline-block;
+	padding: 5px;
+}
+
+.small-caps {
+	font-variant         : small-caps;
+	font-style           : normal;
+	position             : relative;
+	display              : inline-block;
+	text-decoration      : underline dotted;
+	text-decoration-color: #ccc;
+	text-underline-offset: 2px;
+	transition           : all 0.1s ease-in-out;
+}
+
+.small-caps:hover {
+	text-decoration-color: #0af;
+}
+
+.line-ex {
+	max-height      : 0;
+	transition      : all 0.5s ease-in-out;
+	color           : #fff;
+	background-color: #333;
+	padding         : 0;
+	padding-left    : 15px;
+	padding-right   : 15px;
+	margin          : 0;
+	margin-left     : 10px;
+	margin-right    : 10px;
+	font-size       : 14px;
+}
+
+.line:hover .line-ex {
+	max-height: 10em;
+	padding   : 15px;
+	margin    : 10px;
+}
+
+.hover {
+	visibility      : hidden;
+	opacity         : 0;
+	font-variant    : normal;
+	position        : absolute;
+	background-color: #fff;
+	padding         : 5px;
+	border          : 1px solid #000;
+	white-space     : nowrap;
+	z-index         : 999;
+	transition      : all 0.1s ease-in-out;
+}
+
+.small-caps:hover .hover {
+	visibility: visible;
+	opacity   : 1;
+}
+
+.line-en {
+	font-style: italic;
+	display   : block;
+}
+
+.tabulate {
+	margin-left: 20px;
+	font-size  : 14px;
+}
+
+tr,
+td,
+table {
+	margin : 0;
+	padding: 0;
+}
+
+.content {
+	max-width    : 600px;
+	margin       : auto;
+	padding      : 5px;
+	margin-top   : 25px;
+	margin-bottom: 25px;
+}
