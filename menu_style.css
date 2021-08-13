@@ -1,0 +1,19 @@
+#menu {
+	position: fixed;
+}
+
+.menu-button {
+	font-family     : monospace;
+	display         : block;
+	border          : 1px solid black;
+	border-radius   : 0;
+	padding         : 5px;
+	margin          : 5px;
+	background-color: white;
+	transition      : all 0.1s ease-in-out;
+}
+
+.menu-button:hover, .menu-button-active {
+	background-color: #14f;
+	color           : white;
+}

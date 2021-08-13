@@ -1,38 +1,55 @@
+function transliterate(s) {
+	return s
+		.replace(/qu/g, "q")
+		.replace(/Qu/g, "Q")
+		.replace(/hu/g, "w")
+		.replace(/Hu/g, "W")
+		.replace(/tl/g, 'j')
+		.replace(/Tl/g, 'J');
+}
+
 const gloss_keys = {
-	"loc": "Locative Particle",
-	"posd": "Possessive Case",
-	"sg": "Singular",
-	"pl": "Plural",
-	"absl": "Absolute Case",
-	"rel": "Relative Pronoun",
-	"3sg": "Third Person Singular",
-	"t": "Thematic Pronoun",
-	"prf": "Perfect",
-	"pass": "Passive",
-	"prs": "Present",
-	"ind": "Indicative",
-	"qual": "Adjective of Quality",
-	"adv": "Adverbial",
-	"nmz": "Nominalizer",
-	"subr": "Subordinator",
-	"attr": "Attributive",
-	"cop": "Copula",
-	"exclam": "Exclamation",
-	"neg": "Negation",
-	"pot": "Potential",
-	"instr": "Instrumental Particle",
-	"dat": "Dative Particle",
-	"hyp": "Hypothetical",
-	"3pl": "Third Person Plural",
 	"1sg": "First Person Singular",
-	"abstr": "Abstract Nominalizer",
-	"caus": "Causative",
-	"all": "Allative Particle",
-	"act": "Actor of a Passive Clause Particle",
+	"2sg": "Second Person Singular",
+	"3pl": "Third Person Plural",
+	"3sg": "Third Person Singular",
 	"ab": "Abessive Negation of Habitual Verbs",
+	"absl": "Absolute Case",
+	"abstr": "Abstract Nominalizer",
+	"act": "Actor of a Passive Clause Particle",
+	"adv": "Adverbial",
+	"agt": "Agent",
+	"all": "Allative Particle",
+	"attr": "Attributive",
+	"caus": "Causative",
+	"cond": "Conditional",
+	"cop": "Copula",
+	"dat": "Dative Particle",
+	"exclam": "Exclamation",
+	"fut": "Future",
 	"hab": "Habitual",
+	"hyp": "Hypothetical",
+	"ind": "Indicative",
+	"instr": "Instrumental Particle",
+	"loc": "Locative Particle",
+	"neg": "Negation",
+	"nmz": "Nominalizer",
 	"ntr": "Intransitivizer",
-	"2sg": "Second Person Singular"
+	"pass": "Passive",
+	"pl": "Plural",
+	"posd": "Possessive Case",
+	"pot": "Potential",
+	"prf": "Perfect",
+	"proper name": "Proper Name, e.g. of a person",
+	"prs": "Present",
+	"pst": "Past",
+	"q": "Question",
+	"qual": "Adjective of Quality",
+	"refl": "Reflexive",
+	"rel": "Relative Pronoun",
+	"sg": "Singular",
+	"subr": "Subordinator",
+	"t": "Thematic Pronoun",
 };
 
 function resolveKey(key) {
@@ -42,12 +59,22 @@ function resolveKey(key) {
 	return gloss_keys[key];
 }
 
-function parseGloss(g) {
+function parseGloss(g, link) {
 	let s = `<div class="line">`;
-	s += `<div class="line-at">${g["at"].replace(/²/g, "")}</div><div class="tabulate">`;
+	if (link) {
+		s += `<a class="gloss-link" href="#${link}" id="${link}">#${link}</a>`;
+	}
+	s += `<div class="line-at">`;
+	s += `<span class="text-lat">${g["at"].replace(/²/g, "")}</span>`;
+	s += `<span style="display: none;" class="text-atl">${transliterate(g["at"].replace(/²/g, ""))}</span>`;
+	s += `<span style="display: none;" class="text-god">${transliterate(g["at"].replace(/²/g, ""))}</span>`;
+	s += `</div><div class="tabulate">`;
+	if (g["ipa"]) {
+		s += `<div class="ipa">[${g["ipa"]}]</div>`;
+	}
 	g["units"].forEach(u => {
 		s += `<table class="unit-block">`;
-		s += `<tr class="unit-atlat"><td>${u["atlat"].replace(/²/g, "")}</td></tr>`;
+		s += `<tr class="unit-atlat"><td>${u["atlat"].replace(/²/g, "").replace(/\Ø/g, "∅")}</td></tr>`;
 		s += `<tr class="unit-gloss"><td>`;
 		let gloss = u["gloss"];
 		if (gloss.search(/\{(.+?)\}/) == -1) {
@@ -69,7 +96,6 @@ function parseGloss(g) {
 			s += gloss;
 		}
 		s += `</td></tr>`;
-		// s += `<tr class="unit-gloss"><td>${u["gloss"].replace(/\{(.+?)\}/g, `<span class="small-caps">$1<div class="hover">document.write(parseKey("$1"))</div></span>`)}</td></tr>`;
 		s += `</table>`;
 	});
 	s += `<div class="line-en">${g["en"]}</div></div>`;

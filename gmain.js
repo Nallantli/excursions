@@ -1,4 +1,3 @@
-
 function transliterate(s) {
 	return s
 		.replace(/qu/g, "q")

@@ -110,3 +110,24 @@ table {
 	margin-top   : 25px;
 	margin-bottom: 25px;
 }
+
+.gloss-link {
+	text-decoration: none;
+	font-size      : 14px;
+	color          : #999;
+	transition     : all 0.1s ease-in-out;
+}
+
+.gloss-link:hover {
+	color: #0af;
+}
+
+.ipa {
+	font-family: 'Iosevka', monospace;
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+.text-god {
+	font-size: 28px;
+}

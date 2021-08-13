@@ -1,0 +1,21 @@
+@font-face {
+	font-family: "On Serwal";
+	src        : url(on_serwal.ttf);
+}
+
+@font-face {
+	font-family: "Serwal Godika";
+	src        : url(SerwalGodika.ttf);
+}
+
+.text-atl {
+	font-family: 'On Serwal';
+}
+
+.text-god {
+	font-family: 'Serwal Godika';
+}
+
+.text-lat {
+	font-family: 'IBM Plex Serif', sans-serif;
+}
