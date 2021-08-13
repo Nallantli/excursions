@@ -7,8 +7,8 @@ const LINE_1_1 = {
 			"gloss": `{loc}`
 		},
 		{
-			"atlat": `∅-touhl-ec-∅-ā`,
-			"gloss": `{3sg.t}-burn-{prf}-{prs}-{ind}`
+			"atlat": `∅-touhl-ec-ā`,
+			"gloss": `{3sg.t}-burn-{prf}-{npst.ind}`
 		},
 		{
 			"atlat": `nel-en`,
@@ -19,8 +19,8 @@ const LINE_1_1 = {
 			"gloss": `day-{absl.sg}`
 		},
 		{
-			"atlat": `ald-∅-a`,
-			"gloss": `fade-{prs}-{attr}`
+			"atlat": `ald-a`,
+			"gloss": `fade-{npst.attr}`
 		}
 	]
 };
@@ -38,16 +38,16 @@ const LINE_1_2 = {
 			"gloss": `behind⟨{posd.sg}⟩`
 		},
 		{
-			"atlat": `maxt-ec-r-∅-ā`,
-			"gloss": `turn-{prf}-{pass}-{prs}-{ind}`
+			"atlat": `maxt-ec-r-ā`,
+			"gloss": `turn-{prf}-{pass}-{npst.ind}`
 		},
 		{
 			"atlat": `in`,
 			"gloss": `and`
 		},
 		{
-			"atlat": `maxt-ec-r-∅-ā`,
-			"gloss": `turn-{prf}-{pass}-{prs}-{ind}`
+			"atlat": `maxt-ec-r-ā`,
+			"gloss": `turn-{prf}-{pass}-{npst.ind}`
 		}
 	]
 };
@@ -61,8 +61,8 @@ const LINE_1_3 = {
 			"gloss": `{loc}`
 		},
 		{
-			"atlat": `pam²-∅-ā`,
-			"gloss": `lie_down-{prs}-{ind}`
+			"atlat": `pam²-ā`,
+			"gloss": `lie_down-{npst.ind}`
 		},
 		{
 			"atlat": `serihku-m²-ī`,
@@ -95,8 +95,8 @@ const LINE_1_4 = {
 			"gloss": `{subr.pl}`
 		},
 		{
-			"atlat": `kem²-∅-a`,
-			"gloss": `be_fortunate-{prs}-{attr}`
+			"atlat": `kem²-a`,
+			"gloss": `be_fortunate-{npst.attr}`
 		},
 		{
 			"atlat": `demī`,
@@ -110,12 +110,12 @@ const LINE_2_1 = {
 	"ex": `The subordinator <i>on/ami ta</i> can be used as an emphatic definite article by extension of 'that which is ...' In conversational and general speech, the <i>ta</i> is often omitted entirely, which has lead to the re-analysis of <i>on/ami</i> alone as definite articles.`,
 	"units": [
 		{
-			"atlat": `tap-∅-ā`,
-			"gloss": `be_necessary-{prs}-{ind}`
+			"atlat": `tap-ā`,
+			"gloss": `be_necessary-{npst.ind}`
 		},
 		{
-			"atlat": `tahu-∅-ā`,
-			"gloss": `be_weary-{prs}-{ind}`
+			"atlat": `tahu-ā`,
+			"gloss": `be_weary-{npst.ind}`
 		},
 		{
 			"atlat": `on`,
@@ -123,7 +123,7 @@ const LINE_2_1 = {
 		},
 		{
 			"atlat": `t²-a`,
-			"gloss": `{cop}-{prs.attr}`,
+			"gloss": `{cop}-{npst.attr}`,
 		},
 		{
 			"atlat": `rana⟨:⟩s`,
@@ -136,12 +136,12 @@ const LINE_2_2 = {
 	"en": `the eyes need be heavy;`,
 	"units": [
 		{
-			"atlat": `tap-∅-ā`,
-			"gloss": `be_necessary-{prs}-{ind}`
+			"atlat": `tap-ā`,
+			"gloss": `be_necessary-{npst.ind}`
 		},
 		{
-			"atlat": `aihr-∅-ā`,
-			"gloss": `be_heavy-{prs}-{ind}`
+			"atlat": `aihr-ā`,
+			"gloss": `be_heavy-{npst.ind}`
 		},
 		{
 			"atlat": `ami`,
@@ -149,7 +149,7 @@ const LINE_2_2 = {
 		},
 		{
 			"atlat": `t²-a`,
-			"gloss": `{cop}-{prs.attr}`
+			"gloss": `{cop}-{npst.attr}`
 		},
 		{
 			"atlat": `nos-ni`,
@@ -166,8 +166,8 @@ const LINE_2_3 = {
 			"gloss": `{neg}`
 		},
 		{
-			"atlat": `i-tuer-as-∅-ā`,
-			"gloss": `{3pl.t}-dream-{pot}-{prs}-{ind}`
+			"atlat": `i-tuer-as-ā`,
+			"gloss": `{3pl.t}-dream-{pot}-{npst.ind}`
 		},
 		{
 			"atlat": `set²ah²`,
@@ -201,7 +201,7 @@ const LINE_2_4 = {
 		},
 		{
 			"atlat": `serihku-m²-a`,
-			"gloss": `silk-{qual}-{attr}`
+			"gloss": `silk-{qual}-{npst.attr}`
 		}
 	]
 };
@@ -246,7 +246,7 @@ const LINE_4_1 = {
 		},
 		{
 			"atlat": `t²-a`,
-			"gloss": `{cop}-{prs.attr}`
+			"gloss": `{cop}-{npst.attr}`
 		},
 		{
 			"atlat": `ne`,
@@ -272,8 +272,8 @@ const LINE_4_2 = {
 			"gloss": `lip-{absl.pl}`
 		},
 		{
-			"atlat": `∅-aken-∅-a`,
-			"gloss": `{3sg.t}-escape_from-{prs}-{attr}`
+			"atlat": `∅-aken-a`,
+			"gloss": `{3sg.t}-escape_from-{npst.attr}`
 		},
 		{
 			"atlat": `tok-i+num²-en`,
@@ -286,8 +286,8 @@ const LINE_4_3 = {
 	"en": `I ask if`,
 	"units": [
 		{
-			"atlat": `∅-behu-∅-ā`,
-			"gloss": `{3sg.t}-ask-{prs}-{ind}`
+			"atlat": `∅-behu-ā`,
+			"gloss": `{3sg.t}-ask-{npst.ind}`
 		},
 		{
 			"atlat": `set²ah²`,
@@ -304,8 +304,8 @@ const LINE_4_4 = {
 	"en": `these would permit me sleep.`,
 	"units": [
 		{
-			"atlat": `∅-asz-∅-ā`,
-			"gloss": `{3sg.t}-permit-{prs}-{ind}`
+			"atlat": `∅-asz-ā`,
+			"gloss": `{3sg.t}-permit-{npst.ind}`
 		},
 		{
 			"atlat": `tī-ē`,
@@ -320,8 +320,8 @@ const LINE_4_4 = {
 			"gloss": `{1sg}`
 		},
 		{
-			"atlat": `huiz-∅-ā`,
-			"gloss": `sleep-{prs}-{ind}`
+			"atlat": `huiz-ā`,
+			"gloss": `sleep-{npst.ind}`
 		}
 	]
 };
@@ -339,8 +339,8 @@ const LINE_5_1 = {
 			"gloss": `{cop}-{hyp}`
 		},
 		{
-			"atlat": `se-suhoc-∅-ā`,
-			"gloss": `{1sg.t}-possess-{prs}-{ind}`
+			"atlat": `se-suhoc-ā`,
+			"gloss": `{1sg.t}-possess-{npst.ind}`
 		},
 		{
 			"atlat": `huiz-e-:n`,
@@ -357,8 +357,8 @@ const LINE_5_2 = {
 			"gloss": `like_this`
 		},
 		{
-			"atlat": `annu-n²-y-er-∅-ā`,
-			"gloss": `gold.metal-{qual}-{caus}-{pass}-{prs}-{ind}`
+			"atlat": `annu-n²-y-er-ā`,
+			"gloss": `gold.metal-{qual}-{caus}-{pass}-{npst.ind}`
 		},
 		{
 			"atlat": `se-tuer-e-mi`,
@@ -380,8 +380,8 @@ const LINE_5_3 = {
 			"gloss": `extend-{abstr}-{posd.sg}`
 		},
 		{
-			"atlat": `∅-sūl-∅-ā`,
-			"gloss": `{3sg.t}-believe-{prs}-{ind}`
+			"atlat": `∅-sūl-ā`,
+			"gloss": `{3sg.t}-believe-{npst.ind}`
 		},
 		{
 			"atlat": `ōde⟨:⟩s`,
@@ -394,8 +394,8 @@ const LINE_5_4 = {
 	"en": `it had lost the stars' loyalty.`,
 	"units": [
 		{
-			"atlat": `∅-mant-ec-∅-ā`,
-			"gloss": `{3sg.t}-lose-{prf}-{prs}-{ind}`
+			"atlat": `∅-mant-ec-ā`,
+			"gloss": `{3sg.t}-lose-{prf}-{npst.ind}`
 		},
 		{
 			"atlat": `āqu-e-∅`,
@@ -442,8 +442,8 @@ const LINE_7_1 = {
 	"en": `No dreams are born`,
 	"units": [
 		{
-			"atlat": `kauh-r-∅-ā`,
-			"gloss": `bare-{pass}-{prs}-{ind}`
+			"atlat": `kauh-r-ā`,
+			"gloss": `bare-{pass}-{npst.ind}`
 		},
 		{
 			"atlat": `dis`,
@@ -469,8 +469,8 @@ const LINE_7_2 = {
 			"gloss": `night-{absl.pl}`
 		},
 		{
-			"atlat": `la-huiz-ess-∅-a`,
-			"gloss": `{ab}-sleep-{hab}-{prs}-{attr}`
+			"atlat": `la-huiz-ess-a`,
+			"gloss": `{ab}-sleep-{hab}-{npst.attr}`
 		}
 	]
 };
@@ -492,8 +492,8 @@ const LINE_7_3 = {
 			"gloss": `{subr.sg}`
 		},
 		{
-			"atlat": `ko=huiz-ohu-∅-ā`,
-			"gloss": `{instr}=sleep-begin-{prs}-{ind}`
+			"atlat": `ko=huiz-ohu-ā`,
+			"gloss": `{instr}=sleep-begin-{npst.ind}`
 		},
 		{
 			"atlat": `s-ōcca-∅`,

@@ -9,6 +9,7 @@ function transliterate(s) {
 }
 
 const gloss_keys = {
+	"npst": `Non-Past`,
 	"1sg": "First Person Singular",
 	"2sg": "Second Person Singular",
 	"3pl": "Third Person Plural",
@@ -41,7 +42,6 @@ const gloss_keys = {
 	"pot": "Potential",
 	"prf": "Perfect",
 	"proper name": "Proper Name, e.g. of a person",
-	"prs": "Present",
 	"pst": "Past",
 	"q": "Question",
 	"qual": "Adjective of Quality",
