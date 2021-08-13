@@ -75,7 +75,7 @@ const LINE_1_3 = {
 	]
 };
 const LINE_1_4 = {
-	"at": `ne pos ōccā ami kem²a demī:`,
+	"at": `ne pos ōccās ami kem²a demī:`,
 	"en": `upon the minds of the more fortunate:`,
 	"units": [
 		{
@@ -87,7 +87,7 @@ const LINE_1_4 = {
 			"gloss": `be_wide-{nmz}-{posd.sg}`
 		},
 		{
-			"atlat": `ōcca-:`,
+			"atlat": `ōcca-:s`,
 			"gloss": `mind-{posd.pl}`
 		},
 		{
@@ -105,9 +105,9 @@ const LINE_1_4 = {
 	]
 };
 const LINE_2_1 = {
-	"at": `tapā tahuā on ē ranās,`,
+	"at": `tapā tahuā on t²a ranās,`,
 	"en": `the body need be weary,`,
-	"ex": `The subordinator <i>on/ami ē</i> can be used as an emphatic definite article by extension of 'that which is ...' In conversational and general speech, the <i>ē</i> is often omitted entirely, which has lead to the re-analysis of <i>on/ami</i> alone as definite articles.`,
+	"ex": `The subordinator <i>on/ami ta</i> can be used as an emphatic definite article by extension of 'that which is ...' In conversational and general speech, the <i>ta</i> is often omitted entirely, which has lead to the re-analysis of <i>on/ami</i> alone as definite articles.`,
 	"units": [
 		{
 			"atlat": `tap-∅-ā`,
@@ -122,8 +122,8 @@ const LINE_2_1 = {
 			"gloss": `{subr.sg}`
 		},
 		{
-			"atlat": `ē`,
-			"gloss": `{cop.attr}`,
+			"atlat": `t²-a`,
+			"gloss": `{cop}-{prs.attr}`,
 		},
 		{
 			"atlat": `rana⟨:⟩s`,
@@ -132,7 +132,7 @@ const LINE_2_1 = {
 	]
 };
 const LINE_2_2 = {
-	"at": `tapā aihrā ami ē nosni;`,
+	"at": `tapā aihrā ami t²a nosni;`,
 	"en": `the eyes need be heavy;`,
 	"units": [
 		{
@@ -148,8 +148,8 @@ const LINE_2_2 = {
 			"gloss": `{subr.pl}`
 		},
 		{
-			"atlat": `ē`,
-			"gloss": `{cop.attr}`
+			"atlat": `t²-a`,
+			"gloss": `{cop}-{prs.attr}`
 		},
 		{
 			"atlat": `nos-ni`,
@@ -237,7 +237,7 @@ const LINE_3_1 = {
 	]
 };
 const LINE_4_1 = {
-	"at": `Malās ē ne seletar in`,
+	"at": `Malās t²a ne seletar in`,
 	"en": `A chin upon my arm and`,
 	"units": [
 		{
@@ -245,8 +245,8 @@ const LINE_4_1 = {
 			"gloss": `chin⟨{absl.sg}⟩`
 		},
 		{
-			"atlat": `ē`,
-			"gloss": `{cop.attr}`
+			"atlat": `t²-a`,
+			"gloss": `{cop}-{prs.attr}`
 		},
 		{
 			"atlat": `ne`,
