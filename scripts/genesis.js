@@ -10,8 +10,8 @@ const DATA = [
 				"en": `At the beginning there was an infinite ocean; thus on the surface of the world lay only the blue of water.`
 			},
 			{
-				"text": `Īs t²ē suloī tiyen in īs muzē suloī rotōs inquē lupēn ne sisni. In on namūr īs sahē nelen ko xumi seyterā rōen ne mās sula.`,
-				"ipa": `iːs teː ˈsuloiː ˈtiʝən̥ ɪn̥ iːs ˈmut͜seː ˈsuloiː roˈtoːs ˈɪn̥kʷeː luˈpeːn̥ ne ˈsɪsni | ɪn̥ ɔn̥ naˈmuːr̥ iːs sɑʔˈeː ˈnelən̥ ko ˈʃumi ˈsɛjteraː ˈroːən̥ ne maːs ˈsula`,
+				"text": `Īs t²ē suloī tiyen in īs muzē suloī rotōs inquē lupēn ne sisni. In on namūr īs sohē nelen ko xumi seyterā rōen ne mās sula.`,
+				"ipa": `iːs teː ˈsuloiː ˈtiʝən̥ ɪn̥ iːs ˈmut͜seː ˈsuloiː roˈtoːs ˈɪn̥kʷeː luˈpeːn̥ ne ˈsɪsni | ɪn̥ ɔn̥ naˈmuːr̥ iːs sɔʔˈeː ˈnelən̥ ko ˈʃumi ˈsɛjteraː ˈroːən̥ ne maːs ˈsula`,
 				"en": `Not yet was the sky and the wind did not yet blow life into the waves. Furthermore, the sun did not exist to scatter light across the infinite ocean.`
 			},
 			{
@@ -20,8 +20,8 @@ const DATA = [
 				"en": `Like glass, the waters did not move, and with light's absence they were black like tar.`
 			},
 			{
-				"text": `Īs sahē issa rōen tlikān in t²ē on kemī on samī.`,
-				"ipa": `iːs sɑʔˈeː ˈɪssa ˈroːən̥ t͜ɬiˈkaːn̥ ɪn̥ əʔˈkaː ɔn̥ keˈmiː ɔn̥ saˈmiː`,
+				"text": `Īs sohē issa rōen tlikān in t²ē on kemī on samī.`,
+				"ipa": `iːs sɔʔˈeː ˈɪssa ˈroːən̥ t͜ɬiˈkaːn̥ ɪn̥ əʔˈkaː ɔn̥ keˈmiː ɔn̥ saˈmiː`,
 				"en": `Time did not exist without light and the always was never.`
 			},
 			{
@@ -190,8 +190,8 @@ const DATA = [
 				"en": `The serpent's heavy eyes rested their gaze upon the woman, who remained for a brief moment collecting her thoughts on the situation.`
 			},
 			{
-				"text": `Korē ne osommecē rān ya tōbēn: « īs tā āquem²īn ya set²ah² huaī lasoxni ko ser on ya m²et²ah²; risalā set²ah² okāilyuī ān āst²oh² sahnā lōn xōla in ne-oniyasa. »`,
-				"ipa": `koˈreː ne oˈsɔmmet͜ʃeː raːn̥ ʝa ˈtoːbeːn̥ iːs taː ˈaːkʷemiːn̥ ʝa ˈsetɑ ʍaˈiː laˈsɔʃni ko sɛr̥ ɔn̥ ʝa ˈmetɑ | ˈrisalaː ˈsetɑ okaːˈɪljuiː aːn̥ ˈaːstɔ sɑʔˈnaː loːn̥ ˈʃoːla ɪn̥ ne=oˈniʝasa`,
+				"text": `Korē ne osommecē rān ya tōbēn: « īs tā āquem²īn ya set²ah² huaī lasoxni ko ser on ya m²et²ah²; risalā set²ah² okāilyuī ān āst²oh² eh²nā lōn xōla in ne-oniyasa. »`,
+				"ipa": `koˈreː ne oˈsɔmmet͜ʃeː raːn̥ ʝa ˈtoːbeːn̥ iːs taː ˈaːkʷemiːn̥ ʝa ˈsetɑ ʍaˈiː laˈsɔʃni ko sɛr̥ ɔn̥ ʝa ˈmetɑ | ˈrisalaː ˈsetɑ okaːˈɪljuiː aːn̥ ˈaːstɔ əʔˈnaː loːn̥ ˈʃoːla ɪn̥ ne=oˈniʝasa`,
 				"en": `When she had collected herself, she responded to the proposal: "I do not trust the tides like you do; I fear that if we seperate like this there will not be another moment of meeting."`
 			},
 			{
