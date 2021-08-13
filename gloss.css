@@ -104,11 +104,11 @@ table {
 }
 
 .content {
-	max-width    : 600px;
-	margin       : auto;
-	padding      : 5px;
-	margin-top   : 25px;
-	margin-bottom: 25px;
+	max-width  : 600px;
+	margin     : auto;
+	padding    : 5px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 .gloss-link {
@@ -124,8 +124,8 @@ table {
 
 .ipa {
 	font-family: 'Iosevka', monospace;
-	font-size: 12px;
-	margin-top: 10px;
+	font-size  : 12px;
+	margin-top : 10px;
 }
 
 .text-god {
