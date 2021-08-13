@@ -1,11 +1,11 @@
 @font-face {
 	font-family: "On Serwal";
-	src        : url(on_serwal.ttf);
+	src        : url(../fonts/on_serwal.ttf);
 }
 
 @font-face {
 	font-family: "Serwal Godika";
-	src        : url(SerwalGodika.ttf);
+	src        : url(../fonts/SerwalGodika.ttf);
 }
 
 .text-atl {

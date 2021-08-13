@@ -8,37 +8,49 @@
 		href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Serif:ital@0;1&display=swap"
 		rel="stylesheet">
 	<title>Tōntanīn</title>
-	<link rel="stylesheet" href="font_style.css">
-	<link rel="stylesheet" href="menu_style.css">
-	<link rel="stylesheet" href="styles.css">
-	<script src="genesis.js"></script>
-	<script src="gmain.js"></script>
+	<link rel="stylesheet" href="styles/font_style.css">
+	<link rel="stylesheet" href="styles/menu_style.css">
+	<link rel="stylesheet" href="styles/styles.css">
+	<script src="scripts/genesis.js"></script>
+	<script src="scripts/gmain.js"></script>
 </head>
 
 <body>
 	<div id="menu">
-		<button class="menu-button" onclick="openATL()">ATL</button>
-		<button class="menu-button" onclick="openTRL()">LAT</button>
-		<button class="menu-button" onclick="openGOD()">GOD</button>
+		<button id="button-lat" class="menu-button menu-button-active" onclick="openTRL()">LAT</button>
+		<button id="button-atl" class="menu-button" onclick="openATL()">ATL</button>
+		<button id="button-god" class="menu-button" onclick="openGOD()">GOD</button>
 	</div>
-	<div id="text-atl">
+	<div id="text-trl">
+	</div>
+	<div id="text-atl" style="display: none;">
 	</div>
 	<div id="text-god" style="display: none;">
 	</div>
-	<div id="text-trl" style="display: none;">
-	</div>
 	<script>
 		function openATL() {
+			Array.prototype.forEach.call(document.getElementsByClassName("menu-button"), e => {
+				e.classList.remove("menu-button-active");
+			});
+			document.getElementById("button-atl").classList.add("menu-button-active");
 			document.getElementById("text-trl").style.display = "none";
 			document.getElementById("text-atl").style.display = "block";
 			document.getElementById("text-god").style.display = "none";
 		}
 		function openTRL() {
+			Array.prototype.forEach.call(document.getElementsByClassName("menu-button"), e => {
+				e.classList.remove("menu-button-active");
+			});
+			document.getElementById("button-lat").classList.add("menu-button-active");
 			document.getElementById("text-trl").style.display = "block";
 			document.getElementById("text-atl").style.display = "none";
 			document.getElementById("text-god").style.display = "none";
 		}
 		function openGOD() {
+			Array.prototype.forEach.call(document.getElementsByClassName("menu-button"), e => {
+				e.classList.remove("menu-button-active");
+			});
+			document.getElementById("button-god").classList.add("menu-button-active");
 			document.getElementById("text-trl").style.display = "none";
 			document.getElementById("text-atl").style.display = "none";
 			document.getElementById("text-god").style.display = "block";

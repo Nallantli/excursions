@@ -2,7 +2,7 @@ const DATA = [
 	{
 		"title": "Maxtā Tlikān ne Tōmen Norda",
 		"en": "Time Turns upon an Empty World",
-		"image": `nuhēn.png`,
+		"image": `images/nuhēn.png`,
 		"lines": [
 			{
 				"text": `Sahkā ne nuhēn sildūr ē issa rat²en; ān pan²kā ne rih² tōm²en beih sarri alūn.`,
@@ -44,7 +44,7 @@ const DATA = [
 	{
 		"title": `Tinezonomi`,
 		"en": `The First Voices`,
-		"image": `nassōn.png`,
+		"image": `images/nassōn.png`,
 		"lines": [
 			{
 				"text": `Ruh²kā tozhuatō nassōn kauhtī istatu ēlen.`,
@@ -106,7 +106,7 @@ const DATA = [
 	{
 		"title": `Istatumi in Pīlemi`,
 		"en": `Shapes and Names`,
-		"image": `ēlen_in_huatān.png`,
+		"image": `images/ēlen_in_huatān.png`,
 		"lines": [
 			{
 				"text": `« Maskauhrā set²ah², » - osisudkā alen. Reptapārkā huatān on nassōn in, huaī ranasrai yuptelat²a ēlen, sassuhzekā.`,
@@ -239,7 +239,7 @@ const DATA = [
 	{
 		"title": `Huaī Tani Tīlasta`,
 		"en": `On the Creation of Stars`,
-		"image": `huizī.png`,
+		"image": `images/huizī.png`,
 		"lines": [
 			{
 				"text": `Inkā sa passa na rān ōhnetā sū lukeli mās.`,
