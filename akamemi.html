@@ -17,7 +17,8 @@
 <body>
 	<div id="menu">
 		<button id="button-lat" class="menu-button menu-button-active" onclick="openTRL()">LAT</button>
-		<button id="button-atl" class="menu-button" onclick="openATL()">ATL</button>
+		<button id="button-atl-ser" class="menu-button" onclick="openATL_SER()">ATL-SER</button>
+		<button id="button-atl-san" class="menu-button" onclick="openATL_SAN()">ATL-SAN</button>
 		<button id="button-god" class="menu-button" onclick="openGOD()">GOD</button>
 	</div>
 	<div class="content">
@@ -212,15 +213,36 @@
 		</script>
 	</div>
 	<script>
-		function openATL() {
+		function openATL_SER() {
 			Array.prototype.forEach.call(document.getElementsByClassName("menu-button"), e => {
 				e.classList.remove("menu-button-active");
 			});
-			document.getElementById("button-atl").classList.add("menu-button-active");
+			document.getElementById("button-atl-ser").classList.add("menu-button-active");
 			Array.prototype.forEach.call(document.getElementsByClassName("text-lat"), e => {
 				e.style.display = "none";
 			});
-			Array.prototype.forEach.call(document.getElementsByClassName("text-atl"), e => {
+			Array.prototype.forEach.call(document.getElementsByClassName("text-atl-ser"), e => {
+				e.style.display = "block";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-atl-san"), e => {
+				e.style.display = "none";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-god"), e => {
+				e.style.display = "none";
+			});
+		}
+		function openATL_SAN() {
+			Array.prototype.forEach.call(document.getElementsByClassName("menu-button"), e => {
+				e.classList.remove("menu-button-active");
+			});
+			document.getElementById("button-atl-san").classList.add("menu-button-active");
+			Array.prototype.forEach.call(document.getElementsByClassName("text-lat"), e => {
+				e.style.display = "none";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-atl-ser"), e => {
+				e.style.display = "none";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-atl-san"), e => {
 				e.style.display = "block";
 			});
 			Array.prototype.forEach.call(document.getElementsByClassName("text-god"), e => {
@@ -235,7 +257,10 @@
 			Array.prototype.forEach.call(document.getElementsByClassName("text-lat"), e => {
 				e.style.display = "block";
 			});
-			Array.prototype.forEach.call(document.getElementsByClassName("text-atl"), e => {
+			Array.prototype.forEach.call(document.getElementsByClassName("text-atl-ser"), e => {
+				e.style.display = "none";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-atl-san"), e => {
 				e.style.display = "none";
 			});
 			Array.prototype.forEach.call(document.getElementsByClassName("text-god"), e => {
@@ -250,7 +275,10 @@
 			Array.prototype.forEach.call(document.getElementsByClassName("text-lat"), e => {
 				e.style.display = "none";
 			});
-			Array.prototype.forEach.call(document.getElementsByClassName("text-atl"), e => {
+			Array.prototype.forEach.call(document.getElementsByClassName("text-atl-ser"), e => {
+				e.style.display = "none";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-atl-san"), e => {
 				e.style.display = "none";
 			});
 			Array.prototype.forEach.call(document.getElementsByClassName("text-god"), e => {

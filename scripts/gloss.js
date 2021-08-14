@@ -66,7 +66,8 @@ function parseGloss(g, link) {
 	}
 	s += `<div class="line-at">`;
 	s += `<span class="text-lat">${g["at"].replace(/²/g, "")}</span>`;
-	s += `<span style="display: none;" class="text-atl">${transliterate(g["at"].replace(/²/g, ""))}</span>`;
+	s += `<span style="display: none;" class="text-atl-ser">${transliterate(g["at"].replace(/²/g, ""))}</span>`;
+	s += `<span style="display: none;" class="text-atl-san">${transliterate(g["at"].replace(/²/g, ""))}</span>`;
 	s += `<span style="display: none;" class="text-god">${transliterate(g["at"].replace(/²/g, ""))}</span>`;
 	s += `</div><div class="tabulate">`;
 	if (g["ipa"]) {

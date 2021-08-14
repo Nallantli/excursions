@@ -4,12 +4,21 @@
 }
 
 @font-face {
+	font-family: "Serwal Sans";
+	src        : url(../fonts/SerwalSans.ttf);
+}
+
+@font-face {
 	font-family: "Serwal Godika";
 	src        : url(../fonts/SerwalGodika.ttf);
 }
 
-.text-atl {
+.text-atl, .text-atl-ser {
 	font-family: 'On Serwal';
+}
+
+.text-atl-san {
+	font-family: 'Serwal Sans';
 }
 
 .text-god {

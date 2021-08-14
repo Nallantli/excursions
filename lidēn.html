@@ -8,6 +8,7 @@
 		href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Serif:ital@0;1&display=swap"
 		rel="stylesheet">
 	<title>Lidēn</title>
+	<link rel="stylesheet" href="styles/menu_style.css">
 	<link rel="stylesheet" href="styles/font_style.css">
 	<link rel="stylesheet" href="styles/gloss.css">
 	<script src="scripts/glossdata.js"></script>
@@ -15,6 +16,12 @@
 </head>
 
 <body>
+	<div id="menu">
+		<button id="button-lat" class="menu-button menu-button-active" onclick="openTRL()">LAT</button>
+		<button id="button-atl-ser" class="menu-button" onclick="openATL_SER()">ATL-SER</button>
+		<button id="button-atl-san" class="menu-button" onclick="openATL_SAN()">ATL-SAN</button>
+		<button id="button-god" class="menu-button" onclick="openGOD()">GOD</button>
+	</div>
 	<div class="content">
 		<script>document.write(parseGloss(LINE_1_1))</script>
 		<script>document.write(parseGloss(LINE_1_2))</script>
@@ -45,6 +52,80 @@
 		<script>document.write(parseGloss(LINE_7_3))</script>
 		<script>document.write(parseGloss(LINE_7_4))</script>
 	</div>
+	<script>
+		function openATL_SER() {
+			Array.prototype.forEach.call(document.getElementsByClassName("menu-button"), e => {
+				e.classList.remove("menu-button-active");
+			});
+			document.getElementById("button-atl-ser").classList.add("menu-button-active");
+			Array.prototype.forEach.call(document.getElementsByClassName("text-lat"), e => {
+				e.style.display = "none";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-atl-ser"), e => {
+				e.style.display = "block";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-atl-san"), e => {
+				e.style.display = "none";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-god"), e => {
+				e.style.display = "none";
+			});
+		}
+		function openATL_SAN() {
+			Array.prototype.forEach.call(document.getElementsByClassName("menu-button"), e => {
+				e.classList.remove("menu-button-active");
+			});
+			document.getElementById("button-atl-san").classList.add("menu-button-active");
+			Array.prototype.forEach.call(document.getElementsByClassName("text-lat"), e => {
+				e.style.display = "none";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-atl-ser"), e => {
+				e.style.display = "none";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-atl-san"), e => {
+				e.style.display = "block";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-god"), e => {
+				e.style.display = "none";
+			});
+		}
+		function openTRL() {
+			Array.prototype.forEach.call(document.getElementsByClassName("menu-button"), e => {
+				e.classList.remove("menu-button-active");
+			});
+			document.getElementById("button-lat").classList.add("menu-button-active");
+			Array.prototype.forEach.call(document.getElementsByClassName("text-lat"), e => {
+				e.style.display = "block";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-atl-ser"), e => {
+				e.style.display = "none";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-atl-san"), e => {
+				e.style.display = "none";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-god"), e => {
+				e.style.display = "none";
+			});
+		}
+		function openGOD() {
+			Array.prototype.forEach.call(document.getElementsByClassName("menu-button"), e => {
+				e.classList.remove("menu-button-active");
+			});
+			document.getElementById("button-god").classList.add("menu-button-active");
+			Array.prototype.forEach.call(document.getElementsByClassName("text-lat"), e => {
+				e.style.display = "none";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-atl-ser"), e => {
+				e.style.display = "none";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-atl-san"), e => {
+				e.style.display = "none";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-god"), e => {
+				e.style.display = "block";
+			});
+		}
+	</script>
 </body>
 
 </html>
