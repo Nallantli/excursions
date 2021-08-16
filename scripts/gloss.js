@@ -9,6 +9,7 @@ function transliterate(s) {
 }
 
 const gloss_keys = {
+	"1pl": `First Person Plural`,
 	"dim": `Diminutive`,
 	"npst": `Non-Past`,
 	"1sg": "First Person Singular",
