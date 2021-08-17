@@ -131,3 +131,7 @@ table {
 .text-god {
 	font-size: 28px;
 }
+
+sub {
+	line-height: 0;
+}
