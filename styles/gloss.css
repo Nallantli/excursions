@@ -72,11 +72,13 @@ body {
 	visibility      : hidden;
 	opacity         : 0;
 	font-variant    : normal;
+	margin-top      : 5px;
 	position        : absolute;
 	background-color: #fff;
 	padding         : 5px;
-	border          : 1px solid #000;
+	outline         : 1px solid #000;
 	white-space     : nowrap;
+	outline-offset  : -1px;
 	z-index         : 999;
 	transition      : all 0.1s ease-in-out;
 }
@@ -104,10 +106,10 @@ table {
 }
 
 .content {
-	max-width  : 600px;
-	margin     : auto;
-	padding    : 5px;
-	padding-top: 25px;
+	max-width     : 600px;
+	margin        : auto;
+	padding       : 5px;
+	padding-top   : 25px;
 	padding-bottom: 25px;
 }
 
@@ -134,4 +136,15 @@ table {
 
 sub {
 	line-height: 0;
+}
+
+.small-caps .hover::after {
+	content     : " ";
+	position    : absolute;
+	bottom      : 100%;
+	left        : 0px;
+	margin-left : 0px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent black transparent;
 }
