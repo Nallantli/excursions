@@ -1,516 +1,516 @@
 const LINE_1_1 = {
-	"at": `Ne touhlecā nelen maxtūn alda,`,
+	"etl": `Ne touhlecā nelen maxtūn alda,`,
 	"en": `When the sun has burnt the fading day,`,
 	"units": [
 		{
-			"atlat": `ne`,
+			"etlat": `ne`,
 			"gloss": `{loc}`
 		},
 		{
-			"atlat": `∅-touhl-ec-ā`,
+			"etlat": `∅-touhl-ec-ā`,
 			"gloss": `{3sg.t}-burn-{prf}-{npst.ind}`
 		},
 		{
-			"atlat": `nel-en`,
+			"etlat": `nel-en`,
 			"gloss": `sun-{absl.sg}`
 		},
 		{
-			"atlat": `maxtu-:n`,
+			"etlat": `maxtu-:n`,
 			"gloss": `day-{absl.sg}`
 		},
 		{
-			"atlat": `ald-a`,
+			"etlat": `ald-a`,
 			"gloss": `fade-{npst.attr}`
 		}
 	]
 };
 const LINE_1_2 = {
-	"at": `ne ocak maxtecrā in maxtecrā,`,
+	"etl": `ne ocak maxtecrā in maxtecrā,`,
 	"en": `after it has been turned and turned,`,
 	"ex": `The nominal <i>ocken</i> is an example of a prepositional noun, which when used with the prepositional particles <i>ne, sū, tō</i>, the lemma can take upon itself a clause or other nominal to dictate temporal or spatial location relative to the argument.`,
 	"units": [
 		{
-			"atlat": `ne`,
+			"etlat": `ne`,
 			"gloss": `{loc}`
 		},
 		{
-			"atlat": `oc⟨a⟩k`,
+			"etlat": `oc⟨a⟩k`,
 			"gloss": `behind⟨{posd.sg}⟩`
 		},
 		{
-			"atlat": `maxt-ec-r-ā`,
+			"etlat": `maxt-ec-r-ā`,
 			"gloss": `turn-{prf}-{pass}-{npst.ind}`
 		},
 		{
-			"atlat": `in`,
+			"etlat": `in`,
 			"gloss": `and`
 		},
 		{
-			"atlat": `maxt-ec-r-ā`,
+			"etlat": `maxt-ec-r-ā`,
 			"gloss": `turn-{prf}-{pass}-{npst.ind}`
 		}
 	]
 };
 const LINE_1_3 = {
-	"at": `ne pam²ā serihkum²ī tueremi`,
+	"etl": `ne pam²ā serihkum²ī tueremi`,
 	"en": `when dreams lie like silk`,
 	"ex": `Here the translation of <i>serihkumī</i> uses the form 'like ...', but a more appropriate translation (though less comprehensible) would be 'silkenly.'`,
 	"units": [
 		{
-			"atlat": `ne`,
+			"etlat": `ne`,
 			"gloss": `{loc}`
 		},
 		{
-			"atlat": `pam²-ā`,
+			"etlat": `pam²-ā`,
 			"gloss": `lie_down-{npst.ind}`
 		},
 		{
-			"atlat": `serihku-m²-ī`,
+			"etlat": `serihku-m²-ī`,
 			"gloss": `silk-{qual}-{adv}`
 		},
 		{
-			"atlat": `tuer-e-mi`,
+			"etlat": `tuer-e-mi`,
 			"gloss": `dream-{nmz}-{absl.pl}`
 		}
 	]
 };
 const LINE_1_4 = {
-	"at": `ne pos ōccās ami kem²a demī:`,
+	"etl": `ne pos ōccās ami kem²a demī:`,
 	"en": `upon the minds of the more fortunate:`,
 	"units": [
 		{
-			"atlat": `ne`,
+			"etlat": `ne`,
 			"gloss": `{loc}`
 		},
 		{
-			"atlat": `pos-∅-∅`,
+			"etlat": `pos-∅-∅`,
 			"gloss": `be_wide-{nmz}-{posd.sg}`
 		},
 		{
-			"atlat": `ōcca-:s`,
+			"etlat": `ōcca-:s`,
 			"gloss": `mind-{posd.pl}`
 		},
 		{
-			"atlat": `ami`,
+			"etlat": `ami`,
 			"gloss": `{subr.pl}`
 		},
 		{
-			"atlat": `kem²-a`,
+			"etlat": `kem²-a`,
 			"gloss": `be_fortunate-{npst.attr}`
 		},
 		{
-			"atlat": `demī`,
+			"etlat": `demī`,
 			"gloss": `more`
 		}
 	]
 };
 const LINE_2_1 = {
-	"at": `tapā tahuā on t²a ranās,`,
+	"etl": `tapā tahuā on t²a ranās,`,
 	"en": `the body need be weary,`,
 	"ex": `The subordinator <i>on/ami ta</i> can be used as an emphatic definite article by extension of 'that which is ...' In conversational and general speech, the <i>ta</i> is often omitted entirely, which has lead to the re-analysis of <i>on/ami</i> alone as definite articles.`,
 	"units": [
 		{
-			"atlat": `tap-ā`,
+			"etlat": `tap-ā`,
 			"gloss": `be_necessary-{npst.ind}`
 		},
 		{
-			"atlat": `tahu-ā`,
+			"etlat": `tahu-ā`,
 			"gloss": `be_weary-{npst.ind}`
 		},
 		{
-			"atlat": `on`,
+			"etlat": `on`,
 			"gloss": `{subr.sg}`
 		},
 		{
-			"atlat": `t²-a`,
+			"etlat": `t²-a`,
 			"gloss": `{cop}-{npst.attr}`,
 		},
 		{
-			"atlat": `rana⟨:⟩s`,
+			"etlat": `rana⟨:⟩s`,
 			"gloss": `body⟨{absl.sg}⟩`
 		}
 	]
 };
 const LINE_2_2 = {
-	"at": `tapā aihrā ami t²a nosni;`,
+	"etl": `tapā aihrā ami t²a nosni;`,
 	"en": `the eyes need be heavy;`,
 	"units": [
 		{
-			"atlat": `tap-ā`,
+			"etlat": `tap-ā`,
 			"gloss": `be_necessary-{npst.ind}`
 		},
 		{
-			"atlat": `aihr-ā`,
+			"etlat": `aihr-ā`,
 			"gloss": `be_heavy-{npst.ind}`
 		},
 		{
-			"atlat": `ami`,
+			"etlat": `ami`,
 			"gloss": `{subr.pl}`
 		},
 		{
-			"atlat": `t²-a`,
+			"etlat": `t²-a`,
 			"gloss": `{cop}-{npst.attr}`
 		},
 		{
-			"atlat": `nos-ni`,
+			"etlat": `nos-ni`,
 			"gloss": `eye-{absl.pl}`
 		}
 	]
 };
 const LINE_2_3 = {
-	"at": `īs ituerasā set²ah² paquē`,
+	"etl": `īs ituerasā set²ah² paquē`,
 	"en": `I cannot however dream of`,
 	"units": [
 		{
-			"atlat": `īs`,
+			"etlat": `īs`,
 			"gloss": `{neg}`
 		},
 		{
-			"atlat": `i-tuer-as-ā`,
+			"etlat": `i-tuer-as-ā`,
 			"gloss": `{3pl.t}-dream-{pot}-{npst.ind}`
 		},
 		{
-			"atlat": `set²ah²`,
+			"etlat": `set²ah²`,
 			"gloss": `{1sg}`
 		},
 		{
-			"atlat": `paquē`,
+			"etlat": `paquē`,
 			"gloss": `however`
 		}
 	]
 };
 const LINE_2_4 = {
-	"at": `mer kem²ēn hui akami serihkum²a.`,
+	"etl": `mer kem²ēn hui akami serihkum²a.`,
 	"en": `either fortune or silken threads.`,
 	"units": [
 		{
-			"atlat": `mer`,
+			"etlat": `mer`,
 			"gloss": `both`
 		},
 		{
-			"atlat": `kem²-e-:n`,
+			"etlat": `kem²-e-:n`,
 			"gloss": `be_fortunate-{nmz}-{absl.sg}`
 		},
 		{
-			"atlat": `hui`,
+			"etlat": `hui`,
 			"gloss": `or`
 		},
 		{
-			"atlat": `aka-mi`,
+			"etlat": `aka-mi`,
 			"gloss": `thread-{absl.pl}`
 		},
 		{
-			"atlat": `serihku-m²-a`,
+			"etlat": `serihku-m²-a`,
 			"gloss": `silk-{qual}-{npst.attr}`
 		}
 	]
 };
 const LINE_3_1 = {
-	"at": `Īs suloī tlikān ko ren tīē.`,
+	"etl": `Īs suloī tlikān ko ren tīē.`,
 	"en": `There is not yet time for these things.`,
-	"ex": `Atlatian makes heavy use of <i>ko</i> + nominal in adjuncts; here gives the benefactive usage of <i>ko ren ...</i>, literally 'through/by the good of ...'`,
+	"ex": `Etlatian makes heavy use of <i>ko</i> + nominal in adjuncts; here gives the benefactive usage of <i>ko ren ...</i>, literally 'through/by the good of ...'`,
 	"units": [
 		{
-			"atlat": `īs`,
+			"etlat": `īs`,
 			"gloss": `{neg}`
 		},
 		{
-			"atlat": `suloī`,
+			"etlat": `suloī`,
 			"gloss": `yet`
 		},
 		{
-			"atlat": `tlika-:n`,
+			"etlat": `tlika-:n`,
 			"gloss": `time-{absl.sg}`
 		},
 		{
-			"atlat": `ko`,
+			"etlat": `ko`,
 			"gloss": `{instr}`
 		},
 		{
-			"atlat": `ren-∅-∅`,
+			"etlat": `ren-∅-∅`,
 			"gloss": `be_good-{nmz}-{posd.sg}`
 		},
 		{
-			"atlat": `tī-ē`,
+			"etlat": `tī-ē`,
 			"gloss": `this-{absl.pl}`
 		}
 	]
 };
 const LINE_4_1 = {
-	"at": `Malās t²a ne seletar in`,
+	"etl": `Malās t²a ne seletar in`,
 	"en": `A chin upon my arm and`,
 	"units": [
 		{
-			"atlat": `mala⟨:⟩s`,
+			"etlat": `mala⟨:⟩s`,
 			"gloss": `chin⟨{absl.sg}⟩`
 		},
 		{
-			"atlat": `t²-a`,
+			"etlat": `t²-a`,
 			"gloss": `{cop}-{npst.attr}`
 		},
 		{
-			"atlat": `ne`,
+			"etlat": `ne`,
 			"gloss": `{loc}`
 		},
 		{
-			"atlat": `se-letar-∅`,
+			"etlat": `se-letar-∅`,
 			"gloss": `{1sg.t}-upper_arm-{posd.sg}`
 		},
 		{
-			"atlat": `in`,
+			"etlat": `in`,
 			"gloss": `and`
 		}
 	]
 };
 const LINE_4_2 = {
-	"at": `betasni akena tokinum²en,`,
+	"etl": `betasni akena tokinum²en,`,
 	"en": `the lips from which escapes the sound of breath,`,
 	"ex": `The sequence <i>tokinumen</i> should be contrasted with <i>nun tokīn</i>, the latter being the construction using the possessive. For sequences that do not explicitly represent semantic ownership, use of the possessive is proscribed in favor of compounding. Both are, however, widely used with the latter becoming more common in colloquial speech.`,
 	"units": [
 		{
-			"atlat": `betas-ni`,
+			"etlat": `betas-ni`,
 			"gloss": `lip-{absl.pl}`
 		},
 		{
-			"atlat": `∅-aken-a`,
+			"etlat": `∅-aken-a`,
 			"gloss": `{3sg.t}-escape_from-{npst.attr}`
 		},
 		{
-			"atlat": `tok-i+num²-en`,
+			"etlat": `tok-i+num²-en`,
 			"gloss": `breathe-{abstr}+sound-{absl.sg}`
 		}
 	]
 };
 const LINE_4_3 = {
-	"at": `behuā set²ah² muis`,
+	"etl": `behuā set²ah² muis`,
 	"en": `I ask if`,
 	"units": [
 		{
-			"atlat": `∅-behu-ā`,
+			"etlat": `∅-behu-ā`,
 			"gloss": `{3sg.t}-ask-{npst.ind}`
 		},
 		{
-			"atlat": `set²ah²`,
+			"etlat": `set²ah²`,
 			"gloss": `{1sg}`
 		},
 		{
-			"atlat": `muis-∅`,
+			"etlat": `muis-∅`,
 			"gloss": `either-{posd.sg}`
 		}
 	]
 };
 const LINE_4_4 = {
-	"at": `aszā tīē ya set²ah² huizā.`,
+	"etl": `aszā tīē ya set²ah² huizā.`,
 	"en": `these would permit me sleep.`,
 	"units": [
 		{
-			"atlat": `∅-asz-ā`,
+			"etlat": `∅-asz-ā`,
 			"gloss": `{3sg.t}-permit-{npst.ind}`
 		},
 		{
-			"atlat": `tī-ē`,
+			"etlat": `tī-ē`,
 			"gloss": `this-{absl.pl}`
 		},
 		{
-			"atlat": `ya`,
+			"etlat": `ya`,
 			"gloss": `{dat}`
 		},
 		{
-			"atlat": `set²ah²`,
+			"etlat": `set²ah²`,
 			"gloss": `{1sg}`
 		},
 		{
-			"atlat": `huiz-ā`,
+			"etlat": `huiz-ā`,
 			"gloss": `sleep-{npst.ind}`
 		}
 	]
 };
 const LINE_5_1 = {
-	"at": `Ihō! T²uī sesuhocā huizēn,`,
+	"etl": `Ihō! T²uī sesuhocā huizēn,`,
 	"en": `Oh! If only sleep would possess me,`,
 	"ex": `Using the copula with a clausal argument is a common emphatic construction. With the hypothetical, it is roughly equivalent to the English 'if only...'`,
 	"units": [
 		{
-			"atlat": `ihō`,
+			"etlat": `ihō`,
 			"gloss": `{exclam}`
 		},
 		{
-			"atlat": `t²-uī`,
+			"etlat": `t²-uī`,
 			"gloss": `{cop}-{hyp}`
 		},
 		{
-			"atlat": `se-suhoc-ā`,
+			"etlat": `se-suhoc-ā`,
 			"gloss": `{1sg.t}-possess-{npst.ind}`
 		},
 		{
-			"atlat": `huiz-e-:n`,
+			"etlat": `huiz-e-:n`,
 			"gloss": `sleep-{nmz}-{absl.sg}`
 		}
 	]
 };
 const LINE_5_2 = {
-	"at": `ān annun²yerā setueremi`,
+	"etl": `ān annun²yerā setueremi`,
 	"en": `how gilded would my dreams be`,
 	"units": [
 		{
-			"atlat": `ān`,
+			"etlat": `ān`,
 			"gloss": `like_this`
 		},
 		{
-			"atlat": `annu-n²-y-er-ā`,
+			"etlat": `annu-n²-y-er-ā`,
 			"gloss": `gold.metal-{qual}-{caus}-{pass}-{npst.ind}`
 		},
 		{
-			"atlat": `se-tuer-e-mi`,
+			"etlat": `se-tuer-e-mi`,
 			"gloss": `{1sg.t}-dream-{nmz}-{absl.pl}`
 		}
 	]
 };
 const LINE_5_3 = {
-	"at": `sū tleti sūlā ōdēs`,
+	"etl": `sū tleti sūlā ōdēs`,
 	"en": `that the moon would believe`,
 	"ex": `The sequence <i>sū tleti ...</i> means literally 'to the extent of ...;' the translation is best given as 'enough that ...' (e.g. "gilded enough that the moon would believe ..."). Here the translation is abridged for the sake of poetic license.`,
 	"units": [
 		{
-			"atlat": `sū`,
+			"etlat": `sū`,
 			"gloss": `{all}`
 		},
 		{
-			"atlat": `tlet-i-∅`,
+			"etlat": `tlet-i-∅`,
 			"gloss": `extend-{abstr}-{posd.sg}`
 		},
 		{
-			"atlat": `∅-sūl-ā`,
+			"etlat": `∅-sūl-ā`,
 			"gloss": `{3sg.t}-believe-{npst.ind}`
 		},
 		{
-			"atlat": `ōde⟨:⟩s`,
+			"etlat": `ōde⟨:⟩s`,
 			"gloss": `moon⟨{absl.sg}⟩`
 		}
 	]
 };
 const LINE_5_4 = {
-	"at": `mantecā āque tīlasta.`,
+	"etl": `mantecā āque tīlasta.`,
 	"en": `it had lost the stars' loyalty.`,
 	"units": [
 		{
-			"atlat": `∅-mant-ec-ā`,
+			"etlat": `∅-mant-ec-ā`,
 			"gloss": `{3sg.t}-lose-{prf}-{npst.ind}`
 		},
 		{
-			"atlat": `āqu-e-∅`,
+			"etlat": `āqu-e-∅`,
 			"gloss": `be_loyal-{nmz}-{posd.sg}`
 		},
 		{
-			"atlat": `tīlast-a`,
+			"etlat": `tīlast-a`,
 			"gloss": `star-{absl.pl}`
 		}
 	]
 };
 const LINE_6_1 = {
-	"at": `Īs suloī tlikān ko ren tīē.`,
+	"etl": `Īs suloī tlikān ko ren tīē.`,
 	"en": `There is not yet time for these things.`,
 	"units": [
 		{
-			"atlat": `īs`,
+			"etlat": `īs`,
 			"gloss": `{neg}`
 		},
 		{
-			"atlat": `suloī`,
+			"etlat": `suloī`,
 			"gloss": `yet`
 		},
 		{
-			"atlat": `tlika-:n`,
+			"etlat": `tlika-:n`,
 			"gloss": `time-{absl.sg}`
 		},
 		{
-			"atlat": `ko`,
+			"etlat": `ko`,
 			"gloss": `{instr}`
 		},
 		{
-			"atlat": `ren-∅-∅`,
+			"etlat": `ren-∅-∅`,
 			"gloss": `be_good-{nmz}-{posd.sg}`
 		},
 		{
-			"atlat": `tī-ē`,
+			"etlat": `tī-ē`,
 			"gloss": `this-{absl.pl}`
 		}
 	]
 };
 const LINE_7_1 = {
-	"at": `Kauhrā dis tueremi`,
+	"etl": `Kauhrā dis tueremi`,
 	"en": `No dreams are born`,
 	"units": [
 		{
-			"atlat": `kauh-r-ā`,
+			"etlat": `kauh-r-ā`,
 			"gloss": `bare-{pass}-{npst.ind}`
 		},
 		{
-			"atlat": `dis`,
+			"etlat": `dis`,
 			"gloss": `none`
 		},
 		{
-			"atlat": `tuer-e-mi`,
+			"etlat": `tuer-e-mi`,
 			"gloss": `dream-{nmz}-{absl.pl}`
 		}
 	]
 };
 const LINE_7_2 = {
-	"at": `mo ēquinē lahuizessa.`,
+	"etl": `mo ēquinē lahuizessa.`,
 	"en": `from sleepless nights.`,
 	"ex": `The prefix <i>la-</i> is contrasted with the general negative <i>īs</i>, with the former applied to habitual verbs roughly equating to 'without ...' Here, the translation may also be given as 'nights that are generally without sleep.'`,
 	"units": [
 		{
-			"atlat": `mo`,
+			"etlat": `mo`,
 			"gloss": `{act}`
 		},
 		{
-			"atlat": `ēquin-ē`,
+			"etlat": `ēquin-ē`,
 			"gloss": `night-{absl.pl}`
 		},
 		{
-			"atlat": `la-huiz-ess-a`,
+			"etlat": `la-huiz-ess-a`,
 			"gloss": `{ab}-sleep-{hab}-{npst.attr}`
 		}
 	]
 };
 const LINE_7_3 = {
-	"at": `In nay on ko-huizohua sōcca`,
+	"etl": `In nay on ko-huizohua sōcca`,
 	"en": `And how would my mind begin to sleep`,
 	"ex": `'How,' in the strictest sense of the English term, is translated as <i>ko nay</i> 'by what (means).' When relativized, the particle for which the context of relativization is bound can be preposed onto the verb. Here the sequence is <i>huizohuā ko nay</i> &gt;&gt; <i>on_1 ko-huizohua t_1</i>.`,
 	"units": [
 		{
-			"atlat": `in`,
+			"etlat": `in`,
 			"gloss": `and`
 		},
 		{
-			"atlat": `nay`,
+			"etlat": `nay`,
 			"gloss": `{rel}`
 		},
 		{
-			"atlat": `on`,
+			"etlat": `on`,
 			"gloss": `{subr.sg}`
 		},
 		{
-			"atlat": `ko=huiz-ohu-ā`,
+			"etlat": `ko=huiz-ohu-ā`,
 			"gloss": `{instr}=sleep-begin-{npst.ind}`
 		},
 		{
-			"atlat": `s-ōcca-∅`,
+			"etlat": `s-ōcca-∅`,
 			"gloss": `{1sg.t}-mind-{posd.sg}`
 		}
 	]
 };
 const LINE_7_4 = {
-	"at": `ah²quartuī m²etūrrenēlī?`,
+	"etl": `ah²quartuī m²etūrrenēlī?`,
 	"en": `If it dwells pondering you?`,
 	"units": [
 		{
-			"atlat": `ah²-quart-uī`,
+			"etlat": `ah²-quart-uī`,
 			"gloss": `{ntr}-dwell-{hyp}`
 		},
 		{
-			"atlat": `m²e-tūrrenēl-ī`,
+			"etlat": `m²e-tūrrenēl-ī`,
 			"gloss": `{2sg.t}-contemplate-{adv}`
 		}
 	]

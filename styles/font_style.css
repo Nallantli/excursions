@@ -13,11 +13,11 @@
 	src        : url(../fonts/SerwalGodika.ttf);
 }
 
-.text-atl, .text-atl-ser {
+.text-etl, .text-etl-ser {
 	font-family: 'On Serwal';
 }
 
-.text-atl-san {
+.text-etl-san {
 	font-family: 'Serwal Sans';
 }
 

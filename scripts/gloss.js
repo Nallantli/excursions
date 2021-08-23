@@ -69,17 +69,17 @@ function parseGloss(g, link) {
 		s += `<a class="gloss-link" href="#${link}" id="${link}">#${link}</a>`;
 	}
 	s += `<div class="line-at">`;
-	s += `<span class="text-lat">${g["at"].replace(/²/g, "")}</span>`;
-	s += `<span style="display: none;" class="text-atl-ser">${transliterate(g["at"].replace(/²/g, ""))}</span>`;
-	s += `<span style="display: none;" class="text-atl-san">${transliterate(g["at"].replace(/²/g, ""))}</span>`;
-	s += `<span style="display: none;" class="text-god">${transliterate(g["at"].replace(/²/g, ""))}</span>`;
+	s += `<span class="text-lat">${g["etl"].replace(/²/g, "")}</span>`;
+	s += `<span style="display: none;" class="text-etl-ser">${transliterate(g["etl"].replace(/²/g, ""))}</span>`;
+	s += `<span style="display: none;" class="text-etl-san">${transliterate(g["etl"].replace(/²/g, ""))}</span>`;
+	s += `<span style="display: none;" class="text-god">${transliterate(g["etl"].replace(/²/g, ""))}</span>`;
 	s += `</div><div class="tabulate">`;
 	if (g["ipa"]) {
 		s += `<div class="ipa">[${g["ipa"]}]</div>`;
 	}
 	g["units"].forEach(u => {
 		s += `<table class="unit-block">`;
-		s += `<tr class="unit-atlat"><td>${u["atlat"].replace(/²/g, "").replace(/\Ø/g, "∅")}</td></tr>`;
+		s += `<tr class="unit-etlat"><td>${u["etlat"].replace(/²/g, "").replace(/\Ø/g, "∅")}</td></tr>`;
 		s += `<tr class="unit-gloss"><td>`;
 		let gloss = u["gloss"];
 		if (gloss.search(/\{(.+?)\}/) == -1) {

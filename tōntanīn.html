@@ -18,23 +18,23 @@
 <body>
 	<div id="menu">
 		<button id="button-lat" class="menu-button menu-button-active" onclick="openTRL()">LAT</button>
-		<button id="button-atl" class="menu-button" onclick="openATL()">ATL</button>
+		<button id="button-etl" class="menu-button" onclick="openETL()">ETL</button>
 		<button id="button-god" class="menu-button" onclick="openGOD()">GOD</button>
 	</div>
 	<div id="text-trl">
 	</div>
-	<div id="text-atl" style="display: none;">
+	<div id="text-etl" style="display: none;">
 	</div>
 	<div id="text-god" style="display: none;">
 	</div>
 	<script>
-		function openATL() {
+		function openETL() {
 			Array.prototype.forEach.call(document.getElementsByClassName("menu-button"), e => {
 				e.classList.remove("menu-button-active");
 			});
-			document.getElementById("button-atl").classList.add("menu-button-active");
+			document.getElementById("button-etl").classList.add("menu-button-active");
 			document.getElementById("text-trl").style.display = "none";
-			document.getElementById("text-atl").style.display = "block";
+			document.getElementById("text-etl").style.display = "block";
 			document.getElementById("text-god").style.display = "none";
 		}
 		function openTRL() {
@@ -43,7 +43,7 @@
 			});
 			document.getElementById("button-lat").classList.add("menu-button-active");
 			document.getElementById("text-trl").style.display = "block";
-			document.getElementById("text-atl").style.display = "none";
+			document.getElementById("text-etl").style.display = "none";
 			document.getElementById("text-god").style.display = "none";
 		}
 		function openGOD() {
@@ -52,7 +52,7 @@
 			});
 			document.getElementById("button-god").classList.add("menu-button-active");
 			document.getElementById("text-trl").style.display = "none";
-			document.getElementById("text-atl").style.display = "none";
+			document.getElementById("text-etl").style.display = "none";
 			document.getElementById("text-god").style.display = "block";
 		}
 	</script>
