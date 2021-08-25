@@ -63,10 +63,10 @@ function resolveKey(key) {
 	return gloss_keys[key];
 }
 
-function parseGloss(g, link) {
+function parseGloss(g) {
 	let s = `<div class="line">`;
-	if (link) {
-		s += `<a class="gloss-link" href="#${link}" id="${link}">#${link}</a>`;
+	if (g["ref"] != undefined) {
+		s += `<a class="gloss-link" href="#${g["ref"]}" id="${g["ref"]}">#${g["ref"]}</a>`;
 	}
 	s += `<div class="line-at">`;
 	s += `<span class="text-lat">${g["etl"].replace(/²/g, "")}</span>`;
