@@ -73,6 +73,7 @@ function parseGloss(g) {
 	s += `<span style="display: none;" class="text-etl-ser">${transliterate(g["etl"].replace(/²/g, ""))}</span>`;
 	s += `<span style="display: none;" class="text-etl-san">${transliterate(g["etl"].replace(/²/g, ""))}</span>`;
 	s += `<span style="display: none;" class="text-god">${transliterate(g["etl"].replace(/²/g, ""))}</span>`;
+	s += `<span style="display: none;" class="text-toz">${transliterate(g["etl"].replace(/²/g, "").toLowerCase())}</span>`;
 	s += `</div><div class="tabulate">`;
 	if (g["ipa"]) {
 		s += `<div class="ipa">[${g["ipa"]}]</div>`;

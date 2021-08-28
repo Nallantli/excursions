@@ -21,6 +21,7 @@
 		<button id="button-etl-ser" class="menu-button" onclick="openETL_SER()">ETL-SER</button>
 		<button id="button-etl-san" class="menu-button" onclick="openETL_SAN()">ETL-SAN</button>
 		<button id="button-god" class="menu-button" onclick="openGOD()">GOD</button>
+		<button id="button-toz" class="menu-button" onclick="openTOZ()">TOZ</button>
 	</div>
 	<div class="content">
 		<script>
@@ -47,6 +48,9 @@
 			Array.prototype.forEach.call(document.getElementsByClassName("text-god"), e => {
 				e.style.display = "none";
 			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-toz"), e => {
+				e.style.display = "none";
+			});
 		}
 		function openETL_SAN() {
 			Array.prototype.forEach.call(document.getElementsByClassName("menu-button"), e => {
@@ -63,6 +67,9 @@
 				e.style.display = "block";
 			});
 			Array.prototype.forEach.call(document.getElementsByClassName("text-god"), e => {
+				e.style.display = "none";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-toz"), e => {
 				e.style.display = "none";
 			});
 		}
@@ -83,6 +90,9 @@
 			Array.prototype.forEach.call(document.getElementsByClassName("text-god"), e => {
 				e.style.display = "none";
 			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-toz"), e => {
+				e.style.display = "none";
+			});
 		}
 		function openGOD() {
 			Array.prototype.forEach.call(document.getElementsByClassName("menu-button"), e => {
@@ -99,6 +109,30 @@
 				e.style.display = "none";
 			});
 			Array.prototype.forEach.call(document.getElementsByClassName("text-god"), e => {
+				e.style.display = "block";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-toz"), e => {
+				e.style.display = "none";
+			});
+		}
+		function openTOZ() {
+			Array.prototype.forEach.call(document.getElementsByClassName("menu-button"), e => {
+				e.classList.remove("menu-button-active");
+			});
+			document.getElementById("button-toz").classList.add("menu-button-active");
+			Array.prototype.forEach.call(document.getElementsByClassName("text-lat"), e => {
+				e.style.display = "none";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-etl-ser"), e => {
+				e.style.display = "none";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-etl-san"), e => {
+				e.style.display = "none";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-god"), e => {
+				e.style.display = "none";
+			});
+			Array.prototype.forEach.call(document.getElementsByClassName("text-toz"), e => {
 				e.style.display = "block";
 			});
 		}

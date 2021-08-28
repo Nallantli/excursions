@@ -13,6 +13,11 @@
 	src        : url(../fonts/SerwalGodika.ttf);
 }
 
+@font-face {
+	font-family: "Tozwanseer";
+	src        : url(../fonts/Tozwanseer.ttf);
+}
+
 .text-etl, .text-etl-ser {
 	font-family: 'On Serwal';
 }
@@ -23,6 +28,10 @@
 
 .text-god {
 	font-family: 'Serwal Godika';
+}
+
+.text-toz {
+	font-family: 'Tozwanseer';
 }
 
 .text-lat {
