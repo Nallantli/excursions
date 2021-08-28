@@ -675,5 +675,37 @@ const DATA = [
 				"gloss": `steal-{agt}-{absl.sg}`
 			}
 		]
+	},
+	{
+		"ref": "5MOYD-1526",
+		"etl": `Kuy lahuā māhten²t²en on tanā Rasul?`,
+		"ipa": `kʊj laˈwaː ˈmaːʔtən̥tən̥ ɔn̥ taˈnaː ˈrasʊl`,
+		"en": `Does mother know what Rasul is building?`,
+		"units": [
+			{
+				"etlat": `kuy`,
+				"gloss": `{q}`
+			},
+			{
+				"etlat": `Ø-lahu-ā`,
+				"gloss": `{3sg.t}-know-{npst.ind}`
+			},
+			{
+				"etlat": `māhten²t²-en`,
+				"gloss": `mother-{absl.sg}`
+			},
+			{
+				"etlat": `on`,
+				"gloss": `{subr}`
+			},
+			{
+				"etlat": `Ø-tan-ā`,
+				"gloss": `{3sg.t}-make-{npst.ind}`
+			},
+			{
+				"etlat": `Rasul`,
+				"gloss": `{proper name}`
+			}
+		]
 	}
 ];

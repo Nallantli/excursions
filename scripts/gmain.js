@@ -11,13 +11,13 @@ function transliterate(s) {
 function genVerse(n, data, font) {
 	s = `<tr>`;
 	s += `<td class="num">${n}</td>`
-	s += `<td class="line"><div class="ipa">[${data.ipa}]</div><div ${font == 0 ? `class="atl"` : (font == 1 ? `class="god"` : ``)}>${font < 2 ? transliterate(data.text.replace(/²/g, "")) : data.text.replace(/²/g, "")}</div><div class="trn">${data.en}</div></td>`;
+	s += `<td class="line"><div class="ipa">[${data.ipa}]</div><div ${font == 0 ? `class="etl"` : (font == 1 ? `class="god"` : ``)}>${font < 2 ? transliterate(data.text.replace(/²/g, "")) : data.text.replace(/²/g, "")}</div><div class="trn">${data.en}</div></td>`;
 	s += `</tr>`;
 	return s;
 }
 
 function genPassage(data, font) {
-	let s = `<div class="para"><h1 ${font == 0 ? `class="atl"` : (font == 1 ? `class="god"` : ``)}>${font < 2 ? transliterate(data.title.replace(/²/g, "")) : data.title.replace(/²/g, "")}</h1>`;
+	let s = `<div class="para"><h1 ${font == 0 ? `class="etl"` : (font == 1 ? `class="god"` : ``)}>${font < 2 ? transliterate(data.title.replace(/²/g, "")) : data.title.replace(/²/g, "")}</h1>`;
 
 	if (data.image) {
 		s += `<img class="image" src="${data.image}">`;
@@ -41,7 +41,7 @@ function genPassage(data, font) {
 
 window.onload = function () {
 	DATA.forEach(e => {
-		document.getElementById("text-atl").innerHTML += genPassage(e, 0);
+		document.getElementById("text-etl").innerHTML += genPassage(e, 0);
 	});
 	DATA.forEach(e => {
 		document.getElementById("text-god").innerHTML += genPassage(e, 1);
