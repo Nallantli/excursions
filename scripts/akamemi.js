@@ -707,5 +707,49 @@ const DATA = [
 				"gloss": `{proper name}`
 			}
 		]
+	},
+	{
+		"ref": "5MOYD-1527",
+		"etl": `👀 t²ē ne konsallen tect²en ne ru tō sepal.`,
+		"ipa": `teː ne ˈkɔn̥sɑllən̥ ˈtɛt͜ʃtən̥ ne ruː toː ˈsepɑl`,
+		"en": `👀 the student was in a theatre an hour before me.`,
+		"units": [
+			{
+				"etlat": `👀`,
+				"gloss": `{emoji}`
+			},
+			{
+				"etlat": `t²-ē`,
+				"gloss": `be-{pst.ind}`
+			},
+			{
+				"etlat": `ne`,
+				"gloss": `{loc}`
+			},
+			{
+				"etlat": `konsall-en`,
+				"gloss": `theatre-{absl.sg}`
+			},
+			{
+				"etlat": `tect²-en`,
+				"gloss": `student-{absl.sg}`
+			},
+			{
+				"etlat": `ne`,
+				"gloss": `{loc}`
+			},
+			{
+				"etlat": `ru`,
+				"gloss": `hour-{posd.sg}`
+			},
+			{
+				"etlat": `tō`,
+				"gloss": `{abl}`
+			},
+			{
+				"etlat": `se-pal-Ø-Ø`,
+				"gloss": `{1sg.t}-arrive-{nmz}-{posd.sg}`
+			}
+		]
 	}
 ];

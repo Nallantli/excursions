@@ -9,6 +9,7 @@ function transliterate(s) {
 }
 
 const gloss_keys = {
+	"emoji": `Emoji`,
 	"inf": `Infinitive`,
 	"drefl": `Deep Reflexive - Refers to higher clause subject`,
 	"1pl": `First Person Plural`,
