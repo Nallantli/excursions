@@ -751,5 +751,26 @@ const DATA = [
 				"gloss": `{1sg.t}-arrive-{nmz}-{posd.sg}`
 			}
 		]
+	},
+	{
+		"ref": "5MOYD-1528",
+		"etl": `Rihuī-rihuā setah alūn.`,
+		"ipa": `riˈwiː=riˈwaː ˈsetɑ aˈluːn`,
+		"en": `I am drinking (water) repeatedly.`,
+		"ex": `The prompt specifies what I assume is iterative. I mused over a few ideas on how to indicate this, and settled on expanding off of a previous construction (become/grow more and more ...) which uses a raised, reduplicated adverbial form of the verb. The '(to become/grow) more and more' construction can be easily re-analyzed as derivative of an iterative mood since the construction uses the auxiliary <i>-latūs</i> 'to become,' for example: <i>renī-renlatē</i> 'it became better and better.'`,
+		"units": [
+			{
+				"etlat": `Ø-rihu-ī=Ø-rihu-ā`,
+				"gloss": `{3sg.t}-drink-{adv}={3sg.t}-{rdp}-{npst.ind}`
+			},
+			{
+				"etlat": `setah`,
+				"gloss": `{1sg}`
+			},
+			{
+				"etlat": `alu-:n`,
+				"gloss": `water-{absl.sg}`
+			}
+		]
 	}
 ];
