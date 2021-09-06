@@ -34,6 +34,7 @@ const gloss_keys = {
 	"fut": "Future",
 	"hab": "Habitual",
 	"hyp": "Hypothetical",
+	"imp": `Imperative`,
 	"ind": "Indicative",
 	"inf": `Infinitive`,
 	"instr": "Instrumental",
@@ -57,6 +58,7 @@ const gloss_keys = {
 	"sg": "Singular",
 	"subr": "Subordinator",
 	"t": "Thematic Pronoun",
+	"v": `Verb`
 };
 
 function resolveKey(key) {

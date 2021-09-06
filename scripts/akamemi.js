@@ -772,5 +772,130 @@ const DATA = [
 				"gloss": `water-{absl.sg}`
 			}
 		]
+	},
+	{
+		"ref": "5MOYD-1529",
+		"etl": `Isnā bakehzā sū Rossiān!`,
+		"ipa": `ˈɪsnaː ˈbakəʔt͜saː suː ˈrɔssiaːn̥`,
+		"en": `Don't urinate towards Russia.`,
+		"units": [
+			{
+				"etlat": `isnā`,
+				"gloss": `{imp.neg}`
+			},
+			{
+				"etlat": `bake-hz-ā`,
+				"gloss": `urine-{v}-{npst.ind}`
+			},
+			{
+				"etlat": `sū`,
+				"gloss": `{all}`
+			},
+			{
+				"etlat": `Rossia-:n`,
+				"gloss": `Russia-{absl.sg}`
+			}
+		]
+	},
+	{
+		"ref": "5MOYD-1530",
+		"etl": `Xē tetem²esayt²en en²reyā maskeyt²en ya Asān namān.`,
+		"ipa": `ʃeː ˌtetemeˈsɑjtən̥ ˈɛnreʝaː ˈmɑskəjtən̥ ʝa aˈsaːn̥ naˈmaːn̥`,
+		"en": `The dentist made the director show the letter to Hasan.`,
+		"units": [
+			{
+				"etlat": `Ø-x-ē`,
+				"gloss": `{3sg.t}-{caus}-{pst.ind}`
+			},
+			{
+				"etlat": `tete-m²-e-say-t²-en`,
+				"gloss": `tooth-{qual}-{nmz}-medicate-{agt}-{absl.sg}`
+			},
+			{
+				"etlat": `Ø-en²-r-ey-ā`,
+				"gloss": `{3sg.t}-see-{pass}-{caus}-{npst.ind}`
+			},
+			{
+				"etlat": `mask-ey-t²-en`,
+				"gloss": `be_direct-{caus}-{agt}-{absl.sg}`
+			},
+			{
+				"etlat": `ya`,
+				"gloss": `{dat}`
+			},
+			{
+				"etlat": `Asān`,
+				"gloss": `{proper name}`
+			},
+			{
+				"etlat": `nama-:n`,
+				"gloss": `page-{absl.sg}`
+			}
+		]
+	},
+	{
+		"ref": "5MOYD-1531",
+		"etl": `Nā sesonzā, palē set²ah² tō nuzkēkā ya rōtōen lacism²a.`,
+		"ipa": `naː seˈsɔn̥t͜saː paˈleː ˈsetɑ toː nʊt͜sˈkeːkaː ʝa ˈroːtoːən̥ laˈt͜ʃɪsma`,
+		"en": `Help, I just laughed out loud at a digital picture.`,
+		"ex": `A few things to note - the equivalent to the English 'just did ...' is given by the expresion <i>palē tō ...</i>, meaning literally '(I) arrived from ...' For 'laugh out loud,' the root <i>nuz-</i> is appeneded onto the verb as an intensifier. Translating 'photograph' is analogous to its form in many other languages: the full word is <i>rōtōraīn</i> which can literally be broken up as 'image from light.' It is clipped to <i>rōtō(en)</i> in most contexts.`,
+		"units": [
+			{
+				"etlat": `nā`,
+				"gloss": `{imp}`
+			},
+			{
+				"etlat": `se-sonz-ā`,
+				"gloss": `{1sg.t}-help-{npst.ind}`
+			},
+			{
+				"etlat": `pal-ē`,
+				"gloss": `arrive-{pst.ind}`
+			},
+			{
+				"etlat": `set²ah²`,
+				"gloss": `{1sg}`
+			},
+			{
+				"etlat": `tō`,
+				"gloss": `{abl}`
+			},
+			{
+				"etlat": `nuz-kēk-ā`,
+				"gloss": `be_big-laugh-{npst.ind}`
+			},
+			{
+				"etlat": `ya`,
+				"gloss": `{dat}`
+			},
+			{
+				"etlat": `rōtō-en`,
+				"gloss": `photo-{absl.sg}`
+			},
+			{
+				"etlat": `lacism²-a`,
+				"gloss": `numeric-{npst.attr}`
+			}
+		]
+	},
+	{
+		"ref": "5MOYD-1532",
+		"etl": `Losaxē sen²yā iratēn.`,
+		"ipa": `ˈlosaʃeː ˈsɛɲjaː ˈirateːn̥`,
+		"en": `He happened to kill an ant.`,
+		"units": [
+			{
+				"etlat": `losax-ē`,
+				"gloss": `occur-{pst.ind}`
+			},
+			{
+				"etlat": `Ø-sen²-y-ā`,
+				"gloss": `{3sg.t}-die-{caus}-{npst.ind}`
+			},
+			{
+				"etlat": `irate-:n`,
+				"gloss": `ant-{absl.sg}`
+			}
+		]
 	}
 ];
