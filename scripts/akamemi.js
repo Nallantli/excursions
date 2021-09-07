@@ -897,5 +897,30 @@ const DATA = [
 				"gloss": `ant-{absl.sg}`
 			}
 		]
+	},
+	{
+		"ref": "5MOYD-1533",
+		"etl": `M²et²ah² itān, inquē sedulleyā.`,
+		"ipa": `ˈmetɑ iˈtaːn̥ ɪn̥kʷeː seˈðʊlleʝaː`,
+		"en": `You are a legend, and therefore I am envious.`,
+		"ex": `Lit. '(it) causes me to be envious'`,
+		"units": [
+			{
+				"etlat": `m²et²ah²`,
+				"gloss": `{2sg}`
+			},
+			{
+				"etlat": `ita-:n`,
+				"gloss": `legendary_person-{absl.sg}`
+			},
+			{
+				"etlat": `inquē`,
+				"gloss": `therefore`
+			},
+			{
+				"etlat": `se-dull-ey-ā`,
+				"gloss": `{1sg.t}-be_envious-{caus}-{npst.ind}`
+			}
+		]
 	}
 ];
