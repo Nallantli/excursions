@@ -9,11 +9,26 @@
 		href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Serif:ital@0;1&display=swap"
 		rel="stylesheet">
 	<title>Akamemi</title>
+	<link id="variables" rel="stylesheet" href="styles/light.css">
 	<link rel="stylesheet" href="styles/font_style.css">
 	<link rel="stylesheet" href="styles/menu_style.css">
 	<link rel="stylesheet" href="styles/gloss.css">
 	<script src="scripts/akamemi.js"></script>
 	<script src="scripts/gloss.js"></script>
+	<script>
+		function toggle() {
+			var el = document.getElementById("variables");
+			var el2 = document.getElementById("button-color");
+			if (el.href.match("styles/light.css")) {
+				el.href = "styles/dark.css";
+				el2.innerText = "DARK MODE";
+			}
+			else {
+				el.href = "styles/light.css";
+				el2.innerText = "LIGHT MODE";
+			}
+		}
+	</script>
 </head>
 
 <body>
@@ -23,6 +38,9 @@
 		<button id="button-etl-san" class="menu-button" onclick="openETL_SAN()">ETL-SAN</button>
 		<button id="button-god" class="menu-button" onclick="openGOD()">GOD</button>
 		<button id="button-toz" class="menu-button" onclick="openTOZ()">TOZ</button>
+	</div>
+	<div id="menu-color">
+		<button id="button-color" onclick="toggle()">LIGHT MODE</button>
 	</div>
 	<div class="content">
 		<script>

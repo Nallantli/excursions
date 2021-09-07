@@ -5,15 +5,17 @@
 .menu-button {
 	font-family     : monospace;
 	display         : block;
-	border          : 1px solid black;
+	border          : 1px solid var(--color-button-border);
 	border-radius   : 0;
+	color           : var(--color-button-text);
 	padding         : 5px;
 	margin          : 5px;
-	background-color: white;
+	background-color: var(--color-button-background);
 	transition      : all 0.1s ease-in-out;
 }
 
-.menu-button:hover, .menu-button-active {
-	background-color: #14f;
-	color           : white;
+.menu-button:hover,
+.menu-button-active {
+	background-color: var(--color-button-hover-background);
+	color           : var(--color-button-hover-text);
 }

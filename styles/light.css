@@ -1,0 +1,18 @@
+:root {
+	--color-background: #eee;
+	--color-text: #000;
+	--color-explanation-text: #fff;
+	--color-explanation-background: #333;
+	--color-link-text: #999;
+	--color-sc-underline: #ccc;
+	--color-sc-underline-hover: #0af;
+
+	--color-button-border: #000;
+	--color-button-background: #fff;
+	--color-button-text: #000;
+	--color-button-hover-background: #14f;
+	--color-button-hover-text: #fff;
+
+	--color-toggle-background: #fff;
+	--color-toggle-background-hover: #000;
+}
