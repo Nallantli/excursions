@@ -53,23 +53,17 @@ body {
 }
 
 .line-ex {
-	max-height      : 0;
-	transition      : all 0.5s ease-in-out;
+	transition      : all 0.1s ease-in-out;
 	color           : var(--color-explanation-text);
 	background-color: var(--color-explanation-background);
-	padding         : 0;
-	padding-left    : 15px;
-	padding-right   : 15px;
-	margin          : 0;
-	margin-left     : 10px;
-	margin-right    : 10px;
+	border-left     : 2px solid var(--color-link-text);
+	padding         : 15px;
+	margin          : 10px;
 	font-size       : 14px;
 }
 
-.line:hover .line-ex {
-	max-height: 10em;
-	padding   : 15px;
-	margin    : 10px;
+.line-ex:hover {
+	border-left: 2px solid var(--color-sc-underline-hover);
 }
 
 .hover {
