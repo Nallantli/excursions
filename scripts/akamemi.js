@@ -922,5 +922,58 @@ const DATA = [
 				"gloss": `{1sg.t}-be_envious-{caus}-{npst.ind}`
 			}
 		]
+	},
+	{
+		"ref": "MISC-6",
+		"etl": `Pā cinā īhlā m²enous ko xum²i em²asā m²et²ah² on xum²ā em²a.`,
+		"ipa": `paː t͜ʃiˈnaː ˈiːʔlaː meˈnoʊs ko ˈʃumi ˈemasaː ˈmetɑ ɔn̥ ʃuˈmaː ˈema`,
+		"en": `But it is enough that you close your eyes so that you can see what you want to see.`,
+		"ex": `The original Italian: <i>ma ti basta di chiuder' gli occhi per veder' quel che tu vuoi vedere</i>. From the song by Gino Paoli <i>Basta chiudere gli occhi</i>.`,
+		"units": [
+			{
+				"etlat": `pā`,
+				"gloss": `but`
+			},
+			{
+				"etlat": `cin-ā`,
+				"gloss": `suffice-{npst.ind}`
+			},
+			{
+				"etlat": `i-:hl-ā`,
+				"gloss": `{3pl.t}-close-{npst.ind}`
+			},
+			{
+				"etlat": `m²e-no⟨u⟩s`,
+				"gloss": `{2sg.t}-eye⟨{posd.pl}⟩`
+			},
+			{
+				"etlat": `ko`,
+				"gloss": `{instr}`
+			},
+			{
+				"etlat": `xum²-i`,
+				"gloss": `want-{abstr}`
+			},
+			{
+				"etlat": `Ø-em²-as-ā`,
+				"gloss": `{3pl.t}-see-{pot}-{npst.ind}`
+			},
+			{
+				"etlat": `m²et²ah²`,
+				"gloss": `{2sg}`
+			},
+			{
+				"etlat": `on`,
+				"gloss": `{subr}`
+			},
+			{
+				"etlat": `Ø-xum²-ā`,
+				"gloss": `{3sg.t}-want-{npst.ind}`
+			},
+			{
+				"etlat": `Ø-em²-a`,
+				"gloss": `{3sg.t}-see-{npst.attr}`
+			}
+		]
 	}
 ];
