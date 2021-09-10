@@ -51,6 +51,7 @@ const gloss_keys = {
 	"proper name": "Proper Name, e.g. of a person",
 	"pst": "Past",
 	"q": "Question",
+	"ncom": `Non-commitative`,
 	"qual": "Adjective of Quality",
 	"rdp": `Reduplicant`,
 	"refl": "Reflexive",

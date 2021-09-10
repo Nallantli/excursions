@@ -925,8 +925,8 @@ const DATA = [
 	},
 	{
 		"ref": "MISC-6",
-		"etl": `Pā cinā īhlā m²enous ko xum²i em²asā m²et²ah² on xum²ā em²a.`,
-		"ipa": `paː t͜ʃiˈnaː ˈiːʔlaː meˈnoʊs ko ˈʃumi ˈemasaː ˈmetɑ ɔn̥ ʃuˈmaː ˈema`,
+		"etl": `Pā cinā īhlā m²enous ya em²asā m²et²ah² on xum²ā em²a.`,
+		"ipa": `paː t͜ʃiˈnaː ˈiːʔlaː meˈnoʊs ʝa ˈemasaː ˈmetɑ ɔn̥ ʃuˈmaː ˈema`,
 		"en": `But it is enough that you close your eyes so that you can see what you want to see.`,
 		"ex": `The original Italian: <i>ma ti basta di chiuder' gli occhi per veder' quel che tu vuoi vedere</i>. From the song by Gino Paoli <i>Basta chiudere gli occhi</i>.`,
 		"units": [
@@ -947,12 +947,8 @@ const DATA = [
 				"gloss": `{2sg.t}-eye⟨{posd.pl}⟩`
 			},
 			{
-				"etlat": `ko`,
-				"gloss": `{instr}`
-			},
-			{
-				"etlat": `xum²-i`,
-				"gloss": `want-{abstr}`
+				"etlat": `ya`,
+				"gloss": `{dat}`
 			},
 			{
 				"etlat": `Ø-em²-as-ā`,
@@ -973,6 +969,75 @@ const DATA = [
 			{
 				"etlat": `Ø-em²-a`,
 				"gloss": `{3sg.t}-see-{npst.attr}`
+			}
+		]
+	},
+	{
+		"ref": "MISC-7",
+		"etl": `Melē set²ah² lūtōn ya m²et²ah² ya pacā.`,
+		"ipa": `meˈleː ˈsetɑ ˈluːtoːn̥ ʝa ˈmetɑ ʝa paˈt͜ʃaː`,
+		"en": `I gave you the book so that you would read (it).`,
+		"ex": `After the last one I had to dwell on whether I'd use a <i>ko</i>-clause or the dative <i>ya</i> to deliniate goals. In the end my preferences fell on the previously establish dative construction. The <i>ko xumi</i> construction may be relexified for formality.`,
+		"units": [
+			{
+				"etlat": `Ø-mel-ē`,
+				"gloss": `{3sg.t}-give-{pst.ind}`
+			},
+			{
+				"etlat": `set²ah²`,
+				"gloss": `{1sg}`
+			},
+			{
+				"etlat": `lūto-:n`,
+				"gloss": `book-{absl.sg}`
+			},
+			{
+				"etlat": `ya`,
+				"gloss": `{dat}`
+			},
+			{
+				"etlat": `m²et²ah²`,
+				"gloss": `{2sg}`
+			},
+			{
+				"etlat": `ya`,
+				"gloss": `{dat}`
+			},
+			{
+				"etlat": `Ø-pac-ā`,
+				"gloss": `{3sg.t}-read-{npst.ind}`
+			}
+		]
+	},
+	{
+		"ref": "5MOYD-1534",
+		"etl": `Tobē antān alūn (issa-tī assī oxum²i).`,
+		"ipa": `toˈbeː ˈɑn̥taːn̥ aˈluːn̥ | ˈɪssa=tiː ˈɑssiː ˈoʃumi`,
+		"en": `The child splashed the water (perhaps involuntarily).`,
+		"units": [
+			{
+				"etlat": `Ø-tob-ē`,
+				"gloss": `{3sg.t}-agitate-{pst.ind}`
+			},
+			{
+				"etlat": `anta-:n`,
+				"gloss": `child-{absl.sg}`
+			},
+			{
+				"etlat": `alu-:n`,
+				"gloss": `water-{absl.sg}`
+			},
+			{
+				"etlat": `issa=t-ī`,
+				"gloss": `{ncom}={cop}-{adv}`
+			},
+			{
+				"etlat": `assī`,
+				"gloss": `perhaps`
+			},
+			{
+				"etlat": `o-xum²-i-Ø`,
+				"gloss": `{refl.t}-want-{abstr}-{posd.sg}`
 			}
 		]
 	}
