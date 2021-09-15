@@ -53,7 +53,7 @@ const DATA = [
 			},
 			{
 				"etlat": `on`,
-				"gloss": `{subr}`
+				"gloss": `{subr.sg}`
 			},
 			{
 				"etlat": `ne=t²-e`,
@@ -123,7 +123,7 @@ const DATA = [
 			},
 			{
 				"etlat": `on`,
-				"gloss": `{subr}`
+				"gloss": `{subr.sg}`
 			},
 			{
 				"etlat": `∅-piqu-en-a`,
@@ -139,7 +139,7 @@ const DATA = [
 			},
 			{
 				"etlat": `on`,
-				"gloss": `{subr}`
+				"gloss": `{subr.sg}`
 			},
 			{
 				"etlat": `∅-apul-n-a`,
@@ -660,7 +660,7 @@ const DATA = [
 			},
 			{
 				"etlat": `on`,
-				"gloss": `{subr}`
+				"gloss": `{subr.sg}`
 			},
 			{
 				"etlat": `tūl-t²-en`,
@@ -696,7 +696,7 @@ const DATA = [
 			},
 			{
 				"etlat": `on`,
-				"gloss": `{subr}`
+				"gloss": `{subr.sg}`
 			},
 			{
 				"etlat": `Ø-tan-ā`,
@@ -960,7 +960,7 @@ const DATA = [
 			},
 			{
 				"etlat": `on`,
-				"gloss": `{subr}`
+				"gloss": `{subr.sg}`
 			},
 			{
 				"etlat": `Ø-xum²-ā`,
@@ -1038,6 +1038,79 @@ const DATA = [
 			{
 				"etlat": `o-xum²-i-Ø`,
 				"gloss": `{refl.t}-want-{abstr}-{posd.sg}`
+			}
+		]
+	},
+	{
+		"ref": "5MOYD-1535",
+		"etl": `Suhocā suloī zūn mīx, cēz nay on ko-tapa bonān ya rairam²ā?`,
+		"ipa": `sʊʔˈot͜ʃaː ˈsuloiː t͜suːn̥ miːʃ t͜ʃeːt͜s nɑj ɔn̥ ˈko=tapa boˈnaːn̥ ʝa raˈiamaː`,
+		"en": `Milk already has pus in it why do you need a tumor to simulate it?`,
+		"units": [
+			{
+				"etlat": `Ø-suhoc-ā`,
+				"gloss": `{3sg.t}-possess-{npst.ind}`
+			},
+			{
+				"etlat": `suloī`,
+				"gloss": `already`
+			},
+			{
+				"etlat": `zu-:n`,
+				"gloss": `milk-{absl.sg}`
+			},
+			{
+				"etlat": `mi⟨:⟩x`,
+				"gloss": `pus⟨{absl.sg}⟩`
+			},
+			{
+				"etlat": `cēz-Ø`,
+				"gloss": `reason-{posd.sg}`
+			},
+			{
+				"etlat": `nay`,
+				"gloss": `{rel}`
+			},
+			{
+				"etlat": `on`,
+				"gloss": `{subr.sg}`
+			},
+			{
+				"etlat": `ko=Ø-tap-a`,
+				"gloss": `{instr}={3sg.t}-need-{npst.attr}`
+			},
+			{
+				"etlat": `bona-:n`,
+				"gloss": `tumor-{absl.sg}`
+			},
+			{
+				"etlat": `ya`,
+				"gloss": `{dat}`
+			},
+			{
+				"etlat": `Ø-rairam²-ā`,
+				"gloss": `{3sg.t}-simulate-{npst.ind}`
+			}
+		]
+	},
+	{
+		"ref": "5MOYD-1536",
+		"etl": `Tobī-tobē antān alūn.`,
+		"ipa": `toˈbiː=toˈbeː ˈɑn̥taːn̥ aˈluːn̥`,
+		"en": `The child splashed the water (purposefully and repeatedly).`,
+		"ex": `I have no means in Etlatian to express grammatical volition.`,
+		"units": [
+			{
+				"etlat": `tob-ī=Ø-tob-ē`,
+				"gloss": `agitate-{adv}={3sg.t}-{redup}-{pst.ind}`
+			},
+			{
+				"etlat": `anta-:n`,
+				"gloss": `child-{absl.sg}`
+			},
+			{
+				"etlat": `alu-:n`,
+				"gloss": `water-{absl.sg}`
 			}
 		]
 	}
