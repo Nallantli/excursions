@@ -1159,6 +1159,39 @@ const DATA = [
 		]
 	},
 	{
+		"ref": "5MOYD-1538",
+		"etl": `Ya set²ah² risalēn ne ten cakquār.`,
+		"ipa": `ʝa ˈsetɑ ˈrisaleːn̥ ne tɛn̥ ˈt͜ʃɑkkʷaːr̥`,
+		"ex": `More literally: 'I have a fear of this jaguar'`,
+		"en": `I am afraid of (this) jaguar.`,
+		"units": [
+			{
+				"etlat": `ya`,
+				"gloss": `{dat}`
+			},
+			{
+				"etlat": `set²ah²`,
+				"gloss": `{1sg}`
+			},
+			{
+				"etlat": `risal-e-:n`,
+				"gloss": `fear-{nmz}-{absl.sg}`
+			},
+			{
+				"etlat": `ne`,
+				"gloss": `{loc}`
+			},
+			{
+				"etlat": `ten`,
+				"gloss": `this`
+			},
+			{
+				"etlat": `cakqua⟨:⟩r`,
+				"gloss": `jaguar⟨{absl.sg}⟩`
+			}
+		]
+	},
+	{
 		"ref": "5MOYD-1539",
 		"etl": `T²ā callē sohā bān ne xim²m²e sox, in tihpesserā semar.`,
 		"ipa": `taː t͜ʃɑlle: sɔʔˈaː baːn̥ ne ˈʃɪmme sɔʃ ɪn̥ tɪʔˈpɛsseraː ˈsemɑr̥`,
