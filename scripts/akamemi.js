@@ -1113,5 +1113,97 @@ const DATA = [
 				"gloss": `water-{absl.sg}`
 			}
 		]
+	},
+	{
+		"ref": "5MOYD-1537",
+		"etl": `Lāsā Duri in Piankori (ami sar ōdesin) rōhzī ēquinen.`,
+		"ipa": `ˈlaːsaː ˈduri ɪn̥ ˈpi̯ɑn̥kori ˈami sɑr̥ ˈoːðesɪn̥ ˈroːʔt͜siː ˈeːkʷinən̥`,
+		"en": `Douri and Fyangori (the two moons) run marking the night.`,
+		"units": [
+			{
+				"etlat": `lās-ā`,
+				"gloss": `run-{npst.ind}`
+			},
+			{
+				"etlat": `Duri`,
+				"gloss": `{proper name}`
+			},
+			{
+				"etlat": `in`,
+				"gloss": `and`
+			},
+			{
+				"etlat": `Piankori`,
+				"gloss": `{proper name}`
+			},
+			{
+				"etlat": `ami`,
+				"gloss": `{subr.pl}`
+			},
+			{
+				"etlat": `sar`,
+				"gloss": `two`
+			},
+			{
+				"etlat": `ōdes-in`,
+				"gloss": `moon-{absl.pl}`
+			},
+			{
+				"etlat": `rōhz-ī`,
+				"gloss": `{3sg.t}-illuminate-{adv}`
+			},
+			{
+				"etlat": `ēquin-en`,
+				"gloss": `night-{absl.sg}`
+			}
+		]
+	},
+	{
+		"ref": "5MOYD-1539",
+		"etl": `T²ā callē sohā bān ne xim²m²e sox, in tihpesserā semar.`,
+		"ipa": `taː t͜ʃɑlle: sɔʔˈaː baːn̥ ne ˈʃɪmme sɔʃ ɪn̥ tɪʔˈpɛsseraː ˈsemɑr̥`,
+		"en": `It's just that there's a hole in the lining of my shoe, and my toe keeps getting caught in it.`,
+		"units": [
+			{
+				"etlat": `t²-ā`,
+				"gloss": `{cop}-{npst.ind}`
+			},
+			{
+				"etlat": `callē`,
+				"gloss": `merely`
+			},
+			{
+				"etlat": `soh-ā`,
+				"gloss": `exist-{npst.ind}`
+			},
+			{
+				"etlat": `ba-:n`,
+				"gloss": `hole-{absl.sg}`
+			},
+			{
+				"etlat": `ne`,
+				"gloss": `{loc}`
+			},
+			{
+				"etlat": `xim²m²e-Ø`,
+				"gloss": `lining-{posd.sg}`
+			},
+			{
+				"etlat": `s-ox-Ø`,
+				"gloss": `{1sg.t}-shoe-{posd.sg}`
+			},
+			{
+				"etlat": `in`,
+				"gloss": `and`
+			},
+			{
+				"etlat": `tihp-ess-er-ā`,
+				"gloss": `ensnare-{hab}-{pass}-{npst.ind}`
+			},
+			{
+				"etlat": `se-mar-Ø`,
+				"gloss": `{1sg.t}-toe-{posd.sg}`
+			}
+		]
 	}
 ];

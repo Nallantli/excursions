@@ -10,8 +10,8 @@ const DATA = [
 				"en": `At the beginning there was an infinite ocean; thus on the surface of the world lay only the blue of water.`
 			},
 			{
-				"text": `Īs t²ē suloī tiyen in īs muzē suloī rotōs inquē lupēn ne sisni. In on namūr īs sohē nelen ko xumi seyterā rōen ne mās sula.`,
-				"ipa": `iːs teː ˈsuloiː ˈtiʝən̥ ɪn̥ iːs ˈmut͜seː ˈsuloiː roˈtoːs ˈɪn̥kʷeː luˈpeːn̥ ne ˈsɪsni | ɪn̥ ɔn̥ naˈmuːr̥ iːs sɔʔˈeː ˈnelən̥ ko ˈʃumi ˈsɛjteraː ˈroːən̥ ne maːs ˈsula`,
+				"text": `Īs t²ē suloī tiyen in īs muzē suloī rotōs inquē lupēn ne sisin. In on namūr īs sohē nelen ko xumi seyterā rōen ne mās sula.`,
+				"ipa": `iːs teː ˈsuloiː ˈtiʝən̥ ɪn̥ iːs ˈmut͜seː ˈsuloiː roˈtoːs ˈɪn̥kʷeː luˈpeːn̥ ne ˈsisɪn̥ | ɪn̥ ɔn̥ naˈmuːr̥ iːs sɔʔˈeː ˈnelən̥ ko ˈʃumi ˈsɛjteraː ˈroːən̥ ne maːs ˈsula`,
 				"en": `Not yet was the sky and the wind did not yet blow life into the waves. Furthermore, the sun did not exist to scatter light across the infinite ocean.`
 			},
 			{
@@ -114,8 +114,8 @@ const DATA = [
 				"en": `"I am born of the sea," he continued. The serpent circled the boat and remarked upon the woman's curious disposition.`
 			},
 			{
-				"text": `« Lanomerā in tīquem²ā ne cēn ya set²ah² ne nay bisesni m²eceku, in sommerā akami annum²a mo m²emouhte. »`,
-				"ipa": `laˈnomeraː ɪn̥ ˈtiːkʷemaː ne t͜ʃeːn̥ ʝa ˈsetɑ ne nɑj biˈsɛsni ˈmɛt͜ʃeku ɪn̥ ˈsɔmmeraː ˈakami ˈɑnnuma mo meˈmoʊ̯ʔte`,
+				"text": `« Lanomerā in tīquem²ā ne cēn ya set²ah² ne nay bisesin m²eceku, in sommerā akami annum²a mo m²emouhte. »`,
+				"ipa": `laˈnomeraː ɪn̥ ˈtiːkʷemaː ne t͜ʃeːn̥ ʝa ˈsetɑ ne nɑj biˈsesɪn̥ ˈmɛt͜ʃeku ɪn̥ ˈsɔmmeraː ˈakami ˈɑnnuma mo meˈmoʊ̯ʔte`,
 				"en": `"Where I have scales your flesh is unbroken and fair, and upon your head do you bare golden threads."`
 			},
 			{
@@ -159,8 +159,8 @@ const DATA = [
 				"en": `"It is not a name," the woman spoke. "That is not who you are but rather what you are.`
 			},
 			{
-				"text": `Xipocasā tā set²ah² Nassoēlen, ko cēz ēlen in ne ten nassōn set²ah², pā imelā dis rouhlauhme huaī sisutu. »`,
-				"ipa": `ʃiˈpot͜ʃasaː taː ˈsetɑ nɑssoˈeːlən̥ ko t͜ʃeːt͜s ˈeːlən̥ ɪn̥ ne tɛn̥ ˈnɑssoːn̥ ˈsetɑ paː ˈimelaː dɪs ˈroʊ̯ʔlaʊ̯ʔme ʍaˈiː ˈsisutu`,
+				"text": `Xipocasā tā set²ah² Nassoēlen, ko cēz ēlen in ne ten nassōn set²ah², pā imelā dis rouhlahuin huaī sisutu. »`,
+				"ipa": `ʃiˈpot͜ʃasaː taː ˈsetɑ nɑssoˈeːlən̥ ko t͜ʃeːt͜s ˈeːlən̥ ɪn̥ ne tɛn̥ ˈnɑssoːn̥ ˈsetɑ paː ˈimelaː dɪs ˈroʊ̯ʔlawɪn̥ ʍaˈiː ˈsisutu`,
 				"en": `You may describe me as a woman on a boat, for I am a woman and am in this boat, but that gives no insight to my identity."`
 			},
 			{
@@ -169,13 +169,13 @@ const DATA = [
 				"en": `The serpent circled the boat once more as the deluge began to renew itself.`
 			},
 			{
-				"text": `« Kum²utecem²ā sisni sū tleti īs sudasā set²ah² ne ticēn ne rit²en.`,
-				"ipa": `kumuˈtet͜ʃemaː ˈsɪsni suː ˈt͜ɬeti iːs ˈsuðasaː ˈsetɑ ne tiˈt͜ʃeːn̥ ne ˈritən̥`,
+				"text": `« Kum²utecem²ā sisin sū tleti īs sudasā set²ah² ne ticēn ne rit²en.`,
+				"ipa": `kumuˈtet͜ʃemaː ˈsisɪn̥ suː ˈt͜ɬeti iːs ˈsuðasaː ˈsetɑ ne tiˈt͜ʃeːn̥ ne ˈritən̥`,
 				"en": `"The waves will soon be too violent for me to remain here at the surface.`
 			},
 			{
-				"text": `Serhueyuī lasoxni sū oet²oh² sicē, » sisudē alen, « nā calmelā ya oet²oh² tī rinsomi aspīlē. »`,
-				"ipa": `səɹˈweʝuiː laˈsɔʃni suː ˈoetɔ siˈt͜ʃeː ˈsisuðeː ˈalən̥ naː ˈt͜ʃɑlmelaː ʝa ˈoetɔ tiː ˈrɪn̥somi ɑsˈpiːleː`,
+				"text": `Serhueyuī lasoxin sū oet²oh² sicē, » sisudē alen, « nā calmelā ya oet²oh² tī rinsomi aspīlē. »`,
+				"ipa": `səɹˈweʝuiː ˈlasoʃɪn̥ suː ˈoetɔ siˈt͜ʃeː ˈsisuðeː ˈalən̥ naː ˈt͜ʃɑlmelaː ʝa ˈoetɔ tiː ˈrɪn̥somi ɑsˈpiːleː`,
 				"en": `If the tides ebb us towards one-another again," he continued, "let us exchange our names as friends."`
 			}
 		]
@@ -190,8 +190,8 @@ const DATA = [
 				"en": `The serpent's heavy eyes rested their gaze upon the woman, who remained for a brief moment collecting her thoughts on the situation.`
 			},
 			{
-				"text": `Korē ne osommecē rān ya tōbēn: « īs tā āquem²īn ya set²ah² huaī lasoxni ko ser on ya m²et²ah²; risalā set²ah² okāilyuī ān āst²oh² eh²nā lōn xōla in ne-oniyasa. »`,
-				"ipa": `koˈreː ne oˈsɔmmet͜ʃeː raːn̥ ʝa ˈtoːbeːn̥ iːs taː ˈaːkʷemiːn̥ ʝa ˈsetɑ ʍaˈiː laˈsɔʃni ko sɛr̥ ɔn̥ ʝa ˈmetɑ | ˈrisalaː ˈsetɑ okaːˈɪljuiː aːn̥ ˈaːstɔ əʔˈnaː loːn̥ ˈʃoːla ɪn̥ ne=oˈniʝasa`,
+				"text": `Korē ne osommecē rān ya tōbēn: « īs tā āquem²īn ya set²ah² huaī lasoxin ko ser on ya m²et²ah²; risalā set²ah² okāilyuī ān āst²oh² eh²nā lōn xōla in ne-oniyasa. »`,
+				"ipa": `koˈreː ne oˈsɔmmet͜ʃeː raːn̥ ʝa ˈtoːbeːn̥ iːs taː ˈaːkʷemiːn̥ ʝa ˈsetɑ ʍaˈiː ˈlasoʃɪn̥ ko sɛr̥ ɔn̥ ʝa ˈmetɑ | ˈrisalaː ˈsetɑ okaːˈɪljuiː aːn̥ ˈaːstɔ əʔˈnaː loːn̥ ˈʃoːla ɪn̥ ne=oˈniʝasa`,
 				"en": `When she had collected herself, she responded to the proposal: "I do not trust the tides like you do; I fear that if we seperate like this there will not be another moment of meeting."`
 			},
 			{
@@ -200,8 +200,8 @@ const DATA = [
 				"en": `The serpent laughed against the droplets of rain. "I tell you: water does not flow erroneously.`
 			},
 			{
-				"text": `Sāpih²cā in mantercā izecyen, ne eihlā sū tūrrēn, nōi toh²nē ne sar sisni mismira in sarra`,
-				"ipa": `ˈsaːpɪʔt͜ʃaː ɪn̥ ˈmɑn̥tərt͜ʃaː iˈt͜sɛt͜ʃjən̥ ne ˈeɪ̯ʔlaː suː ˈtuːɽ͜reːn̥ ˈnoːi tɔʔˈneː ne sɑr̥ ˈsɪsni ˈmɪsmira ɪn̥ ˈsɑɽ͜ra`,
+				"text": `Sāpih²cā in mantercā izecyen, ne eihlā sū tūrrēn, nōi toh²nē ne sar sisin mismira in sarra`,
+				"ipa": `ˈsaːpɪʔt͜ʃaː ɪn̥ ˈmɑn̥tərt͜ʃaː iˈt͜sɛt͜ʃjən̥ ne ˈeɪ̯ʔlaː suː ˈtuːɽ͜reːn̥ ˈnoːi tɔʔˈneː ne sɑr̥ ˈsisɪn ˈmɪsmira ɪn̥ ˈsɑɽ͜ra`,
 				"en": `A pebble, when tossed into the deep, will seem to sink and be lost forever under the cascading blue waves`
 			},
 			{
@@ -210,8 +210,8 @@ const DATA = [
 				"en": `and those that watch from above the surface of the ocean will fear that the sand below will cover the little stone and it will be laid to rest.`
 			},
 			{
-				"text": `Xā paquē rih² quora ten alumi īs at²em²asā īt²oh²; Yen²cā set²ah² saxēs on tūrrēn, icūrāt²ēs masbollauhme, in izecya, meihquē pobūs lihna cōlī kelān.`,
-				"ipa": `ʃaː paˈkʷeː rɪ ˈkʷora tɛn̥ ˈalumi iːs aˈtemasaː ˈiːtɔ | ˈʝɛn̥t͜ʃaː ˈsetɑ saˈʃeːs ɔn̥ ˈtuːɽ͜reːn̥ iˈt͜ʃuːraːteːs mɑsbɔlˈlaʊ̯ʔme ɪn̥ iˈt͜sɛt͜ʃja ˈmeɪ̯ʔkʷeː poˈbuːs lɪʔˈna ˈt͜ʃoːliː keˈlaːn̥`,
+				"text": `Xā paquē rih² quora ten alumi īs at²em²asā īt²oh²; Yen²cā set²ah² saxēs on tūrrēn, icūrāt²ēs masbollahuin, in izecya, meihquē pobūs lihna cōlī kelān.`,
+				"ipa": `ʃaː paˈkʷeː rɪ ˈkʷora tɛn̥ ˈalumi iːs aˈtemasaː ˈiːtɔ | ˈʝɛn̥t͜ʃaː ˈsetɑ saˈʃeːs ɔn̥ ˈtuːɽ͜reːn̥ iˈt͜ʃuːraːteːs mɑsˈbɔllawɪn̥ ɪn̥ iˈt͜sɛt͜ʃja ˈmeɪ̯ʔkʷeː poˈbuːs lɪʔˈna ˈt͜ʃoːliː keˈlaːn̥`,
 				"en": `But the murky surface of these waters blinds them; I have seen the movements of the deep, the journeys of seashells, pebbles, and even the smallest grains of sand.`
 			},
 			{
@@ -262,8 +262,8 @@ const DATA = [
 				"en": `The water that fell from the sky comforted her, and washed away the taste of salt blown onto the edges of her lips.`
 			},
 			{
-				"text": `Sisudnē ko tōlin lomi osaxā sinborsū rān, pā ikuhtehzē on tauntēs sisni tekra in picūn risalem²a.`,
-				"ipa": `siˈsʊt̚neː ko ˈtoːlin̥ ˈlomi ˈosaʃaː ˈsɪmbɔr̥suː raːn̥ paː iˈkʊʔtəʔt͜seː ɔn̥ ˈtaʊ̯n̥teːs ˈsɪsni ˈtɛkra ɪn̥ piˈt͜ʃuːn̥ riˈsalema`,
+				"text": `Sisudnē ko tōlin lomi osaxā sinborsū rān, pā ikuhtehzē on tauntēs sisin tekra in picūn risalem²a.`,
+				"ipa": `siˈsʊt̚neː ko ˈtoːlin̥ ˈlomi ˈosaʃaː ˈsɪmbɔr̥suː raːn̥ paː iˈkʊʔtəʔt͜seː ɔn̥ ˈtaʊ̯n̥teːs ˈsisɪn̥ ˈtɛkra ɪn̥ piˈt͜ʃuːn̥ riˈsalema`,
 				"en": `For a time, she would continue to move westward, but the storm nourished fierce waves and ominous thunder.`
 			},
 			{

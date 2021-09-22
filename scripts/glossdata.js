@@ -132,7 +132,7 @@ const LINE_2_1 = {
 	]
 };
 const LINE_2_2 = {
-	"etl": `tapā aihrā ami t²a nosni;`,
+	"etl": `tapā aihrā ami t²a nosin;`,
 	"en": `the eyes need be heavy;`,
 	"units": [
 		{
@@ -152,7 +152,7 @@ const LINE_2_2 = {
 			"gloss": `{cop}-{npst.attr}`
 		},
 		{
-			"etlat": `nos-ni`,
+			"etlat": `nos-in`,
 			"gloss": `eye-{absl.pl}`
 		}
 	]
@@ -263,12 +263,12 @@ const LINE_4_1 = {
 	]
 };
 const LINE_4_2 = {
-	"etl": `betasni akena tokinum²en,`,
+	"etl": `betasin akena tokinum²en,`,
 	"en": `the lips from which escapes the sound of breath,`,
 	"ex": `The sequence <i>tokinumen</i> should be contrasted with <i>nun tokīn</i>, the latter being the construction using the possessive. For sequences that do not explicitly represent semantic ownership, use of the possessive is proscribed in favor of compounding. Both are, however, widely used with the latter becoming more common in colloquial speech.`,
 	"units": [
 		{
-			"etlat": `betas-ni`,
+			"etlat": `betas-in`,
 			"gloss": `lip-{absl.pl}`
 		},
 		{
