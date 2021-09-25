@@ -1196,6 +1196,7 @@ const DATA = [
 		"etl": `T²ā callē sohā bān ne xim²m²e sox, in tihpesserā semar.`,
 		"ipa": `taː t͜ʃɑlle: sɔʔˈaː baːn̥ ne ˈʃɪmme sɔʃ ɪn̥ tɪʔˈpɛsseraː ˈsemɑr̥`,
 		"en": `It's just that there's a hole in the lining of my shoe, and my toe keeps getting caught in it.`,
+		"ex": `<i>Mār</i> can mean either 'finger' or 'toe;' specificity is garnered by the construction <i>xumār</i> 'foot-digit.'`,
 		"units": [
 			{
 				"etlat": `t²-ā`,
@@ -1235,7 +1236,43 @@ const DATA = [
 			},
 			{
 				"etlat": `se-mar-Ø`,
-				"gloss": `{1sg.t}-toe-{posd.sg}`
+				"gloss": `{1sg.t}-digit-{posd.sg}`
+			}
+		]
+	},
+	{
+		"ref": "5MOYD-1540",
+		"etl": `Mahtē rān meyyān ko dēzēn ya semāhtem²ah².`,
+		"ipa": `mɑʔˈteː raːn̥ ˈmɛjjaːn̥ ko ˈdeːt͜seːn̥ ʝa seˈmaːʔtemɑ`,
+		"en": `She fetched the wood as a favour for my mother.`,
+		"units": [
+			{
+				"etlat": `Ø-maht-ē`,
+				"gloss": `{3sg.t}-bring-{pst.ind}`
+			},
+			{
+				"etlat": `ra-:n`,
+				"gloss": `she-{absl.sg}`
+			},
+			{
+				"etlat": `meyya-:n`,
+				"gloss": `wood-{absl.sg}`
+			},
+			{
+				"etlat": `ko`,
+				"gloss": `{instr}`
+			},
+			{
+				"etlat": `dēz-e-:n`,
+				"gloss": `serve-{nmz}-{absl.sg}`
+			},
+			{
+				"etlat": `ya`,
+				"gloss": `{dat}`
+			},
+			{
+				"etlat": `se-māhtem²⟨a⟩h²`,
+				"gloss": `{1sg.t}-mother⟨{posd.sg}⟩`
 			}
 		]
 	}
