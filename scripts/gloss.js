@@ -9,6 +9,8 @@ function transliterate(s) {
 }
 
 const gloss_keys = {
+	"redup": `Reduplicant`,
+	"top": `Topic`,
 	"1pl": `First Person Plural`,
 	"1sg": "First Person Singular",
 	"2sg": "Second Person Singular",

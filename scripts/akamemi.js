@@ -1275,5 +1275,126 @@ const DATA = [
 				"gloss": `{1sg.t}-mother⟨{posd.sg}⟩`
 			}
 		]
+	},
+	{
+		"ref": "5MOYD-1541",
+		"etl": `Tīen koklēn tālquera ya pah²t²ecyen.`,
+		"ipa": `ˈtiːən̥ ˈkɔkleːn̥ ˈtaːlkʷera ʝa pɑʔˈtɛt͜ʃjən̥`,
+		"en": `This is the vomit being prepared for the chicken.`,
+		"ex": `The word for 'chicken' is derived from <i>patā</i> 'he taps (it),' via the agentive <i>-t</i> and the diminutive <i>-cy</i>.`,
+		"units": [
+			{
+				"etlat": `tī-en`,
+				"gloss": `this-{absl.sg}`
+			},
+			{
+				"etlat": `kokl-e-:n`,
+				"gloss": `vomit-{nmz}-{absl.sg}`
+			},
+			{
+				"etlat": `tālqu-er-a`,
+				"gloss": `prepare-{pass}-{npst.ind}`
+			},
+			{
+				"etlat": `ya`,
+				"gloss": `{dat}`
+			},
+			{
+				"etlat": `pah²t²ecy-en`,
+				"gloss": `chicken-{absl.sg}`
+			}
+		]
+	},
+	{
+		"ref": "5MOYD-1542",
+		"etl": `Polyā sū ātuēn mōs.`,
+		"ipa": `ˈpɔljaː suː ˈaːtu̯eːn̥ moːs`,
+		"en": `He is hanging a pot there.`,
+		"units": [
+			{
+				"etlat": `Ø-poly-ā`,
+				"gloss": `{3sg.t}-hang_up-{npst.ind}`
+			},
+			{
+				"etlat": `sū`,
+				"gloss": `{all}`
+			},
+			{
+				"etlat": `ātue-:n`,
+				"gloss": `that-{absl.sg}`
+			},
+			{
+				"etlat": `mo⟨:⟩s`,
+				"gloss": `pot⟨{absl.sg}⟩`
+			}
+		]
+	},
+	{
+		"ref": "5MOYD-1543",
+		"etl": `Ōhxudē alen boetlī sū lanahualoszet²ē ko eiht²ēr in cih²quanēn huaī nimē in men nome karrēn.`,
+		"ipa": `ˈoːʔʃuðeː ˈalən̥ ˈboet͜ɬiː suː lanawaˈlɔst͜seteː ko ˈeɪ̯ʔteːr̥ ɪn̥ t͜ʃɪʔˈkʷaneːn̥ ʍaˈiː niˈmeː ɪn̥ mɛn̥ ˈnome ˈkɑrreːn̥`,
+		"en": `He liaised extensively with co-conspirators via phone and email on any and every aspect of the fraud.`,
+		"units": [
+			{
+				"etlat": `o-:hxud-ē`,
+				"gloss": `{refl.t}-connect-{pst.ind}`
+			},
+			{
+				"etlat": `al-en`,
+				"gloss": `he-{absl.sg}`
+			},
+			{
+				"etlat": `boetl-ī`,
+				"gloss": `be_thorough-{adv}`
+			},
+			{
+				"etlat": `sū`,
+				"gloss": `{all}`
+			},
+			{
+				"etlat": `la-nahu-alosz-et²-eː`,
+				"gloss": `side-be_mutual-plan-{agt}-{absl.pl}`
+			},
+			{
+				"etlat": `ko`,
+				"gloss": `{instr}`
+			},
+			{
+				"etlat": `eihte⟨:⟩r`,
+				"gloss": `phone⟨{absl.sg}⟩`
+			},
+			{
+				"etlat": `in`,
+				"gloss": `and`
+			},
+			{
+				"etlat": `cih²quan-en`,
+				"gloss": `email-{absl.sg}`
+			},
+			{
+				"etlat": `huaī`,
+				"gloss": `{top}`
+			},
+			{
+				"etlat": `nimē`,
+				"gloss": `any`
+			},
+			{
+				"etlat": `in`,
+				"gloss": `and`
+			},
+			{
+				"etlat": `men`,
+				"gloss": `every`
+			},
+			{
+				"etlat": `nome-Ø`,
+				"gloss": `part-{posd.sg}`
+			},
+			{
+				"etlat": `karr-e-:n`,
+				"gloss": `be_false-{nmz}-{absl.sg}`
+			}
+		]
 	}
 ];
