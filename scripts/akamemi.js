@@ -53,7 +53,7 @@ const DATA = [
 			},
 			{
 				"etlat": `on`,
-				"gloss": `{subr.sg}`
+				"gloss": `{on.sg}`
 			},
 			{
 				"etlat": `ne=t²-e`,
@@ -123,7 +123,7 @@ const DATA = [
 			},
 			{
 				"etlat": `on`,
-				"gloss": `{subr.sg}`
+				"gloss": `{on.sg}`
 			},
 			{
 				"etlat": `∅-piqu-en-a`,
@@ -139,7 +139,7 @@ const DATA = [
 			},
 			{
 				"etlat": `on`,
-				"gloss": `{subr.sg}`
+				"gloss": `{on.sg}`
 			},
 			{
 				"etlat": `∅-apul-n-a`,
@@ -660,7 +660,7 @@ const DATA = [
 			},
 			{
 				"etlat": `on`,
-				"gloss": `{subr.sg}`
+				"gloss": `{on.sg}`
 			},
 			{
 				"etlat": `tūl-t²-en`,
@@ -696,7 +696,7 @@ const DATA = [
 			},
 			{
 				"etlat": `on`,
-				"gloss": `{subr.sg}`
+				"gloss": `{on.sg}`
 			},
 			{
 				"etlat": `Ø-tan-ā`,
@@ -960,7 +960,7 @@ const DATA = [
 			},
 			{
 				"etlat": `on`,
-				"gloss": `{subr.sg}`
+				"gloss": `{on.sg}`
 			},
 			{
 				"etlat": `Ø-xum²-ā`,
@@ -1073,7 +1073,7 @@ const DATA = [
 			},
 			{
 				"etlat": `on`,
-				"gloss": `{subr.sg}`
+				"gloss": `{on.sg}`
 			},
 			{
 				"etlat": `ko=Ø-tap-a`,
@@ -1138,7 +1138,7 @@ const DATA = [
 			},
 			{
 				"etlat": `ami`,
-				"gloss": `{subr.pl}`
+				"gloss": `{on.pl}`
 			},
 			{
 				"etlat": `sar`,
@@ -1394,6 +1394,128 @@ const DATA = [
 			{
 				"etlat": `karr-e-:n`,
 				"gloss": `be_false-{nmz}-{absl.sg}`
+			}
+		]
+	},
+	{
+		"ref": "5MOYD-1544",
+		"etl": `Iseddē notūn mohuahuin imikce.`,
+		"ipa": `iˈsɛddeː noˈtuːn̥ ˈmowawɪn̥ iˈmɪkt͜ʃe`,
+		"en": `The boy remembered the gloves he had left behind.`,
+		"units": [
+			{
+				"etlat": `i-sedd-ē`,
+				"gloss": `{3pl.t}-remember-{pst.ind}`
+			},
+			{
+				"etlat": `notu-:n`,
+				"gloss": `boy-{absl.sg}`
+			},
+			{
+				"etlat": `mohua-huin`,
+				"gloss": `glove-{absl.pl}`
+			},
+			{
+				"etlat": `i-mik-c-e`,
+				"gloss": `{3pl.t}-leave_behind-{prf}-{pst.attr}`
+			}
+		]
+	},
+	{
+		"ref": "5MOYD-1545",
+		"etl": `kuy sen²yerē Barte Sinpeson ne alsonet²ēn ko SARIN ne sareske Tōkyō ne tin-ton tommān-cis on?`,
+		"ipa": `kʊj ˈsɛnjereː ˈbɑr̥te ˈsɪm̥pesɔn̥ ne ɑlˈsoneteːn̥ ko ˈsarɪn̥ ne saˈrɛske ˈtoːkjoː ne tɪn̥=tɔn̥ ˈtɔmmaːn̥=t͜ʃis ɔn̥`,
+		"en": `was Bart Simpson killed in the 1995 Tokyo subway sarin attack.`,
+		"ex": `Apparently 'sarin' is an acronym of the names of the discoverers.`,
+		"units": [
+			{
+				"etlat": `kuy`,
+				"gloss": `{q}`
+			},
+			{
+				"etlat": `sen²-y-er-ē`,
+				"gloss": `die-{caus}-{pass}-{pst.ind}`
+			},
+			{
+				"etlat": `Barte Sinpeson`,
+				"gloss": `{proper name}`
+			},
+			{
+				"etlat": `ne`,
+				"gloss": `{loc}`
+			},
+			{
+				"etlat": `alsonet²-e-:n`,
+				"gloss": `attack-{nmz}-{absl.sg}`
+			},
+			{
+				"etlat": `ko`,
+				"gloss": `{instr}`
+			},
+			{
+				"etlat": `SARIN`,
+				"gloss": `{proper name}`
+			},
+			{
+				"etlat": `ne`,
+				"gloss": `{loc}`
+			},
+			{
+				"etlat": `sareske-Ø`,
+				"gloss": `subway-{posd.sg}`
+			},
+			{
+				"etlat": `Tōkyō`,
+				"gloss": `{proper name}`
+			},
+			{
+				"etlat": `ne`,
+				"gloss": `{loc}`
+			},
+			{
+				"etlat": `tin=ton`,
+				"gloss": `one=nine`
+			},
+			{
+				"etlat": `tom-mān=cis`,
+				"gloss": `nine-ten=five`
+			},
+			{
+				"etlat": `on`,
+				"gloss": `{on.sg}`
+			}
+		]
+	},
+	{
+		"ref": "5MOYD-1546",
+		"etl": `Xum²ā āst²oh² kā osēn īt²oh² renī demī.`,
+		"ipa": `ʃuˈmaː ˈɑstɔ kaː oˈseːn̥ ˈiːtɔ reˈniː deˈmiː`,
+		"en": `We want them to do the work better.`,
+		"ex": `I have variously translated 'they' (3rd person plural) with <i>alē</i> and <i>rami</i>, corresponding to masculine and feminine. The more general <i>ītoh</i> has no explicit gender, and should be used for groups where [1] members are of both sexes (e.g. a classroom) and/or [2] the members are too vast or too general to know (e.g. the population of the United States).`,
+		"units": [
+			{
+				"etlat": `Ø-xum²-ā`,
+				"gloss": `{3sg.t}-want-{npst.ind}`
+			},
+			{
+				"etlat": `āst²oh²`,
+				"gloss": `{1pl}`
+			},
+			{
+				"etlat": `Ø-k-ā`,
+				"gloss": `{3sg.t}-do-{npst.ind}`
+			},
+			{
+				"etlat": `os-e-:n`,
+				"gloss": `work-{nmz}-{absl.sg}`
+			},
+			{
+				"etlat": `īt²oh²`,
+				"gloss": `{3pl}`
+			},
+			{
+				"etlat": `ren-ī`,
+				"gloss": `be_good-{adv}`
 			}
 		]
 	}

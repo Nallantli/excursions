@@ -9,6 +9,7 @@ function transliterate(s) {
 }
 
 const gloss_keys = {
+	"on": `A multi-purpose particle; shares properties of a subordinator, determiner, and generic pronoun`,
 	"redup": `Reduplicant`,
 	"top": `Topic`,
 	"1pl": `First Person Plural`,
@@ -18,7 +19,7 @@ const gloss_keys = {
 	"3sg": "Third Person Singular",
 	"ab": "Abessive Negation of Habitual Verbs",
 	"abl": "Ablative",
-	"absl": "Absolute Case",
+	"absl": "Absolute",
 	"abstr": "Abstract Nominalizer",
 	"act": "Actor of a Passive Clause",
 	"adv": "Adverbial",
@@ -47,7 +48,7 @@ const gloss_keys = {
 	"ntr": "Intransitivizer",
 	"pass": "Passive",
 	"pl": "Plural",
-	"posd": "Possessive Case",
+	"posd": "Possessive",
 	"pot": "Potential",
 	"prf": "Perfect",
 	"proper name": "Proper Name, e.g. of a person",
@@ -104,7 +105,7 @@ function parseGloss(g) {
 					if (i > 0) {
 						s += `.`;
 					}
-					s += `<span class="small-caps">${p}<div class="hover">${resolveKey(p)}</div></span>`;
+					s += `<span class="small-caps">${p}<div class="hover"><p>${resolveKey(p)}</p></div></span>`;
 				});
 			}
 			s += gloss;
