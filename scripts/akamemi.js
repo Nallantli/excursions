@@ -1,13 +1,13 @@
 const DATA = [
 	{
 		"ref": "5MOYD-1515",
-		"etl": `Polyā sū siphuen set²ah² sēlāzhue.`,
-		"ipa": `ˈpɔljaː suː ˈsɪpwən̥ ˈsetɑ seːˈlaːt͜swe`,
+		"etl": `Polhā sū siphuen set²ah² sēlāzhue.`,
+		"ipa": `ˈpɔɬaː suː ˈsɪpʍən̥ ˈsetɑ seːˈlaːt͜sʍe`,
 		"en": `I hang my dress on a tree.`,
 		"ex": `The word <i>ēlāzhuēn</i>, translated here as 'dress,' is derived from <i>ēl-</i> 'woman, female' and <i>āzhuēn</i> 'clothing' &lt;&lt; <i>atāzhuōs</i> 'to wear.'`,
 		"units": [
 			{
-				"etlat": `Ø-pol-y-ā`,
+				"etlat": `Ø-pol-h-ā`,
 				"gloss": `{3sg.t}-hang-{caus}-{npst.ind}`
 			},
 			{
@@ -33,7 +33,7 @@ const DATA = [
 		"etl": `Mikcē luscam²ī nin²ta ne on ne-t²e osuhocēs in lāsē eresū.`,
 		"ipa": `ˈmɪkt͜ʃeː ˈlʊst͜ʃamiː ˈnɪn̥ta ne ɔn̥ ˈne=te osʊʔˈot͜ʃeːs ɪn̥ ˈlaːseː ˈeresuː`,
 		"en": `Surprisingly, the merchants had left their goods where they were and had run away.`,
-		"ex": `The word <i>eresū</i> is used here to translate the sense of '... away' as expressed in the English - it is a nominally-incorporated prepositional phrase from <i>sū</i> 'to(wards)' and <i>ere-</i> 'area beyond a great distance' &lt;&lt; <i>erūs</i> 'to be far.'`,
+		"ex": `The word <i>eresū</i> is used here to translate the sense of '... away' as expressed in the English - it is a nominally-incorporated prepositional phrase from <i>sū</i> 'to(wards)' and <i>ere-</i> 'area beyond a great distance' &lt;&lt; <i>erā</i> 'it is far.'`,
 		"units": [
 			{
 				"etlat": `Ø-mik-c-ē`,
@@ -82,7 +82,7 @@ const DATA = [
 		"etl": `Aycā tanā Marīa nullen.`,
 		"ipa": `ˈɑjt͜ʃaː taˈnaː maˈriːa ˈnʊllən̥`,
 		"en": `Maria would have made the dough.`,
-		"ex": `The conditional auxilary <i>ayūs</i> is not suffixed onto the main verb.`,
+		"ex": `The conditional auxilary <i>ayā</i> is not suffixed onto the main verb.`,
 		"units": [
 			{
 				"etlat": `ay-c-ā`,
@@ -107,7 +107,7 @@ const DATA = [
 		"etl": `Mac, kuy eh²t²en on piquena set²ah², eh²t²en on apulna?`,
 		"ipa": `mɑt͜ʃ kʊj əʔˈtɛn̥ ɔn̥ ˈpikʷena ˈsetɑ əʔˈtɛn̥ ɔn̥ aˈpʊlna`,
 		"en": `Now, who shall I marry, who shall I find?`,
-		"ex": `<i>Ehten</i> is the agentive form of the copula <i>etūs</i>, from where derives the pronouns (e.g. <i>s-etah</i>). The absolutive is reanalized as 'who.'`,
+		"ex": `<i>Ehten</i> is the agentive form of the copula <i>etā</i>, from where derives the pronouns (e.g. <i>s-etah</i>). The absolutive is reanalized as 'who.'`,
 		"units": [
 			{
 				"etlat": `mac`,
@@ -346,8 +346,8 @@ const DATA = [
 	},
 	{
 		"ref": "MISC-3",
-		"etl": `Ihō, t²ā rizquā rān ya lakrecyē as otouhlus rōm²ī!`,
-		"ipa": `ɪʔˈoː taː ˈrɪt͜skʷaː raːn̥ ʝa ˈlɑkrət͜ʃjeː ɑs oˈtoʊ̯ʔlʊs ˈroːmiː`,
+		"etl": `Ihō, t²ā rizquā rān ya lakrecyē as otouhlā rōm²ī!`,
+		"ipa": `ɪʔˈoː taː ˈrɪt͜skʷaː raːn̥ ʝa ˈlɑkrət͜ʃjeː ɑs oˈtoʊ̯ʔlaː ˈroːmiː`,
 		"en": `Oh, how she doth teach the torches to burn bright!`,
 		"units": [
 			{
@@ -379,8 +379,8 @@ const DATA = [
 				"gloss": `how-{posd.sg}`
 			},
 			{
-				"etlat": `o-touhl-us`,
-				"gloss": `{refl}-burn-{inf.posd}`
+				"etlat": `o-touhl-ā`,
+				"gloss": `{refl}-burn-{npst.ind}`
 			},
 			{
 				"etlat": `rōm²-ī`,
@@ -429,7 +429,7 @@ const DATA = [
 		"etl": `Petlo m²enari in nader m²enari; sopenā tīē.`,
 		"ipa": `ˈpat͜ɬo ˈmenari ɪn̥ ˈnaðər̥ ˈmenari ˈsopenaː ˈtiːeː`,
 		"en": `Thy rod and thy staff; they comfort me.`,
-		"ex": `Translating this one involved deciding between a formal and personal second person for 'thy.' In normal speech 'your' is an affix upon the noun (i.e. <i>mepetlo in menader</i>) but in order to respect the gravitas of the original, I chose to use the formal <i>menari</i> 'you' &lt;&lt; <i>m(e)</i> 'your' + <i>narīn</i> 'clarity' &lt;&lt; <i>narūs</i> 'to be clear.'<br>It should be noted that in English of the time this was originally written, 'thou' is more personal than 'you,' and in many languages the personal T is used in reference to God. My native language (English) does not make the T-V distinction and my understanding therefore of the distinction is academically derived and conversationally infelicitous.`,
+		"ex": `Translating this one involved deciding between a formal and personal second person for 'thy.' In normal speech 'your' is an affix upon the noun (i.e. <i>mepetlo in menader</i>) but in order to respect the gravitas of the original, I chose to use the formal <i>menari</i> 'you' &lt;&lt; <i>m(e)</i> 'your' + <i>narīn</i> 'clarity' &lt;&lt; <i>narā</i> 'it is clear.'<br>It should be noted that in English of the time this was originally written, 'thou' is more personal than 'you,' and in many languages the personal T is used in reference to God. My native language (English) does not make the T-V distinction and my understanding therefore of the distinction is academically derived and conversationally infelicitous.`,
 		"units": [
 			{
 				"etlat": `petlo-Ø`,
@@ -757,7 +757,7 @@ const DATA = [
 		"etl": `Rihuī-rihuā setah alūn.`,
 		"ipa": `riˈwiː=riˈwaː ˈsetɑ aˈluːn`,
 		"en": `I am drinking (water) repeatedly.`,
-		"ex": `The prompt specifies what I assume is iterative. I mused over a few ideas on how to indicate this, and settled on expanding off of a previous construction (become/grow more and more ...) which uses a raised, reduplicated adverbial form of the verb. The '(to become/grow) more and more' construction can be easily re-analyzed as derivative of an iterative mood since the construction uses the auxiliary <i>-latūs</i> 'to become,' for example: <i>renī-renlatē</i> 'it became better and better.'`,
+		"ex": `The prompt specifies what I assume is iterative. I mused over a few ideas on how to indicate this, and settled on expanding off of a previous construction (become/grow more and more ...) which uses a raised, reduplicated adverbial form of the verb. The '(to become/grow) more and more' construction can be easily re-analyzed as derivative of an iterative mood since the construction uses the auxiliary <i>-latā</i> 'it becomes (it),' for example: <i>renī-renlatē</i> 'it became better and better.'`,
 		"units": [
 			{
 				"etlat": `Ø-rihu-ī=Ø-rihu-ā`,
@@ -1307,12 +1307,12 @@ const DATA = [
 	},
 	{
 		"ref": "5MOYD-1542",
-		"etl": `Polyā sū ātuēn mōs.`,
-		"ipa": `ˈpɔljaː suː ˈaːtu̯eːn̥ moːs`,
+		"etl": `Polhā sū ātuēn mōs.`,
+		"ipa": `ˈpɔɬaː suː ˈaːtu̯eːn̥ moːs`,
 		"en": `He is hanging a pot there.`,
 		"units": [
 			{
-				"etlat": `Ø-poly-ā`,
+				"etlat": `Ø-polh-ā`,
 				"gloss": `{3sg.t}-hang_up-{npst.ind}`
 			},
 			{
@@ -1423,8 +1423,8 @@ const DATA = [
 	},
 	{
 		"ref": "5MOYD-1545",
-		"etl": `kuy sen²yerē Barte Sinpeson ne alsonet²ēn ko SARIN ne sareske Tōkyō ne tin-ton tommān-cis on?`,
-		"ipa": `kʊj ˈsɛnjereː ˈbɑr̥te ˈsɪm̥pesɔn̥ ne ɑlˈsoneteːn̥ ko ˈsarɪn̥ ne saˈrɛske ˈtoːkjoː ne tɪn̥=tɔn̥ ˈtɔmmaːn̥=t͜ʃis ɔn̥`,
+		"etl": `kuy sen²yerē Barte Sinpeson ne alsonet²ēn ko SARIN ne sareske Tōkyō ne cisle-tādonle-īcparezēn?`,
+		"ipa": `kʊj ˈsɛnjereː ˈbɑr̥te ˈsɪm̥pesɔn̥ ne ɑlˈsoneteːn̥ ko ˈsarɪn̥ ne saˈrɛske ˈtoːkjoː ne ˈt͜ʃɪsle=ˈtaːðɔnle=iːt͜ʃˈpɑret͜seːn̥`,
 		"en": `was Bart Simpson killed in the 1995 Tokyo subway sarin attack.`,
 		"ex": `Apparently 'sarin' is an acronym of the names of the discoverers.`,
 		"units": [
@@ -1473,16 +1473,8 @@ const DATA = [
 				"gloss": `{loc}`
 			},
 			{
-				"etlat": `tin=ton`,
-				"gloss": `one=nine`
-			},
-			{
-				"etlat": `tom-mān=cis`,
-				"gloss": `nine-ten=five`
-			},
-			{
-				"etlat": `on`,
-				"gloss": `{on.sg}`
+				"etlat": `cisle+tādonle+īcpar-ez-e-:n`,
+				"gloss": `4JF[20]-{ord}-{nmz}-{absl.sg}`
 			}
 		]
 	},

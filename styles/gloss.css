@@ -81,7 +81,7 @@ body {
 }
 
 .hover p {
-	margin: 0;
+	margin : 0;
 	padding: 0;
 }
 
@@ -174,4 +174,8 @@ sub {
 #button-color:hover {
 	background-color: var(--color-toggle-background-hover);
 	color           : var(--color-toggle-background);
+}
+
+.unit-gloss-text {
+	font-style: italic;
 }

@@ -11,6 +11,7 @@ function transliterate(s) {
 const gloss_keys = {
 	"on": `A multi-purpose particle; shares properties of a subordinator, determiner, and generic pronoun`,
 	"redup": `Reduplicant`,
+	"ord": `Ordinal Number`,
 	"top": `Topic`,
 	"1pl": `First Person Plural`,
 	"1sg": "First Person Singular",
@@ -91,26 +92,29 @@ function parseGloss(g) {
 		s += `<table class="unit-block">`;
 		s += `<tr class="unit-etlat"><td>${u["etlat"].replace(/²/g, "").replace(/\Ø/g, "∅")}</td></tr>`;
 		s += `<tr class="unit-gloss"><td>`;
+		let glossRaw = "";
 		let gloss = u["gloss"];
 		if (gloss.search(/\{(.+?)\}/) == -1) {
-			s += gloss;
+			glossRaw += gloss;
 		} else {
 			while (gloss.search(/\{.+?\}/) != -1) {
 				let i = gloss.search(/\{.+?\}/);
 				let m = gloss.match(/\{.+?\}/)[0];
 				m = m.substring(1, m.length - 1);
-				s += gloss.substring(0, i);
+				glossRaw += gloss.substring(0, i)
+					.replace(/([A-Za-z0-9_]+)/g, `<span class="unit-gloss-text">$1</span>`)
+					.replace(/\[(.+?)\]/g, `<sub>$1</sub>`);
 				gloss = gloss.substring(i + m.length + 2, gloss.length);
 				m.split(".").forEach((p, i) => {
 					if (i > 0) {
-						s += `.`;
+						glossRaw += `.`;
 					}
-					s += `<span class="small-caps">${p}<div class="hover"><p>${resolveKey(p)}</p></div></span>`;
+					glossRaw += `<span class="small-caps">${p}<div class="hover"><p>${resolveKey(p)}</p></div></span>`;
 				});
 			}
-			s += gloss;
+			glossRaw += gloss;
 		}
-		s += `</td></tr>`;
+		s += glossRaw + `</td></tr>`;
 		s += `</table>`;
 	});
 	s += `<div class="line-en">${g["en"]}</div></div>`;
